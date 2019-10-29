@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_97aefd0d527b934f1d99a682da8fe6a9" kind="dir">
+    <compoundname>lib</compoundname>
+    <innerfile refid="Channel__Analyser__ff__impl_8h">Channel_Analyser_ff_impl.h</innerfile>
+    <innerfile refid="FogSmoke__Loss__ff__impl_8h">FogSmoke_Loss_ff_impl.h</innerfile>
+    <innerfile refid="Geometric__Loss__ff__impl_8h">Geometric_Loss_ff_impl.h</innerfile>
+    <innerfile refid="Laser__ff__impl_8h">Laser_ff_impl.h</innerfile>
+    <innerfile refid="Optical__Receiver__ff__impl_8h">Optical_Receiver_ff_impl.h</innerfile>
+    <innerfile refid="Pointing__Errors__ff__impl_8h">Pointing_Errors_ff_impl.h</innerfile>
+    <innerfile refid="Turbulence__ff__impl_8h">Turbulence_ff_impl.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/"/>
+  </compounddef>
+</doxygen>

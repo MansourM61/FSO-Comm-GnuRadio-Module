@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="api_8h" kind="file" language="C++">
+    <compoundname>api.h</compoundname>
+    <includes local="no">gnuradio/attributes.h</includes>
+    <includedby refid="Channel__Analyser__ff_8h" local="no">Channel_Analyser_ff.h</includedby>
+    <includedby refid="FogSmoke__Loss__ff_8h" local="no">FogSmoke_Loss_ff.h</includedby>
+    <includedby refid="Geometric__Loss__ff_8h" local="no">Geometric_Loss_ff.h</includedby>
+    <includedby refid="Laser__ff_8h" local="no">Laser_ff.h</includedby>
+    <includedby refid="Optical__Receiver__ff_8h" local="no">Optical_Receiver_ff.h</includedby>
+    <includedby refid="Pointing__Errors__ff_8h" local="no">Pointing_Errors_ff.h</includedby>
+    <includedby refid="Turbulence__ff_8h" local="no">Turbulence_ff.h</includedby>
+    <incdepgraph>
+      <node id="0">
+        <label>api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="1" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gnuradio/attributes.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="6">
+        <label>FogSmoke_Loss_ff_impl.h</label>
+        <link refid="FogSmoke__Loss__ff__impl_8h"/>
+      </node>
+      <node id="13">
+        <label>Pointing_Errors_ff.h</label>
+        <link refid="Pointing__Errors__ff_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Channel_Analyser_ff.h</label>
+        <link refid="Channel__Analyser__ff_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>Turbulence_ff_impl.h</label>
+        <link refid="Turbulence__ff__impl_8h"/>
+      </node>
+      <node id="14">
+        <label>Pointing_Errors_ff_impl.h</label>
+        <link refid="Pointing__Errors__ff__impl_8h"/>
+      </node>
+      <node id="9">
+        <label>Laser_ff.h</label>
+        <link refid="Laser__ff_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Channel_Analyser_ff_impl.h</label>
+        <link refid="Channel__Analyser__ff__impl_8h"/>
+      </node>
+      <node id="12">
+        <label>Optical_Receiver_ff_impl.h</label>
+        <link refid="Optical__Receiver__ff__impl_8h"/>
+      </node>
+      <node id="15">
+        <label>Turbulence_ff.h</label>
+        <link refid="Turbulence__ff_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>Laser_ff_impl.h</label>
+        <link refid="Laser__ff__impl_8h"/>
+      </node>
+      <node id="11">
+        <label>Optical_Receiver_ff.h</label>
+        <link refid="Optical__Receiver__ff_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>Geometric_Loss_ff_impl.h</label>
+        <link refid="Geometric__Loss__ff__impl_8h"/>
+      </node>
+      <node id="7">
+        <label>Geometric_Loss_ff.h</label>
+        <link refid="Geometric__Loss__ff_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>FogSmoke_Loss_ff.h</label>
+        <link refid="FogSmoke__Loss__ff_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="api_8h_1a3510da8bd36da3185ecc54e360afb5a5" prot="public" static="no">
+        <name>FSO_COMM_API</name>
+        <initializer>__GR_ATTR_IMPORT</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/api.h" line="30" column="12" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/api.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/api.h"/>
+  </compounddef>
+</doxygen>

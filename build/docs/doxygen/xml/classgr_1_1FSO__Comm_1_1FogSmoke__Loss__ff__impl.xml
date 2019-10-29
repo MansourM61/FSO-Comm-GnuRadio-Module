@@ -1,0 +1,307 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1FSO__Comm_1_1FogSmoke__Loss__ff__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::FSO_Comm::FogSmoke_Loss_ff_impl</compoundname>
+    <basecompoundref refid="classgr_1_1FSO__Comm_1_1FogSmoke__Loss__ff" prot="public" virt="non-virtual">gr::FSO_Comm::FogSmoke_Loss_ff</basecompoundref>
+    <includes refid="FogSmoke__Loss__ff__impl_8h" local="no">FogSmoke_Loss_ff_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1FSO__Comm_1_1FogSmoke__Loss__ff__impl_1a4f7a6a6c4d970199b453445bd4851a56" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::FSO_Comm::FogSmoke_Loss_ff_impl::fWavelen</definition>
+        <argsstring></argsstring>
+        <name>fWavelen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/FogSmoke_Loss_ff_impl.h" line="41" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/FogSmoke_Loss_ff_impl.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1FSO__Comm_1_1FogSmoke__Loss__ff__impl_1aaf9265bbd55fc04d27a791f37b395d93" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::FSO_Comm::FogSmoke_Loss_ff_impl::fLinkLen</definition>
+        <argsstring></argsstring>
+        <name>fLinkLen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/FogSmoke_Loss_ff_impl.h" line="41" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/FogSmoke_Loss_ff_impl.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1FSO__Comm_1_1FogSmoke__Loss__ff__impl_1aacd769482318210224e36f8a0d42e576" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::FSO_Comm::FogSmoke_Loss_ff_impl::fVis</definition>
+        <argsstring></argsstring>
+        <name>fVis</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/FogSmoke_Loss_ff_impl.h" line="41" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/FogSmoke_Loss_ff_impl.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1FogSmoke__Loss__ff__impl_1ad7df6d3d37e7c7235fec6452352ac1ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::FSO_Comm::FogSmoke_Loss_ff_impl::FogSmoke_Loss_ff_impl</definition>
+        <argsstring>(float Wavelen=850e-9, float LinkLen=1e3, float Vis=20e3)</argsstring>
+        <name>FogSmoke_Loss_ff_impl</name>
+        <param>
+          <type>float</type>
+          <declname>Wavelen</declname>
+          <defval>850e-9</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>LinkLen</declname>
+          <defval>1e3</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>Vis</declname>
+          <defval>20e3</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/FogSmoke_Loss_ff_impl.h" line="44" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1FogSmoke__Loss__ff__impl_1ad7fb0d6991c05d5cf20634f62f5266c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::FSO_Comm::FogSmoke_Loss_ff_impl::~FogSmoke_Loss_ff_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~FogSmoke_Loss_ff_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/FogSmoke_Loss_ff_impl.h" line="45" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1FogSmoke__Loss__ff__impl_1a0b89d15bccc2a0976b006592b3dec2f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::FSO_Comm::FogSmoke_Loss_ff_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/FogSmoke_Loss_ff_impl.h" line="48" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1FogSmoke__Loss__ff__impl_1aff736047435314d809e79bc99f94a327" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void gr::FSO_Comm::FogSmoke_Loss_ff_impl::set_Wavelen</definition>
+        <argsstring>(float Wavelen)</argsstring>
+        <name>set_Wavelen</name>
+        <reimplements refid="classgr_1_1FSO__Comm_1_1FogSmoke__Loss__ff_1a370f3f37889ace136694cbf7a827d8aa">set_Wavelen</reimplements>
+        <param>
+          <type>float</type>
+          <declname>Wavelen</declname>
+        </param>
+        <briefdescription>
+<para>Set fog/smoke loss wavelength. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Wavelen</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>optical beam wavelength (m) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/FogSmoke_Loss_ff_impl.h" line="52" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/FogSmoke_Loss_ff_impl.h" bodystart="52" bodyend="52"/>
+        <references refid="classgr_1_1FSO__Comm_1_1FogSmoke__Loss__ff__impl_1a87fb84842e0e5eaa45b055160624538a" compoundref="FogSmoke__Loss__ff__impl_8h" startline="53" endline="53">Wavelen</references>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1FogSmoke__Loss__ff__impl_1a87fb84842e0e5eaa45b055160624538a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>float</type>
+        <definition>float gr::FSO_Comm::FogSmoke_Loss_ff_impl::Wavelen</definition>
+        <argsstring>(void)</argsstring>
+        <name>Wavelen</name>
+        <reimplements refid="classgr_1_1FSO__Comm_1_1FogSmoke__Loss__ff_1a2bc125f7dbf83061b83dc4c2be71511d">Wavelen</reimplements>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Return current fogsmoke loss wavelength. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/FogSmoke_Loss_ff_impl.h" line="53" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/FogSmoke_Loss_ff_impl.h" bodystart="53" bodyend="53"/>
+        <referencedby refid="classgr_1_1FSO__Comm_1_1FogSmoke__Loss__ff__impl_1aff736047435314d809e79bc99f94a327" compoundref="FogSmoke__Loss__ff__impl_8h" startline="52" endline="52">set_Wavelen</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1FogSmoke__Loss__ff__impl_1adae77295a6d1fb268c92544d3a71b906" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void gr::FSO_Comm::FogSmoke_Loss_ff_impl::set_LinkLen</definition>
+        <argsstring>(float LinkLen)</argsstring>
+        <name>set_LinkLen</name>
+        <reimplements refid="classgr_1_1FSO__Comm_1_1FogSmoke__Loss__ff_1a2fa81c2c90dadc17d38e9738dd362b45">set_LinkLen</reimplements>
+        <param>
+          <type>float</type>
+          <declname>LinkLen</declname>
+        </param>
+        <briefdescription>
+<para>Set fog/smoke loss link length. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>LinkLen</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>FSO channel link length (m) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/FogSmoke_Loss_ff_impl.h" line="55" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/FogSmoke_Loss_ff_impl.h" bodystart="55" bodyend="55"/>
+        <references refid="classgr_1_1FSO__Comm_1_1FogSmoke__Loss__ff__impl_1a9089d7a9edae87eec034cff7fa1e1eee" compoundref="FogSmoke__Loss__ff__impl_8h" startline="56" endline="56">LinkLen</references>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1FogSmoke__Loss__ff__impl_1a9089d7a9edae87eec034cff7fa1e1eee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>float</type>
+        <definition>float gr::FSO_Comm::FogSmoke_Loss_ff_impl::LinkLen</definition>
+        <argsstring>(void)</argsstring>
+        <name>LinkLen</name>
+        <reimplements refid="classgr_1_1FSO__Comm_1_1FogSmoke__Loss__ff_1aff9ca6c4519c340b3c4ef5ab8e483b76">LinkLen</reimplements>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Return current fog/smoke loss link length. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/FogSmoke_Loss_ff_impl.h" line="56" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/FogSmoke_Loss_ff_impl.h" bodystart="56" bodyend="56"/>
+        <referencedby refid="classgr_1_1FSO__Comm_1_1FogSmoke__Loss__ff__impl_1adae77295a6d1fb268c92544d3a71b906" compoundref="FogSmoke__Loss__ff__impl_8h" startline="55" endline="55">set_LinkLen</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1FogSmoke__Loss__ff__impl_1af1a91a48c119e5b96669e4c61cf63d33" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void gr::FSO_Comm::FogSmoke_Loss_ff_impl::set_Vis</definition>
+        <argsstring>(float Vis)</argsstring>
+        <name>set_Vis</name>
+        <reimplements refid="classgr_1_1FSO__Comm_1_1FogSmoke__Loss__ff_1adb5a1f53a5d3a7bdc61eb5fc3694aca4">set_Vis</reimplements>
+        <param>
+          <type>float</type>
+          <declname>Vis</declname>
+        </param>
+        <briefdescription>
+<para>Set fog/smoke loss visibility. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Vis</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>FSO channel visibility (m) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/FogSmoke_Loss_ff_impl.h" line="58" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/FogSmoke_Loss_ff_impl.h" bodystart="58" bodyend="58"/>
+        <references refid="classgr_1_1FSO__Comm_1_1FogSmoke__Loss__ff__impl_1a17c6cec5c906dda7c41be906155950dc" compoundref="FogSmoke__Loss__ff__impl_8h" startline="59" endline="59">Vis</references>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1FogSmoke__Loss__ff__impl_1a17c6cec5c906dda7c41be906155950dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>float</type>
+        <definition>float gr::FSO_Comm::FogSmoke_Loss_ff_impl::Vis</definition>
+        <argsstring>(void)</argsstring>
+        <name>Vis</name>
+        <reimplements refid="classgr_1_1FSO__Comm_1_1FogSmoke__Loss__ff_1a920bfb6a261597a5dec15f6575ae6b9c">Vis</reimplements>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Return current fog/smoke loss visibility. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/FogSmoke_Loss_ff_impl.h" line="59" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/FogSmoke_Loss_ff_impl.h" bodystart="59" bodyend="59"/>
+        <referencedby refid="classgr_1_1FSO__Comm_1_1FogSmoke__Loss__ff__impl_1af1a91a48c119e5b96669e4c61cf63d33" compoundref="FogSmoke__Loss__ff__impl_8h" startline="58" endline="58">set_Vis</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="18">
+        <label>sync_block</label>
+      </node>
+      <node id="16">
+        <label>gr::FSO_Comm::FogSmoke_Loss_ff_impl</label>
+        <link refid="classgr_1_1FSO__Comm_1_1FogSmoke__Loss__ff__impl"/>
+        <childnode refid="17" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>gr::FSO_Comm::FogSmoke_Loss_ff</label>
+        <link refid="classgr_1_1FSO__Comm_1_1FogSmoke__Loss__ff"/>
+        <childnode refid="18" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="21">
+        <label>sync_block</label>
+      </node>
+      <node id="19">
+        <label>gr::FSO_Comm::FogSmoke_Loss_ff_impl</label>
+        <link refid="classgr_1_1FSO__Comm_1_1FogSmoke__Loss__ff__impl"/>
+        <childnode refid="20" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>gr::FSO_Comm::FogSmoke_Loss_ff</label>
+        <link refid="classgr_1_1FSO__Comm_1_1FogSmoke__Loss__ff"/>
+        <childnode refid="21" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/FogSmoke_Loss_ff_impl.h" line="38" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/FogSmoke_Loss_ff_impl.h" bodystart="37" bodyend="61"/>
+    <listofallmembers>
+      <member refid="classgr_1_1FSO__Comm_1_1FogSmoke__Loss__ff__impl_1aaf9265bbd55fc04d27a791f37b395d93" prot="private" virt="non-virtual"><scope>gr::FSO_Comm::FogSmoke_Loss_ff_impl</scope><name>fLinkLen</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1FogSmoke__Loss__ff__impl_1ad7df6d3d37e7c7235fec6452352ac1ec" prot="public" virt="non-virtual"><scope>gr::FSO_Comm::FogSmoke_Loss_ff_impl</scope><name>FogSmoke_Loss_ff_impl</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1FogSmoke__Loss__ff__impl_1aacd769482318210224e36f8a0d42e576" prot="private" virt="non-virtual"><scope>gr::FSO_Comm::FogSmoke_Loss_ff_impl</scope><name>fVis</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1FogSmoke__Loss__ff__impl_1a4f7a6a6c4d970199b453445bd4851a56" prot="private" virt="non-virtual"><scope>gr::FSO_Comm::FogSmoke_Loss_ff_impl</scope><name>fWavelen</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1FogSmoke__Loss__ff__impl_1a9089d7a9edae87eec034cff7fa1e1eee" prot="public" virt="virtual"><scope>gr::FSO_Comm::FogSmoke_Loss_ff_impl</scope><name>LinkLen</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1FogSmoke__Loss__ff_1a3a9e24f8431a3490587c4abf7ea8aba2" prot="public" virt="non-virtual"><scope>gr::FSO_Comm::FogSmoke_Loss_ff_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1FogSmoke__Loss__ff__impl_1adae77295a6d1fb268c92544d3a71b906" prot="public" virt="virtual"><scope>gr::FSO_Comm::FogSmoke_Loss_ff_impl</scope><name>set_LinkLen</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1FogSmoke__Loss__ff__impl_1af1a91a48c119e5b96669e4c61cf63d33" prot="public" virt="virtual"><scope>gr::FSO_Comm::FogSmoke_Loss_ff_impl</scope><name>set_Vis</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1FogSmoke__Loss__ff__impl_1aff736047435314d809e79bc99f94a327" prot="public" virt="virtual"><scope>gr::FSO_Comm::FogSmoke_Loss_ff_impl</scope><name>set_Wavelen</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1FogSmoke__Loss__ff_1a7593355ed08566341354f9662c700ed8" prot="public" virt="non-virtual"><scope>gr::FSO_Comm::FogSmoke_Loss_ff_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1FogSmoke__Loss__ff__impl_1a17c6cec5c906dda7c41be906155950dc" prot="public" virt="virtual"><scope>gr::FSO_Comm::FogSmoke_Loss_ff_impl</scope><name>Vis</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1FogSmoke__Loss__ff__impl_1a87fb84842e0e5eaa45b055160624538a" prot="public" virt="virtual"><scope>gr::FSO_Comm::FogSmoke_Loss_ff_impl</scope><name>Wavelen</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1FogSmoke__Loss__ff__impl_1a0b89d15bccc2a0976b006592b3dec2f2" prot="public" virt="non-virtual"><scope>gr::FSO_Comm::FogSmoke_Loss_ff_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1FogSmoke__Loss__ff__impl_1ad7fb0d6991c05d5cf20634f62f5266c4" prot="public" virt="non-virtual"><scope>gr::FSO_Comm::FogSmoke_Loss_ff_impl</scope><name>~FogSmoke_Loss_ff_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

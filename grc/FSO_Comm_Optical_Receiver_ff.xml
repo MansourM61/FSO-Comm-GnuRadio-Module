@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<block>
+  <name>Optical Receiver</name>
+  <key>FSO_Comm_Optical_Receiver_ff</key>
+  <category>[FSO_Comm]</category>
+  <import>import FSO_Comm</import>
+  <make>FSO_Comm.Optical_Receiver_ff($Resp, $G_TIA, $Imp, $P_n)</make>
+
+  <callback>set_Resp($Resp)</callback>
+  <callback>set_G_TIA($G_TIA)</callback>
+  <callback>set_Imp($Imp)</callback>
+  <callback>set_P_n($P_n)</callback>
+
+  <!-- Make one 'param' node for every Parameter you want settable from the GUI.
+       Sub-nodes:
+       * name
+       * key (makes the value accessible as $keyname, e.g. in the make node)
+       * type -->
+  <param>
+    <name>Responsivity (A/W)</name>
+    <key>Resp</key>
+    <type>float</type>
+  </param>
+  <param>
+    <name>TIA Gain (Ohm)</name>
+    <key>G_TIA</key>
+    <type>float</type>
+  </param>
+  <param>
+    <name>Output Impedance (Ohm)</name>
+    <key>Imp</key>
+    <type>float</type>
+  </param>
+  <param>
+    <name>Noise Power (W)</name>
+    <key>P_n</key>
+    <type>float</type>
+  </param>
+
+  <!-- Make one 'sink' node per input. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <sink>
+    <name>in</name>
+    <type>float</type>
+  </sink>
+
+  <!-- Make one 'source' node per output. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <source>
+    <name>out</name>
+    <type>float</type>
+  </source>
+</block>

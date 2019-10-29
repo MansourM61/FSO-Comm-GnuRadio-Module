@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<block>
+  <name>Pointing Errors Channel</name>
+  <key>FSO_Comm_Pointing_Errors_ff</key>
+  <category>[FSO_Comm]</category>
+  <import>import FSO_Comm</import>
+  <make>FSO_Comm.Pointing_Errors_ff($Jitter, $LinkLen, $Tx_Dia, $Tx_Theta, $Rx_Dia, $TempCorr, $SampRate)</make>
+
+  <callback>set_Jitter($Jitter)</callback>
+  <callback>set_LinkLen($LinkLen)</callback>
+  <callback>set_Tx_Dia($Tx_Dia)</callback>
+  <callback>set_Tx_Theta($Tx_Theta)</callback>
+  <callback>set_Rx_Dia($Rx_Dia)</callback>
+  <callback>set_TempCorr($TempCorr)</callback>
+  <callback>set_SampRate($SampRate)</callback>
+
+  <!-- Make one 'param' node for every Parameter you want settable from the GUI.
+       Sub-nodes:
+       * name
+       * key (makes the value accessible as $keyname, e.g. in the make node)
+       * type -->
+  <param>
+    <name>Pointing Errors Jitter (m)</name>
+    <key>Jitter</key>
+    <type>float</type>
+  </param>
+  <param>
+    <name>Link Length (m)</name>
+    <key>LinkLen</key>
+    <type>float</type>
+  </param>
+  <param>
+    <name>Tx Aperture Diameter (m)</name>
+    <key>Tx_Dia</key>
+    <type>float</type>
+  </param>
+  <param>
+    <name>Tx Half-Angle Divergence Angle (Deg)</name>
+    <key>Tx_Theta</key>
+    <type>float</type>
+  </param>
+  <param>
+    <name>Rx Aperture Diameter (m)</name>
+    <key>Rx_Dia</key>
+    <type>float</type>
+  </param>
+  <param>
+    <name>Channel Temporal Correlation (s)</name>
+    <key>TempCorr</key>
+    <type>float</type>
+  </param>
+  <param>
+    <name>Sample Rate (sps)</name>
+    <key>SampRate</key>
+    <type>float</type>
+  </param>
+
+  <!-- Make one 'sink' node per input. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <sink>
+    <name>in</name>
+    <type>float</type>
+  </sink>
+
+  <!-- Make one 'source' node per output. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <source>
+    <name>out</name>
+    <type>float</type>
+  </source>
+</block>

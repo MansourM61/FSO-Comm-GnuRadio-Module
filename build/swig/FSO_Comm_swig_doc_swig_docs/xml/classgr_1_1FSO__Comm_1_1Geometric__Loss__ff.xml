@@ -1,0 +1,288 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1FSO__Comm_1_1Geometric__Loss__ff" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>gr::FSO_Comm::Geometric_Loss_ff</compoundname>
+    <basecompoundref prot="public" virt="virtual">sync_block</basecompoundref>
+    <includes refid="Geometric__Loss__ff_8h" local="no">Geometric_Loss_ff.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1FSO__Comm_1_1Geometric__Loss__ff_1a34aa0a0e53dcd9a4ed4f3ce56ffab619" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1FSO__Comm_1_1Geometric__Loss__ff" kindref="compound">Geometric_Loss_ff</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;Geometric_Loss_ff&gt; gr::FSO_Comm::Geometric_Loss_ff::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Geometric_Loss_ff.h" line="39" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Geometric_Loss_ff.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Geometric__Loss__ff_1a2b8df811a52a36164b73f7e325e853c1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1FSO__Comm_1_1Geometric__Loss__ff_1a34aa0a0e53dcd9a4ed4f3ce56ffab619" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::FSO_Comm::Geometric_Loss_ff::make</definition>
+        <argsstring>(float Tx_Dia, float Tx_DivAng, float LinkLen, float Rx_Dia)</argsstring>
+        <name>make</name>
+        <param>
+          <type>float</type>
+          <declname>Tx_Dia</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>Tx_DivAng</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>LinkLen</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>Rx_Dia</declname>
+        </param>
+        <briefdescription>
+<para>Make a geometric loss block. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Tx_Dia</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>transmitter aperture diameter (m) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Tx_DivAng</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>transmitter half-angle beam divergence (Deg) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>LinkLen</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>FSO channel link length (m) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Rx_Dia</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>receiver aperture diameter (m) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Geometric_Loss_ff.h" line="49" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Geometric__Loss__ff_1abe27fa56d8901addfe2a2618e8b78ed9" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::FSO_Comm::Geometric_Loss_ff::set_Tx_Dia</definition>
+        <argsstring>(float Tx_Dia)=0</argsstring>
+        <name>set_Tx_Dia</name>
+        <param>
+          <type>float</type>
+          <declname>Tx_Dia</declname>
+        </param>
+        <briefdescription>
+<para>Set geometric loss transmitter aperture diameter. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Tx_Dia</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>transmitter aperture diameter (m) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Geometric_Loss_ff.h" line="56" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Geometric__Loss__ff_1a80272a713a6d79c343b422a7403f54f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>float</type>
+        <definition>virtual float gr::FSO_Comm::Geometric_Loss_ff::Tx_Dia</definition>
+        <argsstring>(void)=0</argsstring>
+        <name>Tx_Dia</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Return current geometric loss transmitter aperture diameter. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Geometric_Loss_ff.h" line="60" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Geometric__Loss__ff_1a9f3ca413b251452bd0d59d36e05533f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::FSO_Comm::Geometric_Loss_ff::set_Tx_DivAng</definition>
+        <argsstring>(float Tx_DivAng)=0</argsstring>
+        <name>set_Tx_DivAng</name>
+        <param>
+          <type>float</type>
+          <declname>Tx_DivAng</declname>
+        </param>
+        <briefdescription>
+<para>Set geometric loss transmitter full-angle divergence angle. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Tx_DivAng</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>transmitter half-angle beam divergence (Deg) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Geometric_Loss_ff.h" line="67" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Geometric__Loss__ff_1aee06b417005639f0f9ac0f9e247a9a9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>float</type>
+        <definition>virtual float gr::FSO_Comm::Geometric_Loss_ff::Tx_DivAng</definition>
+        <argsstring>(void)=0</argsstring>
+        <name>Tx_DivAng</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Return current geometric loss transmitter full-angle divergence angle. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Geometric_Loss_ff.h" line="71" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Geometric__Loss__ff_1ad625f731590245edeca9b3d374540673" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::FSO_Comm::Geometric_Loss_ff::set_LinkLen</definition>
+        <argsstring>(float LinkLen)=0</argsstring>
+        <name>set_LinkLen</name>
+        <param>
+          <type>float</type>
+          <declname>LinkLen</declname>
+        </param>
+        <briefdescription>
+<para>Set geometric loss transmitter link length. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>LinkLen</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>FSO channel link length (m) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Geometric_Loss_ff.h" line="78" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Geometric__Loss__ff_1aebea16c9815c92c3271f46e684009cd3" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>float</type>
+        <definition>virtual float gr::FSO_Comm::Geometric_Loss_ff::LinkLen</definition>
+        <argsstring>(void)=0</argsstring>
+        <name>LinkLen</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Return current geometric loss transmitter link length. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Geometric_Loss_ff.h" line="82" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Geometric__Loss__ff_1acb2a7e216f7e3a05b6789d0d9c9b4e36" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::FSO_Comm::Geometric_Loss_ff::set_Rx_Dia</definition>
+        <argsstring>(float Rx_Dia)=0</argsstring>
+        <name>set_Rx_Dia</name>
+        <param>
+          <type>float</type>
+          <declname>Rx_Dia</declname>
+        </param>
+        <briefdescription>
+<para>Set geometric loss receiver aperture diameter. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Rx_Dia</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>receiver aperture diameter (m) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Geometric_Loss_ff.h" line="89" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Geometric__Loss__ff_1abf4358ae6c677c4375a481b666e10269" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>float</type>
+        <definition>virtual float gr::FSO_Comm::Geometric_Loss_ff::Rx_Dia</definition>
+        <argsstring>(void)=0</argsstring>
+        <name>Rx_Dia</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Return cyurrent geometric loss receiver aperture diameter. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Geometric_Loss_ff.h" line="93" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Geometric Loss in FSO Channel. </para>    </briefdescription>
+    <detaileddescription>
+<para>Using geometric optics, the beam propagation loss is estimated for given beam properties. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="9">
+        <label>sync_block</label>
+      </node>
+      <node id="8">
+        <label>gr::FSO_Comm::Geometric_Loss_ff</label>
+        <link refid="classgr_1_1FSO__Comm_1_1Geometric__Loss__ff"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="11">
+        <label>sync_block</label>
+      </node>
+      <node id="10">
+        <label>gr::FSO_Comm::Geometric_Loss_ff</label>
+        <link refid="classgr_1_1FSO__Comm_1_1Geometric__Loss__ff"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Geometric_Loss_ff.h" line="37" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Geometric_Loss_ff.h" bodystart="36" bodyend="95"/>
+    <listofallmembers>
+      <member refid="classgr_1_1FSO__Comm_1_1Geometric__Loss__ff_1aebea16c9815c92c3271f46e684009cd3" prot="public" virt="pure-virtual"><scope>gr::FSO_Comm::Geometric_Loss_ff</scope><name>LinkLen</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Geometric__Loss__ff_1a2b8df811a52a36164b73f7e325e853c1" prot="public" virt="non-virtual"><scope>gr::FSO_Comm::Geometric_Loss_ff</scope><name>make</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Geometric__Loss__ff_1abf4358ae6c677c4375a481b666e10269" prot="public" virt="pure-virtual"><scope>gr::FSO_Comm::Geometric_Loss_ff</scope><name>Rx_Dia</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Geometric__Loss__ff_1ad625f731590245edeca9b3d374540673" prot="public" virt="pure-virtual"><scope>gr::FSO_Comm::Geometric_Loss_ff</scope><name>set_LinkLen</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Geometric__Loss__ff_1acb2a7e216f7e3a05b6789d0d9c9b4e36" prot="public" virt="pure-virtual"><scope>gr::FSO_Comm::Geometric_Loss_ff</scope><name>set_Rx_Dia</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Geometric__Loss__ff_1abe27fa56d8901addfe2a2618e8b78ed9" prot="public" virt="pure-virtual"><scope>gr::FSO_Comm::Geometric_Loss_ff</scope><name>set_Tx_Dia</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Geometric__Loss__ff_1a9f3ca413b251452bd0d59d36e05533f7" prot="public" virt="pure-virtual"><scope>gr::FSO_Comm::Geometric_Loss_ff</scope><name>set_Tx_DivAng</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Geometric__Loss__ff_1a34aa0a0e53dcd9a4ed4f3ce56ffab619" prot="public" virt="non-virtual"><scope>gr::FSO_Comm::Geometric_Loss_ff</scope><name>sptr</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Geometric__Loss__ff_1a80272a713a6d79c343b422a7403f54f8" prot="public" virt="pure-virtual"><scope>gr::FSO_Comm::Geometric_Loss_ff</scope><name>Tx_Dia</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Geometric__Loss__ff_1aee06b417005639f0f9ac0f9e247a9a9d" prot="public" virt="pure-virtual"><scope>gr::FSO_Comm::Geometric_Loss_ff</scope><name>Tx_DivAng</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

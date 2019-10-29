@@ -1,0 +1,288 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1FSO__Comm_1_1Optical__Receiver__ff" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>gr::FSO_Comm::Optical_Receiver_ff</compoundname>
+    <basecompoundref prot="public" virt="virtual">sync_block</basecompoundref>
+    <includes refid="Optical__Receiver__ff_8h" local="no">Optical_Receiver_ff.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1FSO__Comm_1_1Optical__Receiver__ff_1aa19dc359f2e6ecb7ee2dcb9ee3765348" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1FSO__Comm_1_1Optical__Receiver__ff" kindref="compound">Optical_Receiver_ff</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;Optical_Receiver_ff&gt; gr::FSO_Comm::Optical_Receiver_ff::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Optical_Receiver_ff.h" line="39" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Optical_Receiver_ff.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Optical__Receiver__ff_1aa16108fae286a8fae2322c485b570980" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1FSO__Comm_1_1Optical__Receiver__ff_1aa19dc359f2e6ecb7ee2dcb9ee3765348" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::FSO_Comm::Optical_Receiver_ff::make</definition>
+        <argsstring>(float Resp, float G_TIA, float Imp, float P_n)</argsstring>
+        <name>make</name>
+        <param>
+          <type>float</type>
+          <declname>Resp</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>G_TIA</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>Imp</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>P_n</declname>
+        </param>
+        <briefdescription>
+<para>Make an optical receiver block. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Resp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>photodiode responsivity (A/W) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>G_TIA</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>transimpedance amplifer (TIA) gain (Ohms) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Imp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>circuit impedance (Ohms) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>P_n</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>noise power (w) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Optical_Receiver_ff.h" line="49" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Optical__Receiver__ff_1af22f442a321ab3c3fa6cc6e5e816656c" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::FSO_Comm::Optical_Receiver_ff::set_Resp</definition>
+        <argsstring>(float Resp)=0</argsstring>
+        <name>set_Resp</name>
+        <param>
+          <type>float</type>
+          <declname>Resp</declname>
+        </param>
+        <briefdescription>
+<para>Set optical receiver sensitivity. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Resp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>photodiode responsivity (A/W) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Optical_Receiver_ff.h" line="56" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Optical__Receiver__ff_1ad9962160b80a1f0a360407990daec497" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>float</type>
+        <definition>virtual float gr::FSO_Comm::Optical_Receiver_ff::Resp</definition>
+        <argsstring>(void)=0</argsstring>
+        <name>Resp</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Return current optical receiver sensitivity. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Optical_Receiver_ff.h" line="60" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Optical__Receiver__ff_1a086f8d82cea15a85988c972e88dd3628" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::FSO_Comm::Optical_Receiver_ff::set_G_TIA</definition>
+        <argsstring>(float G_TIA)=0</argsstring>
+        <name>set_G_TIA</name>
+        <param>
+          <type>float</type>
+          <declname>G_TIA</declname>
+        </param>
+        <briefdescription>
+<para>Set optical receiver TIA gain. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>G_TIA</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>transimpedance amplifer (TIA) gain (Ohms) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Optical_Receiver_ff.h" line="67" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Optical__Receiver__ff_1a123516092b60de714d8f6bba812baadc" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>float</type>
+        <definition>virtual float gr::FSO_Comm::Optical_Receiver_ff::G_TIA</definition>
+        <argsstring>(void)=0</argsstring>
+        <name>G_TIA</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Return current optical receiver TIA gain. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Optical_Receiver_ff.h" line="71" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Optical__Receiver__ff_1a9cb1ac07a1bbb0beccd9d63b98691161" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::FSO_Comm::Optical_Receiver_ff::set_Imp</definition>
+        <argsstring>(float Imp)=0</argsstring>
+        <name>set_Imp</name>
+        <param>
+          <type>float</type>
+          <declname>Imp</declname>
+        </param>
+        <briefdescription>
+<para>Set optical receiver impedance. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Imp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>circuit impedance (Ohms) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Optical_Receiver_ff.h" line="78" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Optical__Receiver__ff_1aee5ac57c536fbbf7d823fb651bfbeff0" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>float</type>
+        <definition>virtual float gr::FSO_Comm::Optical_Receiver_ff::Imp</definition>
+        <argsstring>(void)=0</argsstring>
+        <name>Imp</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Return current optical receiver impedance. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Optical_Receiver_ff.h" line="82" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Optical__Receiver__ff_1aef3a3e64e7bb372cb532e9c36606a44e" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::FSO_Comm::Optical_Receiver_ff::set_P_n</definition>
+        <argsstring>(float P_n)=0</argsstring>
+        <name>set_P_n</name>
+        <param>
+          <type>float</type>
+          <declname>P_n</declname>
+        </param>
+        <briefdescription>
+<para>Set optical receiver noise power. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>P_n</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>noise power (w) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Optical_Receiver_ff.h" line="89" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Optical__Receiver__ff_1a347c8f9e4c4caaa813bc600b21480495" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>float</type>
+        <definition>virtual float gr::FSO_Comm::Optical_Receiver_ff::P_n</definition>
+        <argsstring>(void)=0</argsstring>
+        <name>P_n</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Return current optical receiver noise power. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Optical_Receiver_ff.h" line="93" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>FSO Optical Receiver. </para>    </briefdescription>
+    <detaileddescription>
+<para>The optical receiver models a photodiode followed by a transimpedance amplifer (TIA) converting optical power to electrial current. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="16">
+        <label>gr::FSO_Comm::Optical_Receiver_ff</label>
+        <link refid="classgr_1_1FSO__Comm_1_1Optical__Receiver__ff"/>
+        <childnode refid="17" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>gr::sync_block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="18">
+        <label>gr::FSO_Comm::Optical_Receiver_ff</label>
+        <link refid="classgr_1_1FSO__Comm_1_1Optical__Receiver__ff"/>
+        <childnode refid="19" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>gr::sync_block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Optical_Receiver_ff.h" line="37" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Optical_Receiver_ff.h" bodystart="36" bodyend="95"/>
+    <listofallmembers>
+      <member refid="classgr_1_1FSO__Comm_1_1Optical__Receiver__ff_1a123516092b60de714d8f6bba812baadc" prot="public" virt="pure-virtual"><scope>gr::FSO_Comm::Optical_Receiver_ff</scope><name>G_TIA</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Optical__Receiver__ff_1aee5ac57c536fbbf7d823fb651bfbeff0" prot="public" virt="pure-virtual"><scope>gr::FSO_Comm::Optical_Receiver_ff</scope><name>Imp</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Optical__Receiver__ff_1aa16108fae286a8fae2322c485b570980" prot="public" virt="non-virtual"><scope>gr::FSO_Comm::Optical_Receiver_ff</scope><name>make</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Optical__Receiver__ff_1a347c8f9e4c4caaa813bc600b21480495" prot="public" virt="pure-virtual"><scope>gr::FSO_Comm::Optical_Receiver_ff</scope><name>P_n</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Optical__Receiver__ff_1ad9962160b80a1f0a360407990daec497" prot="public" virt="pure-virtual"><scope>gr::FSO_Comm::Optical_Receiver_ff</scope><name>Resp</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Optical__Receiver__ff_1a086f8d82cea15a85988c972e88dd3628" prot="public" virt="pure-virtual"><scope>gr::FSO_Comm::Optical_Receiver_ff</scope><name>set_G_TIA</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Optical__Receiver__ff_1a9cb1ac07a1bbb0beccd9d63b98691161" prot="public" virt="pure-virtual"><scope>gr::FSO_Comm::Optical_Receiver_ff</scope><name>set_Imp</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Optical__Receiver__ff_1aef3a3e64e7bb372cb532e9c36606a44e" prot="public" virt="pure-virtual"><scope>gr::FSO_Comm::Optical_Receiver_ff</scope><name>set_P_n</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Optical__Receiver__ff_1af22f442a321ab3c3fa6cc6e5e816656c" prot="public" virt="pure-virtual"><scope>gr::FSO_Comm::Optical_Receiver_ff</scope><name>set_Resp</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Optical__Receiver__ff_1aa19dc359f2e6ecb7ee2dcb9ee3765348" prot="public" virt="non-virtual"><scope>gr::FSO_Comm::Optical_Receiver_ff</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

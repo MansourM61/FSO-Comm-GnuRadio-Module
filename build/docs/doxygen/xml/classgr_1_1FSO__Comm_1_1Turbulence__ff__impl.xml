@@ -1,0 +1,583 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1FSO__Comm_1_1Turbulence__ff__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::FSO_Comm::Turbulence_ff_impl</compoundname>
+    <basecompoundref refid="classgr_1_1FSO__Comm_1_1Turbulence__ff" prot="public" virt="non-virtual">gr::FSO_Comm::Turbulence_ff</basecompoundref>
+    <includes refid="Turbulence__ff__impl_8h" local="no">Turbulence_ff_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1FSO__Comm_1_1Turbulence__ff__impl_1ac51b54b1649f461a27ff33dc8ee20e71" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::FSO_Comm::Turbulence_ff_impl::fCn2</definition>
+        <argsstring></argsstring>
+        <name>fCn2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Turbulence_ff_impl.h" line="38" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Turbulence_ff_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1FSO__Comm_1_1Turbulence__ff__impl_1aeced2f357f61fdbe09f02916644aff8e" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::FSO_Comm::Turbulence_ff_impl::fWavelen</definition>
+        <argsstring></argsstring>
+        <name>fWavelen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Turbulence_ff_impl.h" line="38" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Turbulence_ff_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1FSO__Comm_1_1Turbulence__ff__impl_1a556329e81761d599d9b1225e82903815" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::FSO_Comm::Turbulence_ff_impl::fLinkLen</definition>
+        <argsstring></argsstring>
+        <name>fLinkLen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Turbulence_ff_impl.h" line="38" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Turbulence_ff_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1FSO__Comm_1_1Turbulence__ff__impl_1a65628b6a15360f75a2aeac7b24660d8c" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::FSO_Comm::Turbulence_ff_impl::fRx_Dia</definition>
+        <argsstring></argsstring>
+        <name>fRx_Dia</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Turbulence_ff_impl.h" line="38" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Turbulence_ff_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1FSO__Comm_1_1Turbulence__ff__impl_1a2e7d1bd1598df1148de79a14a66c4070" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::FSO_Comm::Turbulence_ff_impl::fTempCorr</definition>
+        <argsstring></argsstring>
+        <name>fTempCorr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Turbulence_ff_impl.h" line="38" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Turbulence_ff_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1FSO__Comm_1_1Turbulence__ff__impl_1a207438fce6898a3f36f2398431fddcf1" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::FSO_Comm::Turbulence_ff_impl::fSampRate</definition>
+        <argsstring></argsstring>
+        <name>fSampRate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Turbulence_ff_impl.h" line="38" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Turbulence_ff_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1FSO__Comm_1_1Turbulence__ff__impl_1a9be39bcfb5dfc515ebb5ab452b834efe" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::FSO_Comm::Turbulence_ff_impl::iGaussGenCounter</definition>
+        <argsstring></argsstring>
+        <name>iGaussGenCounter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Turbulence_ff_impl.h" line="39" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Turbulence_ff_impl.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1FSO__Comm_1_1Turbulence__ff__impl_1a423eec5f9c661c5ee8ad56ad7046650f" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::FSO_Comm::Turbulence_ff_impl::fGaussGenArray[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>fGaussGenArray</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Turbulence_ff_impl.h" line="40" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Turbulence_ff_impl.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1FSO__Comm_1_1Turbulence__ff__impl_1aa243f6a874f3fc841e28e9476b0edf6f" prot="private" static="no" mutable="no">
+        <type>unsigned long</type>
+        <definition>unsigned long gr::FSO_Comm::Turbulence_ff_impl::ulCounter</definition>
+        <argsstring></argsstring>
+        <name>ulCounter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Turbulence_ff_impl.h" line="41" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Turbulence_ff_impl.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Turbulence__ff__impl_1adda056cc203eecd86dcdf3e945af629c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float gr::FSO_Comm::Turbulence_ff_impl::GaussNormNumGen</definition>
+        <argsstring>(void)</argsstring>
+        <name>GaussNormNumGen</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Turbulence_ff_impl.h" line="42" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Turbulence__ff__impl_1aec8a89055c6756c9697e80a8f2229221" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float gr::FSO_Comm::Turbulence_ff_impl::LogNormalNumGen</definition>
+        <argsstring>(void)</argsstring>
+        <name>LogNormalNumGen</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Turbulence_ff_impl.h" line="43" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Turbulence__ff__impl_1a24de2badf9910f2433f786225872958f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::FSO_Comm::Turbulence_ff_impl::Turbulence_ff_impl</definition>
+        <argsstring>(float Cn2=1e-17, float Wavelen=850e-9, float LinkLen=100, float Rx_Dia=100e-3, float TempCorr=25e-3, float SampRate=32000)</argsstring>
+        <name>Turbulence_ff_impl</name>
+        <param>
+          <type>float</type>
+          <declname>Cn2</declname>
+          <defval>1e-17</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>Wavelen</declname>
+          <defval>850e-9</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>LinkLen</declname>
+          <defval>100</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>Rx_Dia</declname>
+          <defval>100e-3</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>TempCorr</declname>
+          <defval>25e-3</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>SampRate</declname>
+          <defval>32000</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Turbulence_ff_impl.h" line="46" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Turbulence__ff__impl_1a1a4ac16502b0b7d2e740cc46ce64079d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::FSO_Comm::Turbulence_ff_impl::~Turbulence_ff_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~Turbulence_ff_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Turbulence_ff_impl.h" line="47" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Turbulence__ff__impl_1a508f30415c9db81097b1c5e4a7c87904" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::FSO_Comm::Turbulence_ff_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Turbulence_ff_impl.h" line="50" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Turbulence__ff__impl_1aee2f0ad535d50f39da6afddc06005d6e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void gr::FSO_Comm::Turbulence_ff_impl::set_Cn2</definition>
+        <argsstring>(float Cn2)</argsstring>
+        <name>set_Cn2</name>
+        <reimplements refid="classgr_1_1FSO__Comm_1_1Turbulence__ff_1a7a00e08af40f455883b6eb79e9a69731">set_Cn2</reimplements>
+        <param>
+          <type>float</type>
+          <declname>Cn2</declname>
+        </param>
+        <briefdescription>
+<para>Set turbulence Cn2. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Cn2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>refractive index structure constant (m^(-2/3)) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Turbulence_ff_impl.h" line="54" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Turbulence_ff_impl.h" bodystart="54" bodyend="54"/>
+        <references refid="classgr_1_1FSO__Comm_1_1Turbulence__ff__impl_1a5d92da9928d5299f3257f75444f04b15" compoundref="Turbulence__ff__impl_8h" startline="55" endline="55">Cn2</references>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Turbulence__ff__impl_1a5d92da9928d5299f3257f75444f04b15" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>float</type>
+        <definition>float gr::FSO_Comm::Turbulence_ff_impl::Cn2</definition>
+        <argsstring>(void)</argsstring>
+        <name>Cn2</name>
+        <reimplements refid="classgr_1_1FSO__Comm_1_1Turbulence__ff_1a3feab6fa794d4ff574236c404b28588f">Cn2</reimplements>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Return current turbulence Cn2. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Turbulence_ff_impl.h" line="55" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Turbulence_ff_impl.h" bodystart="55" bodyend="55"/>
+        <referencedby refid="classgr_1_1FSO__Comm_1_1Turbulence__ff__impl_1aee2f0ad535d50f39da6afddc06005d6e" compoundref="Turbulence__ff__impl_8h" startline="54" endline="54">set_Cn2</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Turbulence__ff__impl_1a1eaa3ee104672e011fc5af6dc427766f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void gr::FSO_Comm::Turbulence_ff_impl::set_Wavelen</definition>
+        <argsstring>(float Wavelen)</argsstring>
+        <name>set_Wavelen</name>
+        <reimplements refid="classgr_1_1FSO__Comm_1_1Turbulence__ff_1a0e55636f51ec834e2ff3187130486332">set_Wavelen</reimplements>
+        <param>
+          <type>float</type>
+          <declname>Wavelen</declname>
+        </param>
+        <briefdescription>
+<para>Set turbulence wavelength. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Wavelen</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>optical beam wavelength (m) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Turbulence_ff_impl.h" line="57" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Turbulence_ff_impl.h" bodystart="57" bodyend="57"/>
+        <references refid="classgr_1_1FSO__Comm_1_1Turbulence__ff__impl_1a47e5e10ddc7f597d9ee9e45381e5f005" compoundref="Turbulence__ff__impl_8h" startline="58" endline="58">Wavelen</references>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Turbulence__ff__impl_1a47e5e10ddc7f597d9ee9e45381e5f005" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>float</type>
+        <definition>float gr::FSO_Comm::Turbulence_ff_impl::Wavelen</definition>
+        <argsstring>(void)</argsstring>
+        <name>Wavelen</name>
+        <reimplements refid="classgr_1_1FSO__Comm_1_1Turbulence__ff_1a69a7b0f3bdaa974abf2bddfee9f63749">Wavelen</reimplements>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Return current turbulence wavelength. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Turbulence_ff_impl.h" line="58" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Turbulence_ff_impl.h" bodystart="58" bodyend="58"/>
+        <referencedby refid="classgr_1_1FSO__Comm_1_1Turbulence__ff__impl_1a1eaa3ee104672e011fc5af6dc427766f" compoundref="Turbulence__ff__impl_8h" startline="57" endline="57">set_Wavelen</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Turbulence__ff__impl_1af53956de6b4c138c5938e4fdecbdfd76" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void gr::FSO_Comm::Turbulence_ff_impl::set_LinkLen</definition>
+        <argsstring>(float LinkLen)</argsstring>
+        <name>set_LinkLen</name>
+        <reimplements refid="classgr_1_1FSO__Comm_1_1Turbulence__ff_1a56f128fcc25524caa001f748be46a20a">set_LinkLen</reimplements>
+        <param>
+          <type>float</type>
+          <declname>LinkLen</declname>
+        </param>
+        <briefdescription>
+<para>Set turbulence link length. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>LinkLen</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>FSO channel link length (m) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Turbulence_ff_impl.h" line="60" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Turbulence_ff_impl.h" bodystart="60" bodyend="60"/>
+        <references refid="classgr_1_1FSO__Comm_1_1Turbulence__ff__impl_1a80687d62ccc3f7fb0993630de6f97ed2" compoundref="Turbulence__ff__impl_8h" startline="61" endline="61">LinkLen</references>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Turbulence__ff__impl_1a80687d62ccc3f7fb0993630de6f97ed2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>float</type>
+        <definition>float gr::FSO_Comm::Turbulence_ff_impl::LinkLen</definition>
+        <argsstring>(void)</argsstring>
+        <name>LinkLen</name>
+        <reimplements refid="classgr_1_1FSO__Comm_1_1Turbulence__ff_1ad49b0877df78f1c6b26f2a110fb0d815">LinkLen</reimplements>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Return current turbulence link length. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Turbulence_ff_impl.h" line="61" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Turbulence_ff_impl.h" bodystart="61" bodyend="61"/>
+        <referencedby refid="classgr_1_1FSO__Comm_1_1Turbulence__ff__impl_1af53956de6b4c138c5938e4fdecbdfd76" compoundref="Turbulence__ff__impl_8h" startline="60" endline="60">set_LinkLen</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Turbulence__ff__impl_1a046e52b8022830a01b367ec3f52b80ad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void gr::FSO_Comm::Turbulence_ff_impl::set_Rx_Dia</definition>
+        <argsstring>(float Rx_Dia)</argsstring>
+        <name>set_Rx_Dia</name>
+        <reimplements refid="classgr_1_1FSO__Comm_1_1Turbulence__ff_1a90e0dd4b8c0dcc51bd84639af9735c5d">set_Rx_Dia</reimplements>
+        <param>
+          <type>float</type>
+          <declname>Rx_Dia</declname>
+        </param>
+        <briefdescription>
+<para>Set turbulence receiver apertture diameter. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Rx_Dia</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>receiver apertture diameter (m) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Turbulence_ff_impl.h" line="63" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Turbulence_ff_impl.h" bodystart="63" bodyend="63"/>
+        <references refid="classgr_1_1FSO__Comm_1_1Turbulence__ff__impl_1a77bf29f8af50df2a849977e2589f800a" compoundref="Turbulence__ff__impl_8h" startline="64" endline="64">Rx_Dia</references>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Turbulence__ff__impl_1a77bf29f8af50df2a849977e2589f800a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>float</type>
+        <definition>float gr::FSO_Comm::Turbulence_ff_impl::Rx_Dia</definition>
+        <argsstring>(void)</argsstring>
+        <name>Rx_Dia</name>
+        <reimplements refid="classgr_1_1FSO__Comm_1_1Turbulence__ff_1a368249da2d62467f203abcdaaac4a1a8">Rx_Dia</reimplements>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Return current turbulence receiver aperture diameter. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Turbulence_ff_impl.h" line="64" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Turbulence_ff_impl.h" bodystart="64" bodyend="64"/>
+        <referencedby refid="classgr_1_1FSO__Comm_1_1Turbulence__ff__impl_1a046e52b8022830a01b367ec3f52b80ad" compoundref="Turbulence__ff__impl_8h" startline="63" endline="63">set_Rx_Dia</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Turbulence__ff__impl_1aaa14a69a582fd868e2d0758c246699ac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void gr::FSO_Comm::Turbulence_ff_impl::set_TempCorr</definition>
+        <argsstring>(float TempCorr)</argsstring>
+        <name>set_TempCorr</name>
+        <reimplements refid="classgr_1_1FSO__Comm_1_1Turbulence__ff_1af6f38a299ed0f1062ebdd5542ad92fe5">set_TempCorr</reimplements>
+        <param>
+          <type>float</type>
+          <declname>TempCorr</declname>
+        </param>
+        <briefdescription>
+<para>Set turbulence temporal correlation. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>TempCorr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>temppral correlation of turbulence channel (s) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Turbulence_ff_impl.h" line="66" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Turbulence_ff_impl.h" bodystart="66" bodyend="66"/>
+        <references refid="classgr_1_1FSO__Comm_1_1Turbulence__ff__impl_1a45536bbeaa93e5cadf7103568b3ef29a" compoundref="Turbulence__ff__impl_8h" startline="67" endline="67">TempCorr</references>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Turbulence__ff__impl_1a45536bbeaa93e5cadf7103568b3ef29a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>float</type>
+        <definition>float gr::FSO_Comm::Turbulence_ff_impl::TempCorr</definition>
+        <argsstring>(void)</argsstring>
+        <name>TempCorr</name>
+        <reimplements refid="classgr_1_1FSO__Comm_1_1Turbulence__ff_1a5f7795989f8f81ba444bb1b99484fee5">TempCorr</reimplements>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Return current turbulence temporal correlation. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Turbulence_ff_impl.h" line="67" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Turbulence_ff_impl.h" bodystart="67" bodyend="67"/>
+        <referencedby refid="classgr_1_1FSO__Comm_1_1Turbulence__ff__impl_1aaa14a69a582fd868e2d0758c246699ac" compoundref="Turbulence__ff__impl_8h" startline="66" endline="66">set_TempCorr</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Turbulence__ff__impl_1a551b2ea4665d046a3729d78072328afa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void gr::FSO_Comm::Turbulence_ff_impl::set_SampRate</definition>
+        <argsstring>(float SampRate)</argsstring>
+        <name>set_SampRate</name>
+        <reimplements refid="classgr_1_1FSO__Comm_1_1Turbulence__ff_1a1a8e902f840179514d24f85890b902a7">set_SampRate</reimplements>
+        <param>
+          <type>float</type>
+          <declname>SampRate</declname>
+        </param>
+        <briefdescription>
+<para>Set turbulence sampling rate. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>SampRate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>sampling rate of signal (samples per second) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Turbulence_ff_impl.h" line="69" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Turbulence_ff_impl.h" bodystart="69" bodyend="69"/>
+        <references refid="classgr_1_1FSO__Comm_1_1Turbulence__ff__impl_1a9148c7f4bb68baf5789fb4d2968656ec" compoundref="Turbulence__ff__impl_8h" startline="70" endline="70">SampRate</references>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Turbulence__ff__impl_1a9148c7f4bb68baf5789fb4d2968656ec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>float</type>
+        <definition>float gr::FSO_Comm::Turbulence_ff_impl::SampRate</definition>
+        <argsstring>(void)</argsstring>
+        <name>SampRate</name>
+        <reimplements refid="classgr_1_1FSO__Comm_1_1Turbulence__ff_1a57e8163e89d36724d22cae13525d5751">SampRate</reimplements>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Return current turbulence sampling rate. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Turbulence_ff_impl.h" line="70" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Turbulence_ff_impl.h" bodystart="70" bodyend="70"/>
+        <referencedby refid="classgr_1_1FSO__Comm_1_1Turbulence__ff__impl_1a551b2ea4665d046a3729d78072328afa" compoundref="Turbulence__ff__impl_8h" startline="69" endline="69">set_SampRate</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="71">
+        <label>gr::FSO_Comm::Turbulence_ff_impl</label>
+        <link refid="classgr_1_1FSO__Comm_1_1Turbulence__ff__impl"/>
+        <childnode refid="72" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="73">
+        <label>sync_block</label>
+      </node>
+      <node id="72">
+        <label>gr::FSO_Comm::Turbulence_ff</label>
+        <link refid="classgr_1_1FSO__Comm_1_1Turbulence__ff"/>
+        <childnode refid="73" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="74">
+        <label>gr::FSO_Comm::Turbulence_ff_impl</label>
+        <link refid="classgr_1_1FSO__Comm_1_1Turbulence__ff__impl"/>
+        <childnode refid="75" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="76">
+        <label>sync_block</label>
+      </node>
+      <node id="75">
+        <label>gr::FSO_Comm::Turbulence_ff</label>
+        <link refid="classgr_1_1FSO__Comm_1_1Turbulence__ff"/>
+        <childnode refid="76" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Turbulence_ff_impl.h" line="35" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Turbulence_ff_impl.h" bodystart="34" bodyend="72"/>
+    <listofallmembers>
+      <member refid="classgr_1_1FSO__Comm_1_1Turbulence__ff__impl_1a5d92da9928d5299f3257f75444f04b15" prot="public" virt="virtual"><scope>gr::FSO_Comm::Turbulence_ff_impl</scope><name>Cn2</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Turbulence__ff__impl_1ac51b54b1649f461a27ff33dc8ee20e71" prot="private" virt="non-virtual"><scope>gr::FSO_Comm::Turbulence_ff_impl</scope><name>fCn2</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Turbulence__ff__impl_1a423eec5f9c661c5ee8ad56ad7046650f" prot="private" virt="non-virtual"><scope>gr::FSO_Comm::Turbulence_ff_impl</scope><name>fGaussGenArray</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Turbulence__ff__impl_1a556329e81761d599d9b1225e82903815" prot="private" virt="non-virtual"><scope>gr::FSO_Comm::Turbulence_ff_impl</scope><name>fLinkLen</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Turbulence__ff__impl_1a65628b6a15360f75a2aeac7b24660d8c" prot="private" virt="non-virtual"><scope>gr::FSO_Comm::Turbulence_ff_impl</scope><name>fRx_Dia</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Turbulence__ff__impl_1a207438fce6898a3f36f2398431fddcf1" prot="private" virt="non-virtual"><scope>gr::FSO_Comm::Turbulence_ff_impl</scope><name>fSampRate</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Turbulence__ff__impl_1a2e7d1bd1598df1148de79a14a66c4070" prot="private" virt="non-virtual"><scope>gr::FSO_Comm::Turbulence_ff_impl</scope><name>fTempCorr</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Turbulence__ff__impl_1aeced2f357f61fdbe09f02916644aff8e" prot="private" virt="non-virtual"><scope>gr::FSO_Comm::Turbulence_ff_impl</scope><name>fWavelen</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Turbulence__ff__impl_1adda056cc203eecd86dcdf3e945af629c" prot="private" virt="non-virtual"><scope>gr::FSO_Comm::Turbulence_ff_impl</scope><name>GaussNormNumGen</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Turbulence__ff__impl_1a9be39bcfb5dfc515ebb5ab452b834efe" prot="private" virt="non-virtual"><scope>gr::FSO_Comm::Turbulence_ff_impl</scope><name>iGaussGenCounter</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Turbulence__ff__impl_1a80687d62ccc3f7fb0993630de6f97ed2" prot="public" virt="virtual"><scope>gr::FSO_Comm::Turbulence_ff_impl</scope><name>LinkLen</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Turbulence__ff__impl_1aec8a89055c6756c9697e80a8f2229221" prot="private" virt="non-virtual"><scope>gr::FSO_Comm::Turbulence_ff_impl</scope><name>LogNormalNumGen</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Turbulence__ff_1aa71171f1f8feff2a2b61fd0d97e35e2e" prot="public" virt="non-virtual"><scope>gr::FSO_Comm::Turbulence_ff_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Turbulence__ff__impl_1a77bf29f8af50df2a849977e2589f800a" prot="public" virt="virtual"><scope>gr::FSO_Comm::Turbulence_ff_impl</scope><name>Rx_Dia</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Turbulence__ff__impl_1a9148c7f4bb68baf5789fb4d2968656ec" prot="public" virt="virtual"><scope>gr::FSO_Comm::Turbulence_ff_impl</scope><name>SampRate</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Turbulence__ff__impl_1aee2f0ad535d50f39da6afddc06005d6e" prot="public" virt="virtual"><scope>gr::FSO_Comm::Turbulence_ff_impl</scope><name>set_Cn2</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Turbulence__ff__impl_1af53956de6b4c138c5938e4fdecbdfd76" prot="public" virt="virtual"><scope>gr::FSO_Comm::Turbulence_ff_impl</scope><name>set_LinkLen</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Turbulence__ff__impl_1a046e52b8022830a01b367ec3f52b80ad" prot="public" virt="virtual"><scope>gr::FSO_Comm::Turbulence_ff_impl</scope><name>set_Rx_Dia</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Turbulence__ff__impl_1a551b2ea4665d046a3729d78072328afa" prot="public" virt="virtual"><scope>gr::FSO_Comm::Turbulence_ff_impl</scope><name>set_SampRate</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Turbulence__ff__impl_1aaa14a69a582fd868e2d0758c246699ac" prot="public" virt="virtual"><scope>gr::FSO_Comm::Turbulence_ff_impl</scope><name>set_TempCorr</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Turbulence__ff__impl_1a1eaa3ee104672e011fc5af6dc427766f" prot="public" virt="virtual"><scope>gr::FSO_Comm::Turbulence_ff_impl</scope><name>set_Wavelen</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Turbulence__ff_1a71cb5f0623ea5e5e96589429d608c159" prot="public" virt="non-virtual"><scope>gr::FSO_Comm::Turbulence_ff_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Turbulence__ff__impl_1a45536bbeaa93e5cadf7103568b3ef29a" prot="public" virt="virtual"><scope>gr::FSO_Comm::Turbulence_ff_impl</scope><name>TempCorr</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Turbulence__ff__impl_1a24de2badf9910f2433f786225872958f" prot="public" virt="non-virtual"><scope>gr::FSO_Comm::Turbulence_ff_impl</scope><name>Turbulence_ff_impl</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Turbulence__ff__impl_1aa243f6a874f3fc841e28e9476b0edf6f" prot="private" virt="non-virtual"><scope>gr::FSO_Comm::Turbulence_ff_impl</scope><name>ulCounter</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Turbulence__ff__impl_1a47e5e10ddc7f597d9ee9e45381e5f005" prot="public" virt="virtual"><scope>gr::FSO_Comm::Turbulence_ff_impl</scope><name>Wavelen</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Turbulence__ff__impl_1a508f30415c9db81097b1c5e4a7c87904" prot="public" virt="non-virtual"><scope>gr::FSO_Comm::Turbulence_ff_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Turbulence__ff__impl_1a1a4ac16502b0b7d2e740cc46ce64079d" prot="public" virt="non-virtual"><scope>gr::FSO_Comm::Turbulence_ff_impl</scope><name>~Turbulence_ff_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

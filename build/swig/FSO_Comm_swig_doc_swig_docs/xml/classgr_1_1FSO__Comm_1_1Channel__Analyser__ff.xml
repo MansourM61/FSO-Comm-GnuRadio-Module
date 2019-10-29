@@ -1,0 +1,342 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>gr::FSO_Comm::Channel_Analyser_ff</compoundname>
+    <basecompoundref prot="public" virt="virtual">sync_decimator</basecompoundref>
+    <includes refid="Channel__Analyser__ff_8h" local="no">Channel_Analyser_ff.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff_1adedb4052f8343f085c295afc0da9b406" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff" kindref="compound">Channel_Analyser_ff</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;Channel_Analyser_ff&gt; gr::FSO_Comm::Channel_Analyser_ff::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Channel_Analyser_ff.h" line="42" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Channel_Analyser_ff.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff_1a3113166743d5625d7494f68dd24dcb5b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff_1adedb4052f8343f085c295afc0da9b406" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::FSO_Comm::Channel_Analyser_ff::make</definition>
+        <argsstring>(bool mode, int ChunkSize, int SamplingOffset, float BandWidth, float SampRate)</argsstring>
+        <name>make</name>
+        <param>
+          <type>bool</type>
+          <declname>mode</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ChunkSize</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>SamplingOffset</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>BandWidth</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>SampRate</declname>
+        </param>
+        <briefdescription>
+<para>Make a Channel Analyser block. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>mode of estimation, true = use a constant optical intensity as the source, false = use a random OOK pulse sequence </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ChunkSize</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>required number of pulses in each iteration to calculate the outputs (number of pulses) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>SamplingOffset</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>offset index of sampling point from the centre of OOK pulse (+/- offset) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>BandWidth</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>bandwidth of generated OOK pulse (Hz) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>SampRate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>sample rate of the signal (samples per second) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Channel_Analyser_ff.h" line="53" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff_1a250353298e2d4291c9a0cbc574e5cee4" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::FSO_Comm::Channel_Analyser_ff::set_mode</definition>
+        <argsstring>(bool mode)=0</argsstring>
+        <name>set_mode</name>
+        <param>
+          <type>bool</type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+<para>Set channel analyser mode. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>mode of estimation, true = use a constant optical intensity as the source, false = use a random OOK pulse sequence </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Channel_Analyser_ff.h" line="60" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff_1a6dfa627ee6f065b67e7d81de11aea9c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool gr::FSO_Comm::Channel_Analyser_ff::mode</definition>
+        <argsstring>(void)=0</argsstring>
+        <name>mode</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Return current channel analyser mode. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Channel_Analyser_ff.h" line="64" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff_1a128fd84cad43b64700e66a8bcd208a03" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::FSO_Comm::Channel_Analyser_ff::set_ChunkSize</definition>
+        <argsstring>(unsigned int ChunkSize)=0</argsstring>
+        <name>set_ChunkSize</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>ChunkSize</declname>
+        </param>
+        <briefdescription>
+<para>Set channel analyser chunk size. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ChunkSize</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>required number of pulses in each iteration to calculate the outputs (number of pulses) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Channel_Analyser_ff.h" line="71" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff_1aa03522dbb49ae841d10e870147f4a787" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>unsigned int</type>
+        <definition>virtual unsigned int gr::FSO_Comm::Channel_Analyser_ff::ChunkSize</definition>
+        <argsstring>(void)=0</argsstring>
+        <name>ChunkSize</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Return current channel analyser chunk size. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Channel_Analyser_ff.h" line="75" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff_1ad983996f3b67d062708b66f3c6681881" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::FSO_Comm::Channel_Analyser_ff::set_SamplingOffset</definition>
+        <argsstring>(signed int SamplingOffset)=0</argsstring>
+        <name>set_SamplingOffset</name>
+        <param>
+          <type>signed int</type>
+          <declname>SamplingOffset</declname>
+        </param>
+        <briefdescription>
+<para>Set channel analyser sampling offset. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>SamplingOffset</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>offset index of sampling point from the centre of OOK pulse (+/- offset) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Channel_Analyser_ff.h" line="82" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff_1ab36b9f6cce5261614debf3b609990404" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>signed int</type>
+        <definition>virtual signed int gr::FSO_Comm::Channel_Analyser_ff::SamplingOffset</definition>
+        <argsstring>(void)=0</argsstring>
+        <name>SamplingOffset</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Return current channel analyser sampling offset. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Channel_Analyser_ff.h" line="86" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff_1a829bc2d7ac4922020739607edbf140b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::FSO_Comm::Channel_Analyser_ff::set_BandWidth</definition>
+        <argsstring>(float BandWidth)=0</argsstring>
+        <name>set_BandWidth</name>
+        <param>
+          <type>float</type>
+          <declname>BandWidth</declname>
+        </param>
+        <briefdescription>
+<para>Set channel analyser bandwidth. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>BandWidth</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>bandwidth of generated OOK pulse (Hz) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Channel_Analyser_ff.h" line="93" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff_1ab06089370d820acb3fef6d63b6e05cee" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>float</type>
+        <definition>virtual float gr::FSO_Comm::Channel_Analyser_ff::BandWidth</definition>
+        <argsstring>(void)=0</argsstring>
+        <name>BandWidth</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Return current channel analyser bandwidth. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Channel_Analyser_ff.h" line="97" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff_1a9effac879f7a5aadaec21627cc61a59e" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::FSO_Comm::Channel_Analyser_ff::set_SampRate</definition>
+        <argsstring>(float SampRate)=0</argsstring>
+        <name>set_SampRate</name>
+        <param>
+          <type>float</type>
+          <declname>SampRate</declname>
+        </param>
+        <briefdescription>
+<para>Set channel analyser sampling rate. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>SampRate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>sample rate of the signal (samples per second) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Channel_Analyser_ff.h" line="104" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff_1a5b0a2c258e202ed384eefdb2fac66649" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>float</type>
+        <definition>virtual float gr::FSO_Comm::Channel_Analyser_ff::SampRate</definition>
+        <argsstring>(void)=0</argsstring>
+        <name>SampRate</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Return current channel analyser sampling rate. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Channel_Analyser_ff.h" line="108" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>FSO Channel Analyser. </para>    </briefdescription>
+    <detaileddescription>
+<para>Use this block alongside an on-off keying (OOK) pulse sequence as the source to estimate Q-factor, and scintillation indices for levels &apos;0&apos; and &apos;1&apos; of FSO channel. It is also possible to use a constant optical intensity and measure scintillation index for average level. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>gr::sync_decimator</label>
+      </node>
+      <node id="0">
+        <label>gr::FSO_Comm::Channel_Analyser_ff</label>
+        <link refid="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>gr::sync_decimator</label>
+      </node>
+      <node id="2">
+        <label>gr::FSO_Comm::Channel_Analyser_ff</label>
+        <link refid="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Channel_Analyser_ff.h" line="40" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Channel_Analyser_ff.h" bodystart="39" bodyend="110"/>
+    <listofallmembers>
+      <member refid="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff_1ab06089370d820acb3fef6d63b6e05cee" prot="public" virt="pure-virtual"><scope>gr::FSO_Comm::Channel_Analyser_ff</scope><name>BandWidth</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff_1aa03522dbb49ae841d10e870147f4a787" prot="public" virt="pure-virtual"><scope>gr::FSO_Comm::Channel_Analyser_ff</scope><name>ChunkSize</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff_1a3113166743d5625d7494f68dd24dcb5b" prot="public" virt="non-virtual"><scope>gr::FSO_Comm::Channel_Analyser_ff</scope><name>make</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff_1a6dfa627ee6f065b67e7d81de11aea9c6" prot="public" virt="pure-virtual"><scope>gr::FSO_Comm::Channel_Analyser_ff</scope><name>mode</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff_1ab36b9f6cce5261614debf3b609990404" prot="public" virt="pure-virtual"><scope>gr::FSO_Comm::Channel_Analyser_ff</scope><name>SamplingOffset</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff_1a5b0a2c258e202ed384eefdb2fac66649" prot="public" virt="pure-virtual"><scope>gr::FSO_Comm::Channel_Analyser_ff</scope><name>SampRate</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff_1a829bc2d7ac4922020739607edbf140b9" prot="public" virt="pure-virtual"><scope>gr::FSO_Comm::Channel_Analyser_ff</scope><name>set_BandWidth</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff_1a128fd84cad43b64700e66a8bcd208a03" prot="public" virt="pure-virtual"><scope>gr::FSO_Comm::Channel_Analyser_ff</scope><name>set_ChunkSize</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff_1a250353298e2d4291c9a0cbc574e5cee4" prot="public" virt="pure-virtual"><scope>gr::FSO_Comm::Channel_Analyser_ff</scope><name>set_mode</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff_1ad983996f3b67d062708b66f3c6681881" prot="public" virt="pure-virtual"><scope>gr::FSO_Comm::Channel_Analyser_ff</scope><name>set_SamplingOffset</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff_1a9effac879f7a5aadaec21627cc61a59e" prot="public" virt="pure-virtual"><scope>gr::FSO_Comm::Channel_Analyser_ff</scope><name>set_SampRate</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff_1adedb4052f8343f085c295afc0da9b406" prot="public" virt="non-virtual"><scope>gr::FSO_Comm::Channel_Analyser_ff</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

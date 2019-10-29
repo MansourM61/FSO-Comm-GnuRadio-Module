@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.13">
+  <compound refid="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff" kind="class"><name>gr::FSO_Comm::Channel_Analyser_ff</name>
+    <member refid="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff_1adedb4052f8343f085c295afc0da9b406" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff_1a3113166743d5625d7494f68dd24dcb5b" kind="function"><name>make</name></member>
+    <member refid="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff_1a250353298e2d4291c9a0cbc574e5cee4" kind="function"><name>set_mode</name></member>
+    <member refid="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff_1a6dfa627ee6f065b67e7d81de11aea9c6" kind="function"><name>mode</name></member>
+    <member refid="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff_1a128fd84cad43b64700e66a8bcd208a03" kind="function"><name>set_ChunkSize</name></member>
+    <member refid="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff_1aa03522dbb49ae841d10e870147f4a787" kind="function"><name>ChunkSize</name></member>
+    <member refid="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff_1ad983996f3b67d062708b66f3c6681881" kind="function"><name>set_SamplingOffset</name></member>
+    <member refid="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff_1ab36b9f6cce5261614debf3b609990404" kind="function"><name>SamplingOffset</name></member>
+    <member refid="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff_1a829bc2d7ac4922020739607edbf140b9" kind="function"><name>set_BandWidth</name></member>
+    <member refid="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff_1ab06089370d820acb3fef6d63b6e05cee" kind="function"><name>BandWidth</name></member>
+    <member refid="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff_1a9effac879f7a5aadaec21627cc61a59e" kind="function"><name>set_SampRate</name></member>
+    <member refid="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff_1a5b0a2c258e202ed384eefdb2fac66649" kind="function"><name>SampRate</name></member>
+  </compound>
+  <compound refid="classgr_1_1FSO__Comm_1_1FogSmoke__Loss__ff" kind="class"><name>gr::FSO_Comm::FogSmoke_Loss_ff</name>
+    <member refid="classgr_1_1FSO__Comm_1_1FogSmoke__Loss__ff_1a7593355ed08566341354f9662c700ed8" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1FSO__Comm_1_1FogSmoke__Loss__ff_1a3a9e24f8431a3490587c4abf7ea8aba2" kind="function"><name>make</name></member>
+    <member refid="classgr_1_1FSO__Comm_1_1FogSmoke__Loss__ff_1a370f3f37889ace136694cbf7a827d8aa" kind="function"><name>set_Wavelen</name></member>
+    <member refid="classgr_1_1FSO__Comm_1_1FogSmoke__Loss__ff_1a2bc125f7dbf83061b83dc4c2be71511d" kind="function"><name>Wavelen</name></member>
+    <member refid="classgr_1_1FSO__Comm_1_1FogSmoke__Loss__ff_1a2fa81c2c90dadc17d38e9738dd362b45" kind="function"><name>set_LinkLen</name></member>
+    <member refid="classgr_1_1FSO__Comm_1_1FogSmoke__Loss__ff_1aff9ca6c4519c340b3c4ef5ab8e483b76" kind="function"><name>LinkLen</name></member>
+    <member refid="classgr_1_1FSO__Comm_1_1FogSmoke__Loss__ff_1adb5a1f53a5d3a7bdc61eb5fc3694aca4" kind="function"><name>set_Vis</name></member>
+    <member refid="classgr_1_1FSO__Comm_1_1FogSmoke__Loss__ff_1a920bfb6a261597a5dec15f6575ae6b9c" kind="function"><name>Vis</name></member>
+  </compound>
+  <compound refid="classgr_1_1FSO__Comm_1_1Geometric__Loss__ff" kind="class"><name>gr::FSO_Comm::Geometric_Loss_ff</name>
+    <member refid="classgr_1_1FSO__Comm_1_1Geometric__Loss__ff_1a34aa0a0e53dcd9a4ed4f3ce56ffab619" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1FSO__Comm_1_1Geometric__Loss__ff_1a2b8df811a52a36164b73f7e325e853c1" kind="function"><name>make</name></member>
+    <member refid="classgr_1_1FSO__Comm_1_1Geometric__Loss__ff_1abe27fa56d8901addfe2a2618e8b78ed9" kind="function"><name>set_Tx_Dia</name></member>
+    <member refid="classgr_1_1FSO__Comm_1_1Geometric__Loss__ff_1a80272a713a6d79c343b422a7403f54f8" kind="function"><name>Tx_Dia</name></member>
+    <member refid="classgr_1_1FSO__Comm_1_1Geometric__Loss__ff_1a9f3ca413b251452bd0d59d36e05533f7" kind="function"><name>set_Tx_DivAng</name></member>
+    <member refid="classgr_1_1FSO__Comm_1_1Geometric__Loss__ff_1aee06b417005639f0f9ac0f9e247a9a9d" kind="function"><name>Tx_DivAng</name></member>
+    <member refid="classgr_1_1FSO__Comm_1_1Geometric__Loss__ff_1ad625f731590245edeca9b3d374540673" kind="function"><name>set_LinkLen</name></member>
+    <member refid="classgr_1_1FSO__Comm_1_1Geometric__Loss__ff_1aebea16c9815c92c3271f46e684009cd3" kind="function"><name>LinkLen</name></member>
+    <member refid="classgr_1_1FSO__Comm_1_1Geometric__Loss__ff_1acb2a7e216f7e3a05b6789d0d9c9b4e36" kind="function"><name>set_Rx_Dia</name></member>
+    <member refid="classgr_1_1FSO__Comm_1_1Geometric__Loss__ff_1abf4358ae6c677c4375a481b666e10269" kind="function"><name>Rx_Dia</name></member>
+  </compound>
+  <compound refid="classgr_1_1FSO__Comm_1_1Laser__ff" kind="class"><name>gr::FSO_Comm::Laser_ff</name>
+    <member refid="classgr_1_1FSO__Comm_1_1Laser__ff_1a78cf17c113c1cbee8583b45cb870b9cd" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1FSO__Comm_1_1Laser__ff_1afb76dbe38a6aa1585dcfcbbe65366b60" kind="function"><name>make</name></member>
+    <member refid="classgr_1_1FSO__Comm_1_1Laser__ff_1a954453b149b31d3d9381f1b20dcaf1d5" kind="function"><name>set_P_avg</name></member>
+    <member refid="classgr_1_1FSO__Comm_1_1Laser__ff_1a99f2c438035dff55d3fa0ee1fb88095a" kind="function"><name>P_avg</name></member>
+    <member refid="classgr_1_1FSO__Comm_1_1Laser__ff_1a5f65cdd08dcd785ef77f2bdfd65e410f" kind="function"><name>set_Wavelen</name></member>
+    <member refid="classgr_1_1FSO__Comm_1_1Laser__ff_1a20b49c6b51dbdddcf7b7cd62083d948d" kind="function"><name>Wavelen</name></member>
+    <member refid="classgr_1_1FSO__Comm_1_1Laser__ff_1aba5a37b597a8ae160fe02f3bf5bbdc2c" kind="function"><name>set_ExtRatio</name></member>
+    <member refid="classgr_1_1FSO__Comm_1_1Laser__ff_1a9058c91b2073d6a97ce26744551cd56a" kind="function"><name>ExtRatio</name></member>
+  </compound>
+  <compound refid="classgr_1_1FSO__Comm_1_1Optical__Receiver__ff" kind="class"><name>gr::FSO_Comm::Optical_Receiver_ff</name>
+    <member refid="classgr_1_1FSO__Comm_1_1Optical__Receiver__ff_1aa19dc359f2e6ecb7ee2dcb9ee3765348" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1FSO__Comm_1_1Optical__Receiver__ff_1aa16108fae286a8fae2322c485b570980" kind="function"><name>make</name></member>
+    <member refid="classgr_1_1FSO__Comm_1_1Optical__Receiver__ff_1af22f442a321ab3c3fa6cc6e5e816656c" kind="function"><name>set_Resp</name></member>
+    <member refid="classgr_1_1FSO__Comm_1_1Optical__Receiver__ff_1ad9962160b80a1f0a360407990daec497" kind="function"><name>Resp</name></member>
+    <member refid="classgr_1_1FSO__Comm_1_1Optical__Receiver__ff_1a086f8d82cea15a85988c972e88dd3628" kind="function"><name>set_G_TIA</name></member>
+    <member refid="classgr_1_1FSO__Comm_1_1Optical__Receiver__ff_1a123516092b60de714d8f6bba812baadc" kind="function"><name>G_TIA</name></member>
+    <member refid="classgr_1_1FSO__Comm_1_1Optical__Receiver__ff_1a9cb1ac07a1bbb0beccd9d63b98691161" kind="function"><name>set_Imp</name></member>
+    <member refid="classgr_1_1FSO__Comm_1_1Optical__Receiver__ff_1aee5ac57c536fbbf7d823fb651bfbeff0" kind="function"><name>Imp</name></member>
+    <member refid="classgr_1_1FSO__Comm_1_1Optical__Receiver__ff_1aef3a3e64e7bb372cb532e9c36606a44e" kind="function"><name>set_P_n</name></member>
+    <member refid="classgr_1_1FSO__Comm_1_1Optical__Receiver__ff_1a347c8f9e4c4caaa813bc600b21480495" kind="function"><name>P_n</name></member>
+  </compound>
+  <compound refid="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff" kind="class"><name>gr::FSO_Comm::Pointing_Errors_ff</name>
+    <member refid="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff_1ab6af633fe3521af3247771e945a42800" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff_1a7b3be46c03c9df51fc0619c2e66c5dcf" kind="function"><name>make</name></member>
+    <member refid="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff_1a25fa2194e76879921b2c3ec433b0d72a" kind="function"><name>set_Jitter</name></member>
+    <member refid="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff_1a0c4aa7e599e31d0af445176d95b6d5c2" kind="function"><name>Jitter</name></member>
+    <member refid="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff_1a0d263541914ecbefd70925e4423dc3ad" kind="function"><name>set_LinkLen</name></member>
+    <member refid="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff_1aa0a559a9462245c06254e45705f97e09" kind="function"><name>LinkLen</name></member>
+    <member refid="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff_1a2d3930186aaa8c11a00f18b6dd49328a" kind="function"><name>set_Tx_Dia</name></member>
+    <member refid="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff_1a8ea578e6d89d0daa0ccf4a7bea5e6bf6" kind="function"><name>Tx_Dia</name></member>
+    <member refid="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff_1ae327d35de361b1c4b432381892c07d43" kind="function"><name>set_Tx_Theta</name></member>
+    <member refid="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff_1a080a7c6b60485ef09f66df8792c4989b" kind="function"><name>Tx_Theta</name></member>
+    <member refid="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff_1a1c165434f071f2e41f7dd132e489831e" kind="function"><name>set_Rx_Dia</name></member>
+    <member refid="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff_1ad90f7f1b89dcc55eaa9e2a4b784b5218" kind="function"><name>Rx_Dia</name></member>
+    <member refid="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff_1ad969a7e33299a5a65f1933da7ea8a651" kind="function"><name>set_TempCorr</name></member>
+    <member refid="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff_1a6dd3210df3ac177fd8d7cff185908a9b" kind="function"><name>TempCorr</name></member>
+    <member refid="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff_1a298351e2bd0199f4073f7336c375032b" kind="function"><name>set_SampRate</name></member>
+    <member refid="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff_1a4c2741a985b4be377f999ec5d37b1b38" kind="function"><name>SampRate</name></member>
+  </compound>
+  <compound refid="classgr_1_1FSO__Comm_1_1Turbulence__ff" kind="class"><name>gr::FSO_Comm::Turbulence_ff</name>
+    <member refid="classgr_1_1FSO__Comm_1_1Turbulence__ff_1a71cb5f0623ea5e5e96589429d608c159" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1FSO__Comm_1_1Turbulence__ff_1aa71171f1f8feff2a2b61fd0d97e35e2e" kind="function"><name>make</name></member>
+    <member refid="classgr_1_1FSO__Comm_1_1Turbulence__ff_1a7a00e08af40f455883b6eb79e9a69731" kind="function"><name>set_Cn2</name></member>
+    <member refid="classgr_1_1FSO__Comm_1_1Turbulence__ff_1a3feab6fa794d4ff574236c404b28588f" kind="function"><name>Cn2</name></member>
+    <member refid="classgr_1_1FSO__Comm_1_1Turbulence__ff_1a0e55636f51ec834e2ff3187130486332" kind="function"><name>set_Wavelen</name></member>
+    <member refid="classgr_1_1FSO__Comm_1_1Turbulence__ff_1a69a7b0f3bdaa974abf2bddfee9f63749" kind="function"><name>Wavelen</name></member>
+    <member refid="classgr_1_1FSO__Comm_1_1Turbulence__ff_1a56f128fcc25524caa001f748be46a20a" kind="function"><name>set_LinkLen</name></member>
+    <member refid="classgr_1_1FSO__Comm_1_1Turbulence__ff_1ad49b0877df78f1c6b26f2a110fb0d815" kind="function"><name>LinkLen</name></member>
+    <member refid="classgr_1_1FSO__Comm_1_1Turbulence__ff_1a90e0dd4b8c0dcc51bd84639af9735c5d" kind="function"><name>set_Rx_Dia</name></member>
+    <member refid="classgr_1_1FSO__Comm_1_1Turbulence__ff_1a368249da2d62467f203abcdaaac4a1a8" kind="function"><name>Rx_Dia</name></member>
+    <member refid="classgr_1_1FSO__Comm_1_1Turbulence__ff_1af6f38a299ed0f1062ebdd5542ad92fe5" kind="function"><name>set_TempCorr</name></member>
+    <member refid="classgr_1_1FSO__Comm_1_1Turbulence__ff_1a5f7795989f8f81ba444bb1b99484fee5" kind="function"><name>TempCorr</name></member>
+    <member refid="classgr_1_1FSO__Comm_1_1Turbulence__ff_1a1a8e902f840179514d24f85890b902a7" kind="function"><name>set_SampRate</name></member>
+    <member refid="classgr_1_1FSO__Comm_1_1Turbulence__ff_1a57e8163e89d36724d22cae13525d5751" kind="function"><name>SampRate</name></member>
+  </compound>
+  <compound refid="namespacegr" kind="namespace"><name>gr</name>
+  </compound>
+  <compound refid="namespacegr_1_1FSO__Comm" kind="namespace"><name>gr::FSO_Comm</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="api_8h" kind="file"><name>api.h</name>
+    <member refid="api_8h_1a3510da8bd36da3185ecc54e360afb5a5" kind="define"><name>FSO_COMM_API</name></member>
+  </compound>
+  <compound refid="Channel__Analyser__ff_8h" kind="file"><name>Channel_Analyser_ff.h</name>
+  </compound>
+  <compound refid="FogSmoke__Loss__ff_8h" kind="file"><name>FogSmoke_Loss_ff.h</name>
+  </compound>
+  <compound refid="Geometric__Loss__ff_8h" kind="file"><name>Geometric_Loss_ff.h</name>
+  </compound>
+  <compound refid="Laser__ff_8h" kind="file"><name>Laser_ff.h</name>
+  </compound>
+  <compound refid="Optical__Receiver__ff_8h" kind="file"><name>Optical_Receiver_ff.h</name>
+  </compound>
+  <compound refid="Pointing__Errors__ff_8h" kind="file"><name>Pointing_Errors_ff.h</name>
+  </compound>
+  <compound refid="Turbulence__ff_8h" kind="file"><name>Turbulence_ff.h</name>
+  </compound>
+  <compound refid="dir_9c7af709abc225d7284b80629978e178" kind="dir"><name>FSO_Comm</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>include</name>
+  </compound>
+</doxygenindex>

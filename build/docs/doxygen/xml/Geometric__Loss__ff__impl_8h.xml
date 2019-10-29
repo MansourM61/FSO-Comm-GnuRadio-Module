@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="Geometric__Loss__ff__impl_8h" kind="file" language="C++">
+    <compoundname>Geometric_Loss_ff_impl.h</compoundname>
+    <includes refid="Geometric__Loss__ff_8h" local="no">FSO_Comm/Geometric_Loss_ff.h</includes>
+    <includes local="no">cmath</includes>
+    <incdepgraph>
+      <node id="54">
+        <label>cmath</label>
+      </node>
+      <node id="53">
+        <label>gnuradio/sync_block.h</label>
+      </node>
+      <node id="51">
+        <label>FSO_Comm/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="52" relation="include">
+        </childnode>
+      </node>
+      <node id="52">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="49">
+        <label>Geometric_Loss_ff_impl.h</label>
+        <link refid="Geometric__Loss__ff__impl_8h"/>
+        <childnode refid="50" relation="include">
+        </childnode>
+        <childnode refid="54" relation="include">
+        </childnode>
+      </node>
+      <node id="50">
+        <label>FSO_Comm/Geometric_Loss_ff.h</label>
+        <link refid="Geometric__Loss__ff_8h"/>
+        <childnode refid="51" relation="include">
+        </childnode>
+        <childnode refid="53" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1FSO__Comm_1_1Geometric__Loss__ff__impl" prot="public">gr::FSO_Comm::Geometric_Loss_ff_impl</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1FSO__Comm">gr::FSO_Comm</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="Geometric__Loss__ff__impl_8h_1a525335710b53cb064ca56b936120431e" prot="public" static="no">
+        <name>_USE_MATH_DEFINES</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Geometric_Loss_ff_impl.h" line="27" column="10" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Geometric_Loss_ff_impl.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Geometric_Loss_ff_impl.h"/>
+  </compounddef>
+</doxygen>

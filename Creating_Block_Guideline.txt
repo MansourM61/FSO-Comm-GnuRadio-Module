@@ -1,0 +1,77 @@
+Possible prerequisites libraries: swig, g++, cmake, pkg-config, doxugen, git
+
+
+
+A. create the module:
+1- create module; gr_modtool newmod 'Module Name',
+2- cd gr-'Module Name'.
+
+
+
+B. create the block:
+1- create block; 'gr_modtool add xxxxx_IO' where I and O refer to input and output signal type (b = byte/unsigned char/int8, c = complex, f = float, i = int, s = short, etc),
+2- enter block type (sync = 1:1, decimator = N:1, interpolator = 1:N, general = N:M input to output ratio, etc),
+3- enter cpp for language,
+4- enter argument list name(s),
+5- create QA file for python or c.
+
+
+
+C. modify the block signal processing code:
+1- open xxxxx_IO_imp.cc and .h file in ./lib,
+2- modify constructor, change arguments in ::make function for input nad output,
+   Interpolator and Decimator contructor get a 4th parameter denoting ratio of interpolation/decimation;
+   gr_sync_interpolator/gr_sync_interpolator ("my block", in_sig, out_sig, ratio);
+3- modify types of input and output list and minimum and maximum number of input and output (-1 if the maximum number can be infinity),
+   gr::io_signature::make(0, 0, 0) is used to remove input or output port;
+4- modify 'general_work' or 'work' function for required processing,
+   gr::sync_block is 1:1 block with optional history. We use work() instead of general_work(). it doesn't need forecast as rate is 1:1;
+   gr::sync_decimator (N:1 block) and gr::sync_interpolator (1:N block) are derived from gr::sync both with optional set_history();
+   number of input/output ports in work() and general_work() function can be chaecked by 'input_items.size()' and 'output_items.size()';
+   set_history() is called in constructor. for N history, first N items in input buffer include N-1 previous inputs;
+   if current input and N-1 previous inputs are required to do a processing, use 'set_history(N)' in the constructor of the block. Then Scheduler
+   puts the inputs in the input buffer of the 'general_work' function. default is set_history(1);
+5- modify 'forecast' function to let program know about required element number of input and output.
+   forecast() just for gr::block is needed to be overriden. it tells scheduler how many elements is needed to ensure validity of input arrays;
+   set_output_multiple() is used in general_work() to force block producing number of outputs multiple of given value when dealing with
+   general blocks. if you need number of output to be a multiple of a particular value. default is set_output_multiple(1);
+
+
+
+D. modify the block test benchmark code:
+1- open qa_xxxxx_IO.py file in ./python,
+2- modify test_xxx_t to test block,
+3- use blocks.vector_source('input vector') as a source with given input,
+4- 'output vector' = blocks.vector_sink_O() as sink where data is obtained where O denotes teh type. use 'output vector'.data() to extract data from the vector,
+5- use self.assertFloatTupleAlmostEqual(expected value, calculated result, decimal point accuracy) for testing.
+
+
+
+E. modify XML property file:
+1- open 'Module_Name'_xxxxx_IO.xml file in ./grc
+2- change <param> section; <name> presented name of parameter; <key> equivalent variable; <type> parameter type,
+3- change <type> of <sink> and <source> sections based on I and O.
+   if the block has various input or outputs, put '<optional>1</optional>' field in the default input/output ports to make the ports optional.
+   the port without '<optional>1</optional>' field must be connected in the flowgraph.
+
+
+
+F. compile the code:
+1- create ./build directory,
+2- cd Build,
+3- cmake ../,
+4- make.
+
+
+
+G. test the module based on test benchmark python code:
+1- go to /build folder,
+2- make test.
+   use 'ctest -V -R NAME' to activate verbose output and perform test on block with title including NAME phrase;
+
+
+
+H. install the block
+1- go to /build folder,
+2- sudo make install,
+3- sudo ldconfig.

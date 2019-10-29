@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="Channel__Analyser__ff__impl_8h" kind="file" language="C++">
+    <compoundname>Channel_Analyser_ff_impl.h</compoundname>
+    <includes refid="Channel__Analyser__ff_8h" local="no">FSO_Comm/Channel_Analyser_ff.h</includes>
+    <includes local="no">cmath</includes>
+    <incdepgraph>
+      <node id="27">
+        <label>gnuradio/sync_decimator.h</label>
+      </node>
+      <node id="28">
+        <label>cmath</label>
+      </node>
+      <node id="25">
+        <label>FSO_Comm/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>FSO_Comm/Channel_Analyser_ff.h</label>
+        <link refid="Channel__Analyser__ff_8h"/>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="23">
+        <label>Channel_Analyser_ff_impl.h</label>
+        <link refid="Channel__Analyser__ff__impl_8h"/>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff__impl" prot="public">gr::FSO_Comm::Channel_Analyser_ff_impl</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1FSO__Comm">gr::FSO_Comm</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="Channel__Analyser__ff__impl_8h_1a525335710b53cb064ca56b936120431e" prot="public" static="no">
+        <name>_USE_MATH_DEFINES</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Channel_Analyser_ff_impl.h" line="27" column="10" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Channel_Analyser_ff_impl.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="Channel__Analyser__ff__impl_8h_1a1ac0abc7c913167ecaf81778d57e7a17" prot="public" static="no">
+        <name>POW2</name>
+        <param><defname>x</defname></param>
+        <initializer>((x)*(x))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Channel_Analyser_ff_impl.h" line="29" column="9" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Channel_Analyser_ff_impl.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Channel_Analyser_ff_impl.h"/>
+  </compounddef>
+</doxygen>

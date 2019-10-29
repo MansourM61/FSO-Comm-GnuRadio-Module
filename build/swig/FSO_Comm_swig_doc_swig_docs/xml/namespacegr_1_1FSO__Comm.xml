@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="namespacegr_1_1FSO__Comm" kind="namespace" language="C++">
+    <compoundname>gr::FSO_Comm</compoundname>
+    <innerclass refid="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff" prot="public">gr::FSO_Comm::Channel_Analyser_ff</innerclass>
+    <innerclass refid="classgr_1_1FSO__Comm_1_1FogSmoke__Loss__ff" prot="public">gr::FSO_Comm::FogSmoke_Loss_ff</innerclass>
+    <innerclass refid="classgr_1_1FSO__Comm_1_1Geometric__Loss__ff" prot="public">gr::FSO_Comm::Geometric_Loss_ff</innerclass>
+    <innerclass refid="classgr_1_1FSO__Comm_1_1Laser__ff" prot="public">gr::FSO_Comm::Laser_ff</innerclass>
+    <innerclass refid="classgr_1_1FSO__Comm_1_1Optical__Receiver__ff" prot="public">gr::FSO_Comm::Optical_Receiver_ff</innerclass>
+    <innerclass refid="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff" prot="public">gr::FSO_Comm::Pointing_Errors_ff</innerclass>
+    <innerclass refid="classgr_1_1FSO__Comm_1_1Turbulence__ff" prot="public">gr::FSO_Comm::Turbulence_ff</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Channel_Analyser_ff.h" line="29" column="1"/>
+  </compounddef>
+</doxygen>

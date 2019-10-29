@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="Pointing__Errors__ff__impl_8h" kind="file" language="C++">
+    <compoundname>Pointing_Errors_ff_impl.h</compoundname>
+    <includes refid="Pointing__Errors__ff_8h" local="no">FSO_Comm/Pointing_Errors_ff.h</includes>
+    <includes local="no">cmath</includes>
+    <incdepgraph>
+      <node id="93">
+        <label>FSO_Comm/Pointing_Errors_ff.h</label>
+        <link refid="Pointing__Errors__ff_8h"/>
+        <childnode refid="94" relation="include">
+        </childnode>
+        <childnode refid="96" relation="include">
+        </childnode>
+      </node>
+      <node id="97">
+        <label>cmath</label>
+      </node>
+      <node id="96">
+        <label>gnuradio/sync_block.h</label>
+      </node>
+      <node id="94">
+        <label>FSO_Comm/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="95" relation="include">
+        </childnode>
+      </node>
+      <node id="92">
+        <label>Pointing_Errors_ff_impl.h</label>
+        <link refid="Pointing__Errors__ff__impl_8h"/>
+        <childnode refid="93" relation="include">
+        </childnode>
+        <childnode refid="97" relation="include">
+        </childnode>
+      </node>
+      <node id="95">
+        <label>gnuradio/attributes.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff__impl" prot="public">gr::FSO_Comm::Pointing_Errors_ff_impl</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1FSO__Comm">gr::FSO_Comm</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="Pointing__Errors__ff__impl_8h_1a525335710b53cb064ca56b936120431e" prot="public" static="no">
+        <name>_USE_MATH_DEFINES</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Pointing_Errors_ff_impl.h" line="27" column="10" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Pointing_Errors_ff_impl.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="Pointing__Errors__ff__impl_8h_1a1ac0abc7c913167ecaf81778d57e7a17" prot="public" static="no">
+        <name>POW2</name>
+        <param><defname>x</defname></param>
+        <initializer>((x)*(x))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Pointing_Errors_ff_impl.h" line="29" column="9" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Pointing_Errors_ff_impl.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Pointing_Errors_ff_impl.h"/>
+  </compounddef>
+</doxygen>

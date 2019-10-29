@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<block>
+  <name>Channel Analyser</name>
+  <key>FSO_Comm_Channel_Analyser_ff</key>
+  <category>[FSO_Comm]</category>
+  <import>import FSO_Comm</import>
+  <make>FSO_Comm.Channel_Analyser_ff($mode, $ChunckSize, $SamplingOffset, $BandWidth, $SampRate)</make>
+
+  <callback>set_mode($mode)</callback>
+  <callback>set_ChunckSize($ChunckSize)</callback>
+  <callback>set_SamplingOffset($SamplingOffset)</callback>
+  <callback>set_BandWidth($BandWidth)</callback>
+  <callback>set_SampRate($SampRate)</callback>
+
+  <!-- Make one 'param' node for every Parameter you want settable from the GUI.
+       Sub-nodes:
+       * name
+       * key (makes the value accessible as $keyname, e.g. in the make node)
+       * type -->
+  <param>
+    <name>Is the input DC signal?</name>
+    <key>mode</key>
+    <type>enum</type>
+    <option>
+	<name>Yes</name>
+	<key>True</key>
+    </option>
+    <option>
+	<name>No</name>
+	<key>False</key>
+    </option>
+  </param>
+
+  <param>
+    <name>Measurement Window Size</name>
+    <key>ChunckSize</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>Offset from Central Sample (-/+)</name>
+    <key>SamplingOffset</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>Input Signal Bandwidth (Hz)</name>
+    <key>BandWidth</key>
+    <type>float</type>
+  </param>
+  <param>
+    <name>Sample Rate (sps)</name>
+    <key>SampRate</key>
+    <type>float</type>
+  </param>
+
+  <!-- Make one 'sink' node per input. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <sink>
+    <name>in</name>
+    <type>float</type>
+  </sink>
+
+  <!-- Make one 'source' node per output. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <source>
+    <name>Q Factor</name>
+    <type>float</type>
+  </source>
+  <source>
+    <name>Scint Index</name>
+    <type>float</type>
+    <optional>1</optional>
+  </source>
+  <source>
+    <name>Scint Index for '0' Level</name>
+    <type>float</type>
+    <optional>1</optional>
+  </source>
+  <source>
+    <name>Scint Index for '1' Level</name>
+    <type>float</type>
+    <optional>1</optional>
+  </source>
+</block>

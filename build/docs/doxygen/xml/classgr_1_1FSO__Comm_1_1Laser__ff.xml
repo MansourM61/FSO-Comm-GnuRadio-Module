@@ -1,0 +1,247 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1FSO__Comm_1_1Laser__ff" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>gr::FSO_Comm::Laser_ff</compoundname>
+    <basecompoundref prot="public" virt="virtual">sync_block</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1FSO__Comm_1_1Laser__ff__impl" prot="public" virt="non-virtual">gr::FSO_Comm::Laser_ff_impl</derivedcompoundref>
+    <includes refid="Laser__ff_8h" local="no">Laser_ff.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1FSO__Comm_1_1Laser__ff_1a78cf17c113c1cbee8583b45cb870b9cd" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1FSO__Comm_1_1Laser__ff" kindref="compound">Laser_ff</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;Laser_ff&gt; gr::FSO_Comm::Laser_ff::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Laser_ff.h" line="39" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Laser_ff.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Laser__ff_1afb76dbe38a6aa1585dcfcbbe65366b60" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1FSO__Comm_1_1Laser__ff_1a78cf17c113c1cbee8583b45cb870b9cd" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::FSO_Comm::Laser_ff::make</definition>
+        <argsstring>(float P_avg, float Wavelen, float ExtRatio)</argsstring>
+        <name>make</name>
+        <param>
+          <type>float</type>
+          <declname>P_avg</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>Wavelen</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>ExtRatio</declname>
+        </param>
+        <briefdescription>
+<para>Make a laser module block. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>P_avg</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>average optical power (W) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Wavelen</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>optical beam wavelength (m) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ExtRatio</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>extiction ratio </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Laser_ff.h" line="48" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Laser__ff_1a954453b149b31d3d9381f1b20dcaf1d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::FSO_Comm::Laser_ff::set_P_avg</definition>
+        <argsstring>(float P_avg)=0</argsstring>
+        <name>set_P_avg</name>
+        <reimplementedby refid="classgr_1_1FSO__Comm_1_1Laser__ff__impl_1ad578a84d0d166a9d0152c077a41e1fc8">set_P_avg</reimplementedby>
+        <param>
+          <type>float</type>
+          <declname>P_avg</declname>
+        </param>
+        <briefdescription>
+<para>Set laser module average optical power. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>P_avg</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>average optical power (W) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Laser_ff.h" line="55" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Laser__ff_1a99f2c438035dff55d3fa0ee1fb88095a" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>float</type>
+        <definition>virtual float gr::FSO_Comm::Laser_ff::P_avg</definition>
+        <argsstring>(void)=0</argsstring>
+        <name>P_avg</name>
+        <reimplementedby refid="classgr_1_1FSO__Comm_1_1Laser__ff__impl_1ad97a9f4ea313b8687550a856e11fba8d">P_avg</reimplementedby>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Return current laser module average optical power. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Laser_ff.h" line="59" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Laser__ff_1a5f65cdd08dcd785ef77f2bdfd65e410f" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::FSO_Comm::Laser_ff::set_Wavelen</definition>
+        <argsstring>(float Wavelen)=0</argsstring>
+        <name>set_Wavelen</name>
+        <reimplementedby refid="classgr_1_1FSO__Comm_1_1Laser__ff__impl_1a7d44155308a0a65eac6c932ef1d13862">set_Wavelen</reimplementedby>
+        <param>
+          <type>float</type>
+          <declname>Wavelen</declname>
+        </param>
+        <briefdescription>
+<para>Set laser module wavelength. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Wavelen</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>optical beam wavelength (m) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Laser_ff.h" line="66" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Laser__ff_1a20b49c6b51dbdddcf7b7cd62083d948d" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>float</type>
+        <definition>virtual float gr::FSO_Comm::Laser_ff::Wavelen</definition>
+        <argsstring>(void)=0</argsstring>
+        <name>Wavelen</name>
+        <reimplementedby refid="classgr_1_1FSO__Comm_1_1Laser__ff__impl_1aee184ae6515a68597b5f092dff9d07dd">Wavelen</reimplementedby>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Return current laser module wavelength. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Laser_ff.h" line="70" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Laser__ff_1aba5a37b597a8ae160fe02f3bf5bbdc2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::FSO_Comm::Laser_ff::set_ExtRatio</definition>
+        <argsstring>(float ExtRatio)=0</argsstring>
+        <name>set_ExtRatio</name>
+        <reimplementedby refid="classgr_1_1FSO__Comm_1_1Laser__ff__impl_1a4253578d0d6f162c84f9c1f092de050a">set_ExtRatio</reimplementedby>
+        <param>
+          <type>float</type>
+          <declname>ExtRatio</declname>
+        </param>
+        <briefdescription>
+<para>Set current laser module extinction ratio. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ExtRatio</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>extiction ratio </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Laser_ff.h" line="77" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Laser__ff_1a9058c91b2073d6a97ce26744551cd56a" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>float</type>
+        <definition>virtual float gr::FSO_Comm::Laser_ff::ExtRatio</definition>
+        <argsstring>(void)=0</argsstring>
+        <name>ExtRatio</name>
+        <reimplementedby refid="classgr_1_1FSO__Comm_1_1Laser__ff__impl_1aa77f2a2e633c9e994bd2c5fe1c49b4a0">ExtRatio</reimplementedby>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Return current laser module extinction ratio. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Laser_ff.h" line="81" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>FSO Laser Module. </para>    </briefdescription>
+    <detaileddescription>
+<para>The block generate optical power output based on average power and extinction ratio. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="35">
+        <label>gr::FSO_Comm::Laser_ff_impl</label>
+        <link refid="classgr_1_1FSO__Comm_1_1Laser__ff__impl"/>
+        <childnode refid="33" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>sync_block</label>
+      </node>
+      <node id="33">
+        <label>gr::FSO_Comm::Laser_ff</label>
+        <link refid="classgr_1_1FSO__Comm_1_1Laser__ff"/>
+        <childnode refid="34" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="37">
+        <label>sync_block</label>
+      </node>
+      <node id="36">
+        <label>gr::FSO_Comm::Laser_ff</label>
+        <link refid="classgr_1_1FSO__Comm_1_1Laser__ff"/>
+        <childnode refid="37" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Laser_ff.h" line="37" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Laser_ff.h" bodystart="36" bodyend="83"/>
+    <listofallmembers>
+      <member refid="classgr_1_1FSO__Comm_1_1Laser__ff_1a9058c91b2073d6a97ce26744551cd56a" prot="public" virt="pure-virtual"><scope>gr::FSO_Comm::Laser_ff</scope><name>ExtRatio</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Laser__ff_1afb76dbe38a6aa1585dcfcbbe65366b60" prot="public" virt="non-virtual"><scope>gr::FSO_Comm::Laser_ff</scope><name>make</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Laser__ff_1a99f2c438035dff55d3fa0ee1fb88095a" prot="public" virt="pure-virtual"><scope>gr::FSO_Comm::Laser_ff</scope><name>P_avg</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Laser__ff_1aba5a37b597a8ae160fe02f3bf5bbdc2c" prot="public" virt="pure-virtual"><scope>gr::FSO_Comm::Laser_ff</scope><name>set_ExtRatio</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Laser__ff_1a954453b149b31d3d9381f1b20dcaf1d5" prot="public" virt="pure-virtual"><scope>gr::FSO_Comm::Laser_ff</scope><name>set_P_avg</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Laser__ff_1a5f65cdd08dcd785ef77f2bdfd65e410f" prot="public" virt="pure-virtual"><scope>gr::FSO_Comm::Laser_ff</scope><name>set_Wavelen</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Laser__ff_1a78cf17c113c1cbee8583b45cb870b9cd" prot="public" virt="non-virtual"><scope>gr::FSO_Comm::Laser_ff</scope><name>sptr</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Laser__ff_1a20b49c6b51dbdddcf7b7cd62083d948d" prot="public" virt="pure-virtual"><scope>gr::FSO_Comm::Laser_ff</scope><name>Wavelen</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

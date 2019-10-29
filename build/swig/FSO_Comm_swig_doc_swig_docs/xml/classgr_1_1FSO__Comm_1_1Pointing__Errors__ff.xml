@@ -1,0 +1,450 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>gr::FSO_Comm::Pointing_Errors_ff</compoundname>
+    <basecompoundref prot="public" virt="virtual">sync_block</basecompoundref>
+    <includes refid="Pointing__Errors__ff_8h" local="no">Pointing_Errors_ff.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff_1ab6af633fe3521af3247771e945a42800" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff" kindref="compound">Pointing_Errors_ff</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;Pointing_Errors_ff&gt; gr::FSO_Comm::Pointing_Errors_ff::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Pointing_Errors_ff.h" line="39" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Pointing_Errors_ff.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff_1a7b3be46c03c9df51fc0619c2e66c5dcf" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff_1ab6af633fe3521af3247771e945a42800" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::FSO_Comm::Pointing_Errors_ff::make</definition>
+        <argsstring>(float Jitter, float LinkLen, float Tx_Dia, float Tx_Theta, float Rx_Dia, float TempCorr, float SampRate)</argsstring>
+        <name>make</name>
+        <param>
+          <type>float</type>
+          <declname>Jitter</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>LinkLen</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>Tx_Dia</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>Tx_Theta</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>Rx_Dia</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>TempCorr</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>SampRate</declname>
+        </param>
+        <briefdescription>
+<para>Make a pointing errors block. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Jitter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>vibration displacement (m) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>LinkLen</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>FSO channel link length (m) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Tx_Dia</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>transmitter aperture diameter (m) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Tx_Theta</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>transmitter beam half-angle divergence angle (Deg) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Rx_Dia</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>receiver aperture diameter (m) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>TempCorr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>temppral correlation of pointing errors channel (s) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>SampRate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>sampling rate of signal (samples per second) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Pointing_Errors_ff.h" line="52" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff_1a25fa2194e76879921b2c3ec433b0d72a" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::FSO_Comm::Pointing_Errors_ff::set_Jitter</definition>
+        <argsstring>(float Jitter)=0</argsstring>
+        <name>set_Jitter</name>
+        <param>
+          <type>float</type>
+          <declname>Jitter</declname>
+        </param>
+        <briefdescription>
+<para>Set pointing errors jitter. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Jitter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>vibration displacement (m) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Pointing_Errors_ff.h" line="59" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff_1a0c4aa7e599e31d0af445176d95b6d5c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>float</type>
+        <definition>virtual float gr::FSO_Comm::Pointing_Errors_ff::Jitter</definition>
+        <argsstring>(void)=0</argsstring>
+        <name>Jitter</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Return current pointing errors jitter. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Pointing_Errors_ff.h" line="63" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff_1a0d263541914ecbefd70925e4423dc3ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::FSO_Comm::Pointing_Errors_ff::set_LinkLen</definition>
+        <argsstring>(float LinkLen)=0</argsstring>
+        <name>set_LinkLen</name>
+        <param>
+          <type>float</type>
+          <declname>LinkLen</declname>
+        </param>
+        <briefdescription>
+<para>Set pointing errors link length. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>LinkLen</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>FSO channel link length (m) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Pointing_Errors_ff.h" line="70" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff_1aa0a559a9462245c06254e45705f97e09" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>float</type>
+        <definition>virtual float gr::FSO_Comm::Pointing_Errors_ff::LinkLen</definition>
+        <argsstring>(void)=0</argsstring>
+        <name>LinkLen</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Return current pointing errors link length. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Pointing_Errors_ff.h" line="74" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff_1a2d3930186aaa8c11a00f18b6dd49328a" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::FSO_Comm::Pointing_Errors_ff::set_Tx_Dia</definition>
+        <argsstring>(float Tx_Dia)=0</argsstring>
+        <name>set_Tx_Dia</name>
+        <param>
+          <type>float</type>
+          <declname>Tx_Dia</declname>
+        </param>
+        <briefdescription>
+<para>Set pointing errors transmitter aperture diameter. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Tx_Dia</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>transmitter aperture diameter (m) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Pointing_Errors_ff.h" line="81" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff_1a8ea578e6d89d0daa0ccf4a7bea5e6bf6" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>float</type>
+        <definition>virtual float gr::FSO_Comm::Pointing_Errors_ff::Tx_Dia</definition>
+        <argsstring>(void)=0</argsstring>
+        <name>Tx_Dia</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Return current pointing errors transmitter aperture diameter. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Pointing_Errors_ff.h" line="85" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff_1ae327d35de361b1c4b432381892c07d43" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::FSO_Comm::Pointing_Errors_ff::set_Tx_Theta</definition>
+        <argsstring>(float Tx_Theta)=0</argsstring>
+        <name>set_Tx_Theta</name>
+        <param>
+          <type>float</type>
+          <declname>Tx_Theta</declname>
+        </param>
+        <briefdescription>
+<para>Set poinintg errors transmitter beam divergence. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Tx_Theta</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>transmitter beam half-angle divergence angle (Deg) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Pointing_Errors_ff.h" line="92" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff_1a080a7c6b60485ef09f66df8792c4989b" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>float</type>
+        <definition>virtual float gr::FSO_Comm::Pointing_Errors_ff::Tx_Theta</definition>
+        <argsstring>(void)=0</argsstring>
+        <name>Tx_Theta</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Return current poinintg errors transmitter beam divergence. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Pointing_Errors_ff.h" line="96" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff_1a1c165434f071f2e41f7dd132e489831e" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::FSO_Comm::Pointing_Errors_ff::set_Rx_Dia</definition>
+        <argsstring>(float Rx_Dia)=0</argsstring>
+        <name>set_Rx_Dia</name>
+        <param>
+          <type>float</type>
+          <declname>Rx_Dia</declname>
+        </param>
+        <briefdescription>
+<para>Set pointing errors receiver aperture diameter. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Rx_Dia</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>receiver aperture diameter (m) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Pointing_Errors_ff.h" line="103" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff_1ad90f7f1b89dcc55eaa9e2a4b784b5218" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>float</type>
+        <definition>virtual float gr::FSO_Comm::Pointing_Errors_ff::Rx_Dia</definition>
+        <argsstring>(void)=0</argsstring>
+        <name>Rx_Dia</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Return current pointing errors receiver aperture diameter. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Pointing_Errors_ff.h" line="107" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff_1ad969a7e33299a5a65f1933da7ea8a651" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::FSO_Comm::Pointing_Errors_ff::set_TempCorr</definition>
+        <argsstring>(float TempCorr)=0</argsstring>
+        <name>set_TempCorr</name>
+        <param>
+          <type>float</type>
+          <declname>TempCorr</declname>
+        </param>
+        <briefdescription>
+<para>Set pointing errors temporal correlation. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>TempCorr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>temppral correlation of pointing errors channel (s) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Pointing_Errors_ff.h" line="114" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff_1a6dd3210df3ac177fd8d7cff185908a9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>float</type>
+        <definition>virtual float gr::FSO_Comm::Pointing_Errors_ff::TempCorr</definition>
+        <argsstring>(void)=0</argsstring>
+        <name>TempCorr</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Return current pointing errors temporal correlation. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Pointing_Errors_ff.h" line="118" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff_1a298351e2bd0199f4073f7336c375032b" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::FSO_Comm::Pointing_Errors_ff::set_SampRate</definition>
+        <argsstring>(float SampRate)=0</argsstring>
+        <name>set_SampRate</name>
+        <param>
+          <type>float</type>
+          <declname>SampRate</declname>
+        </param>
+        <briefdescription>
+<para>Set poinintg errors sampling rate. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>SampRate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>sampling rate of signal (samples per second) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Pointing_Errors_ff.h" line="125" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff_1a4c2741a985b4be377f999ec5d37b1b38" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>float</type>
+        <definition>virtual float gr::FSO_Comm::Pointing_Errors_ff::SampRate</definition>
+        <argsstring>(void)=0</argsstring>
+        <name>SampRate</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Return current poinintg errors sampling rate. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Pointing_Errors_ff.h" line="129" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>FSO Pointing Errors Channel. </para>    </briefdescription>
+    <detaileddescription>
+<para>This block simulates the effect of pointing errors (vibration) in FSO channel. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="20">
+        <label>gr::FSO_Comm::Pointing_Errors_ff</label>
+        <link refid="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff"/>
+        <childnode refid="21" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>sync_block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="22">
+        <label>gr::FSO_Comm::Pointing_Errors_ff</label>
+        <link refid="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff"/>
+        <childnode refid="23" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>sync_block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Pointing_Errors_ff.h" line="37" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Pointing_Errors_ff.h" bodystart="36" bodyend="131"/>
+    <listofallmembers>
+      <member refid="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff_1a0c4aa7e599e31d0af445176d95b6d5c2" prot="public" virt="pure-virtual"><scope>gr::FSO_Comm::Pointing_Errors_ff</scope><name>Jitter</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff_1aa0a559a9462245c06254e45705f97e09" prot="public" virt="pure-virtual"><scope>gr::FSO_Comm::Pointing_Errors_ff</scope><name>LinkLen</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff_1a7b3be46c03c9df51fc0619c2e66c5dcf" prot="public" virt="non-virtual"><scope>gr::FSO_Comm::Pointing_Errors_ff</scope><name>make</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff_1ad90f7f1b89dcc55eaa9e2a4b784b5218" prot="public" virt="pure-virtual"><scope>gr::FSO_Comm::Pointing_Errors_ff</scope><name>Rx_Dia</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff_1a4c2741a985b4be377f999ec5d37b1b38" prot="public" virt="pure-virtual"><scope>gr::FSO_Comm::Pointing_Errors_ff</scope><name>SampRate</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff_1a25fa2194e76879921b2c3ec433b0d72a" prot="public" virt="pure-virtual"><scope>gr::FSO_Comm::Pointing_Errors_ff</scope><name>set_Jitter</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff_1a0d263541914ecbefd70925e4423dc3ad" prot="public" virt="pure-virtual"><scope>gr::FSO_Comm::Pointing_Errors_ff</scope><name>set_LinkLen</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff_1a1c165434f071f2e41f7dd132e489831e" prot="public" virt="pure-virtual"><scope>gr::FSO_Comm::Pointing_Errors_ff</scope><name>set_Rx_Dia</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff_1a298351e2bd0199f4073f7336c375032b" prot="public" virt="pure-virtual"><scope>gr::FSO_Comm::Pointing_Errors_ff</scope><name>set_SampRate</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff_1ad969a7e33299a5a65f1933da7ea8a651" prot="public" virt="pure-virtual"><scope>gr::FSO_Comm::Pointing_Errors_ff</scope><name>set_TempCorr</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff_1a2d3930186aaa8c11a00f18b6dd49328a" prot="public" virt="pure-virtual"><scope>gr::FSO_Comm::Pointing_Errors_ff</scope><name>set_Tx_Dia</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff_1ae327d35de361b1c4b432381892c07d43" prot="public" virt="pure-virtual"><scope>gr::FSO_Comm::Pointing_Errors_ff</scope><name>set_Tx_Theta</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff_1ab6af633fe3521af3247771e945a42800" prot="public" virt="non-virtual"><scope>gr::FSO_Comm::Pointing_Errors_ff</scope><name>sptr</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff_1a6dd3210df3ac177fd8d7cff185908a9b" prot="public" virt="pure-virtual"><scope>gr::FSO_Comm::Pointing_Errors_ff</scope><name>TempCorr</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff_1a8ea578e6d89d0daa0ccf4a7bea5e6bf6" prot="public" virt="pure-virtual"><scope>gr::FSO_Comm::Pointing_Errors_ff</scope><name>Tx_Dia</name></member>
+      <member refid="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff_1a080a7c6b60485ef09f66df8792c4989b" prot="public" virt="pure-virtual"><scope>gr::FSO_Comm::Pointing_Errors_ff</scope><name>Tx_Theta</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

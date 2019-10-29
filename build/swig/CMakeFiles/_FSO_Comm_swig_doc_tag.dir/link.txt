@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG  -rdynamic CMakeFiles/_FSO_Comm_swig_doc_tag.dir/_FSO_Comm_swig_doc_tag.cpp.o  -o _FSO_Comm_swig_doc_tag 
