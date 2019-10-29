@@ -2,19 +2,19 @@
 A module for simulating free-space optical communication systems using GnuRadio
 
 To compile the module:
-- create ./build directory,
+- create ./build directory and compile the code:
 ```
 cd Build
 cmake ../
 make
 ```
 
-- go to /build folder,
+- after compiling, test the module:
 ```
   make test
 ```
 
-- go to /build folder,
+- and finally install the module:
 ```
 sudo make install
 sudo ldconfig
