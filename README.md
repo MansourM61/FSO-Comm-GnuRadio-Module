@@ -4,6 +4,7 @@ A module for simulating free-space optical communication systems using GnuRadio
 To compile the module:
 - create ./build directory and compile the code:
 ```
+mkdir build
 cd Build
 cmake ../
 make
@@ -11,7 +12,7 @@ make
 
 - after compiling, test the module:
 ```
-  make test
+make test
 ```
 
 - and finally install the module:
