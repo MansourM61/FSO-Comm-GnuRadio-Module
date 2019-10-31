@@ -22,31 +22,37 @@
   <param>
     <name>Pointing Errors Jitter (m)</name>
     <key>Jitter</key>
+    <value>0.05</value>
     <type>float</type>
   </param>
   <param>
     <name>Link Length (m)</name>
     <key>LinkLen</key>
+    <value>100</value>
     <type>float</type>
   </param>
   <param>
     <name>Tx Aperture Diameter (m)</name>
     <key>Tx_Dia</key>
+    <value>5e-3</value>
     <type>float</type>
   </param>
   <param>
     <name>Tx Half-Angle Divergence Angle (Deg)</name>
     <key>Tx_Theta</key>
+    <value>0.05</value>
     <type>float</type>
   </param>
   <param>
     <name>Rx Aperture Diameter (m)</name>
     <key>Rx_Dia</key>
+    <value>50e-3</value>
     <type>float</type>
   </param>
   <param>
     <name>Channel Temporal Correlation (s)</name>
     <key>TempCorr</key>
+    <value>250e-3</value>
     <type>float</type>
   </param>
   <param>

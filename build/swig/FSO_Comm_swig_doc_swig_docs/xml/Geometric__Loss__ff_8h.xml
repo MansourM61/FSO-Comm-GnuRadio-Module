@@ -8,14 +8,14 @@
       <node id="23">
         <label>gnuradio/sync_block.h</label>
       </node>
+      <node id="22">
+        <label>gnuradio/attributes.h</label>
+      </node>
       <node id="21">
         <label>FSO_Comm/api.h</label>
         <link refid="api_8h"/>
         <childnode refid="22" relation="include">
         </childnode>
-      </node>
-      <node id="22">
-        <label>gnuradio/attributes.h</label>
       </node>
       <node id="20">
         <label>Geometric_Loss_ff.h</label>
@@ -91,6 +91,6 @@
 <codeline lineno="100"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>INCLUDED_FSO_COMM_GEOMETRIC_LOSS_FF_H<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="101"><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Geometric_Loss_ff.h"/>
+    <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/include/FSO_Comm/Geometric_Loss_ff.h"/>
   </compounddef>
 </doxygen>

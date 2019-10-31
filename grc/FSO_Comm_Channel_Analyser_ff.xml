@@ -23,7 +23,7 @@
     <type>enum</type>
     <option>
 	<name>Yes</name>
-	<key>True</key>
+	<key>True</key>	
     </option>
     <option>
 	<name>No</name>
@@ -34,11 +34,13 @@
   <param>
     <name>Measurement Window Size</name>
     <key>ChunckSize</key>
+    <value>100</value>
     <type>int</type>
   </param>
   <param>
     <name>Offset from Central Sample (-/+)</name>
     <key>SamplingOffset</key>
+    <value>0</value>
     <type>int</type>
   </param>
   <param>

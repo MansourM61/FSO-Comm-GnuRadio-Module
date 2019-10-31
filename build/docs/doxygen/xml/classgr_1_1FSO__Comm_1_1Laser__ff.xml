@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Laser_ff.h" line="39" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Laser_ff.h" bodystart="39" bodyend="-1"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/include/FSO_Comm/Laser_ff.h" line="39" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/include/FSO_Comm/Laser_ff.h" bodystart="39" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
@@ -66,7 +66,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Laser_ff.h" line="48" column="1"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/include/FSO_Comm/Laser_ff.h" line="48" column="1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -94,7 +94,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Laser_ff.h" line="55" column="1"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/include/FSO_Comm/Laser_ff.h" line="55" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Laser__ff_1a99f2c438035dff55d3fa0ee1fb88095a" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>float</type>
@@ -111,7 +111,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Laser_ff.h" line="59" column="1"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/include/FSO_Comm/Laser_ff.h" line="59" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Laser__ff_1a5f65cdd08dcd785ef77f2bdfd65e410f" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>void</type>
@@ -137,7 +137,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Laser_ff.h" line="66" column="1"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/include/FSO_Comm/Laser_ff.h" line="66" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Laser__ff_1a20b49c6b51dbdddcf7b7cd62083d948d" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>float</type>
@@ -154,7 +154,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Laser_ff.h" line="70" column="1"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/include/FSO_Comm/Laser_ff.h" line="70" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Laser__ff_1aba5a37b597a8ae160fe02f3bf5bbdc2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>void</type>
@@ -180,7 +180,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Laser_ff.h" line="77" column="1"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/include/FSO_Comm/Laser_ff.h" line="77" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Laser__ff_1a9058c91b2073d6a97ce26744551cd56a" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>float</type>
@@ -197,7 +197,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Laser_ff.h" line="81" column="1"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/include/FSO_Comm/Laser_ff.h" line="81" column="1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -232,7 +232,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Laser_ff.h" line="37" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Laser_ff.h" bodystart="36" bodyend="83"/>
+    <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/include/FSO_Comm/Laser_ff.h" line="37" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/include/FSO_Comm/Laser_ff.h" bodystart="36" bodyend="83"/>
     <listofallmembers>
       <member refid="classgr_1_1FSO__Comm_1_1Laser__ff_1a9058c91b2073d6a97ce26744551cd56a" prot="public" virt="pure-virtual"><scope>gr::FSO_Comm::Laser_ff</scope><name>ExtRatio</name></member>
       <member refid="classgr_1_1FSO__Comm_1_1Laser__ff_1afb76dbe38a6aa1585dcfcbbe65366b60" prot="public" virt="non-virtual"><scope>gr::FSO_Comm::Laser_ff</scope><name>make</name></member>

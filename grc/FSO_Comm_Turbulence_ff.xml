@@ -21,26 +21,31 @@
   <param>
     <name>The Refractive Index Structure Coefficient (m^-2/3)</name>
     <key>Cn2</key>
+    <value>1e-13</value>
     <type>float</type>
   </param>
   <param>
     <name>Wavelength (m)</name>
     <key>Wavelen</key>
+    <value>850e-9</value>
     <type>float</type>
   </param>
   <param>
     <name>Link Length (m)</name>
     <key>LinkLen</key>
+    <value>100</value>
     <type>float</type>
   </param>
   <param>
     <name>Rx Aperture Diameter (m)</name>
     <key>Rx_Dia</key>
+    <value>50e-3</value>
     <type>float</type>
   </param>
   <param>
     <name>Channel Temporal Correlation (s)</name>
     <key>TempCorr</key>
+    <value>250e-9</value>
     <type>float</type>
   </param>
   <param>

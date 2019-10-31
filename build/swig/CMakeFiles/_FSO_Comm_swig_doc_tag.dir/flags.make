@@ -6,5 +6,5 @@ CXX_FLAGS = -O3 -DNDEBUG   -fvisibility=hidden
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/mojtaba/Documents/gr-FSO_Comm/lib -I/home/mojtaba/Documents/gr-FSO_Comm/include -I/home/mojtaba/Documents/gr-FSO_Comm/build/lib -I/home/mojtaba/Documents/gr-FSO_Comm/build/include -I/home/mojtaba/Documents/gr-FSO_Comm/build/swig -I/home/mojtaba/Documents/gr-FSO_Comm/swig -I/usr/include/gnuradio/swig -I/usr/include/python2.7 
+CXX_INCLUDES = -I/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib -I/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/include -I/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/lib -I/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/include -I/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/swig -I/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/swig -I/usr/include/gnuradio/swig -I/usr/include/python2.7 
 

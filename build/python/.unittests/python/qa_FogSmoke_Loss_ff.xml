@@ -1,0 +1,8 @@
+<testsuite errors="0" failures="0" name="unittest.suite.TestSuite" tests="4" time="0.009">
+  <testcase classname="__main__.qa_FogSmoke_Loss_ff" name="test_002_t" time="0.0035"></testcase>
+  <testcase classname="__main__.qa_FogSmoke_Loss_ff" name="test_003_t" time="0.0029"></testcase>
+  <testcase classname="__main__.qa_FogSmoke_Loss_ff" name="test_004_t" time="0.0011"></testcase>
+  <testcase classname="__main__.qa_FogSmoke_Loss_ff" name="test_005_t" time="0.0010"></testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

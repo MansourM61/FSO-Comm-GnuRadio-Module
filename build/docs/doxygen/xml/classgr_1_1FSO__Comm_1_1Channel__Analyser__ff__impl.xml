@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Channel_Analyser_ff_impl.h" line="38" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Channel_Analyser_ff_impl.h" bodystart="38" bodyend="-1"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Channel_Analyser_ff_impl.h" line="38" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Channel_Analyser_ff_impl.h" bodystart="38" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff__impl_1a74efee57beb8d282aa086fb2ffb6cc01" prot="private" static="no" mutable="no">
         <type>unsigned int</type>
@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Channel_Analyser_ff_impl.h" line="39" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Channel_Analyser_ff_impl.h" bodystart="39" bodyend="-1"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Channel_Analyser_ff_impl.h" line="39" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Channel_Analyser_ff_impl.h" bodystart="39" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff__impl_1a99b9af7aaad1a3a26097f198c8d1a482" prot="private" static="no" mutable="no">
         <type>signed int</type>
@@ -42,7 +42,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Channel_Analyser_ff_impl.h" line="40" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Channel_Analyser_ff_impl.h" bodystart="40" bodyend="-1"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Channel_Analyser_ff_impl.h" line="40" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Channel_Analyser_ff_impl.h" bodystart="40" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff__impl_1a2f997ab56282a52d50893e8e1f418f08" prot="private" static="no" mutable="no">
         <type>float</type>
@@ -55,7 +55,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Channel_Analyser_ff_impl.h" line="41" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Channel_Analyser_ff_impl.h" bodystart="41" bodyend="-1"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Channel_Analyser_ff_impl.h" line="41" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Channel_Analyser_ff_impl.h" bodystart="41" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff__impl_1a2f5093cd1959ddd10405097aa426097c" prot="private" static="no" mutable="no">
         <type>float</type>
@@ -68,7 +68,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Channel_Analyser_ff_impl.h" line="42" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Channel_Analyser_ff_impl.h" bodystart="42" bodyend="-1"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Channel_Analyser_ff_impl.h" line="42" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Channel_Analyser_ff_impl.h" bodystart="42" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff__impl_1a35b0442bdf0f86be44ce6eabf0fc50fb" prot="private" static="no" mutable="no">
         <type>unsigned int</type>
@@ -81,7 +81,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Channel_Analyser_ff_impl.h" line="43" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Channel_Analyser_ff_impl.h" bodystart="43" bodyend="-1"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Channel_Analyser_ff_impl.h" line="43" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Channel_Analyser_ff_impl.h" bodystart="43" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff__impl_1af83e5b733eb61154ae3b4bdd53973903" prot="private" static="no" mutable="no">
         <type>float</type>
@@ -94,7 +94,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Channel_Analyser_ff_impl.h" line="44" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Channel_Analyser_ff_impl.h" bodystart="44" bodyend="-1"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Channel_Analyser_ff_impl.h" line="44" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Channel_Analyser_ff_impl.h" bodystart="44" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff__impl_1a8ff258408b691154322263253c5ddf43" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -107,7 +107,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Channel_Analyser_ff_impl.h" line="45" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Channel_Analyser_ff_impl.h" bodystart="45" bodyend="-1"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Channel_Analyser_ff_impl.h" line="45" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Channel_Analyser_ff_impl.h" bodystart="45" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -125,7 +125,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Channel_Analyser_ff_impl.h" line="46" column="1"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Channel_Analyser_ff_impl.h" line="46" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff__impl_1a2fe566cb8b0c98c47ecfa04d20d07cd5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsigned int</type>
@@ -150,7 +150,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Channel_Analyser_ff_impl.h" line="47" column="1"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Channel_Analyser_ff_impl.h" line="47" column="1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -190,7 +190,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Channel_Analyser_ff_impl.h" line="50" column="1"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Channel_Analyser_ff_impl.h" line="50" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff__impl_1a4f84dc2068d39bd151038fcbf14fb9d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -203,7 +203,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Channel_Analyser_ff_impl.h" line="51" column="1"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Channel_Analyser_ff_impl.h" line="51" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff__impl_1a7fc5d38cef7d7af5ee051d93f0cf9577" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -228,7 +228,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Channel_Analyser_ff_impl.h" line="54" column="1"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Channel_Analyser_ff_impl.h" line="54" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff__impl_1a49f6caf2c1f30f9c878e4e74bbe3a240" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -254,7 +254,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Channel_Analyser_ff_impl.h" line="58" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Channel_Analyser_ff_impl.h" bodystart="58" bodyend="58"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Channel_Analyser_ff_impl.h" line="58" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Channel_Analyser_ff_impl.h" bodystart="58" bodyend="58"/>
         <references refid="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff__impl_1a643ef156ac8cc23ff82fc0a8d7b2db21" compoundref="Channel__Analyser__ff__impl_8h" startline="59" endline="59">mode</references>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff__impl_1a643ef156ac8cc23ff82fc0a8d7b2db21" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
@@ -272,7 +272,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Channel_Analyser_ff_impl.h" line="59" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Channel_Analyser_ff_impl.h" bodystart="59" bodyend="59"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Channel_Analyser_ff_impl.h" line="59" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Channel_Analyser_ff_impl.h" bodystart="59" bodyend="59"/>
         <referencedby refid="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff__impl_1a49f6caf2c1f30f9c878e4e74bbe3a240" compoundref="Channel__Analyser__ff__impl_8h" startline="58" endline="58">set_mode</referencedby>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff__impl_1a13769d7c47bed8697f8b90b125f9b9fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
@@ -299,7 +299,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Channel_Analyser_ff_impl.h" line="61" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Channel_Analyser_ff_impl.h" bodystart="61" bodyend="61"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Channel_Analyser_ff_impl.h" line="61" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Channel_Analyser_ff_impl.h" bodystart="61" bodyend="61"/>
         <references refid="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff__impl_1ac6a52fec722f3b2346af22782f6a645c" compoundref="Channel__Analyser__ff__impl_8h" startline="62" endline="62">ChunkSize</references>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff__impl_1ac6a52fec722f3b2346af22782f6a645c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
@@ -317,7 +317,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Channel_Analyser_ff_impl.h" line="62" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Channel_Analyser_ff_impl.h" bodystart="62" bodyend="62"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Channel_Analyser_ff_impl.h" line="62" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Channel_Analyser_ff_impl.h" bodystart="62" bodyend="62"/>
         <referencedby refid="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff__impl_1a13769d7c47bed8697f8b90b125f9b9fc" compoundref="Channel__Analyser__ff__impl_8h" startline="61" endline="61">set_ChunkSize</referencedby>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff__impl_1a43952e974b6030885c4b7f8850283b64" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
@@ -344,7 +344,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Channel_Analyser_ff_impl.h" line="64" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Channel_Analyser_ff_impl.h" bodystart="64" bodyend="64"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Channel_Analyser_ff_impl.h" line="64" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Channel_Analyser_ff_impl.h" bodystart="64" bodyend="64"/>
         <references refid="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff__impl_1aacef83d51c8b79eb048b561ac9e2d1ca" compoundref="Channel__Analyser__ff__impl_8h" startline="65" endline="65">SamplingOffset</references>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff__impl_1aacef83d51c8b79eb048b561ac9e2d1ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
@@ -362,7 +362,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Channel_Analyser_ff_impl.h" line="65" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Channel_Analyser_ff_impl.h" bodystart="65" bodyend="65"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Channel_Analyser_ff_impl.h" line="65" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Channel_Analyser_ff_impl.h" bodystart="65" bodyend="65"/>
         <referencedby refid="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff__impl_1a43952e974b6030885c4b7f8850283b64" compoundref="Channel__Analyser__ff__impl_8h" startline="64" endline="64">set_SamplingOffset</referencedby>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff__impl_1a098e2509b7913cb99e2b447fef35fa06" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
@@ -389,7 +389,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Channel_Analyser_ff_impl.h" line="67" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Channel_Analyser_ff_impl.h" bodystart="67" bodyend="67"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Channel_Analyser_ff_impl.h" line="67" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Channel_Analyser_ff_impl.h" bodystart="67" bodyend="67"/>
         <references refid="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff__impl_1a28dd0dcaaafca2fdf7dbf8e7fbb806a5" compoundref="Channel__Analyser__ff__impl_8h" startline="68" endline="68">BandWidth</references>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff__impl_1a28dd0dcaaafca2fdf7dbf8e7fbb806a5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
@@ -407,7 +407,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Channel_Analyser_ff_impl.h" line="68" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Channel_Analyser_ff_impl.h" bodystart="68" bodyend="68"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Channel_Analyser_ff_impl.h" line="68" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Channel_Analyser_ff_impl.h" bodystart="68" bodyend="68"/>
         <referencedby refid="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff__impl_1a098e2509b7913cb99e2b447fef35fa06" compoundref="Channel__Analyser__ff__impl_8h" startline="67" endline="67">set_BandWidth</referencedby>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff__impl_1ad84e29dd49a59197844db699e0ce2be2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
@@ -434,7 +434,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Channel_Analyser_ff_impl.h" line="70" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Channel_Analyser_ff_impl.h" bodystart="70" bodyend="70"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Channel_Analyser_ff_impl.h" line="70" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Channel_Analyser_ff_impl.h" bodystart="70" bodyend="70"/>
         <references refid="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff__impl_1ace848133f38b9978afa79c827e7935d2" compoundref="Channel__Analyser__ff__impl_8h" startline="71" endline="71">SampRate</references>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff__impl_1ace848133f38b9978afa79c827e7935d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
@@ -452,7 +452,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Channel_Analyser_ff_impl.h" line="71" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Channel_Analyser_ff_impl.h" bodystart="71" bodyend="71"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Channel_Analyser_ff_impl.h" line="71" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Channel_Analyser_ff_impl.h" bodystart="71" bodyend="71"/>
         <referencedby refid="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff__impl_1ad84e29dd49a59197844db699e0ce2be2" compoundref="Channel__Analyser__ff__impl_8h" startline="70" endline="70">set_SampRate</referencedby>
       </memberdef>
       </sectiondef>
@@ -494,7 +494,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Channel_Analyser_ff_impl.h" line="35" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Channel_Analyser_ff_impl.h" bodystart="34" bodyend="73"/>
+    <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Channel_Analyser_ff_impl.h" line="35" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Channel_Analyser_ff_impl.h" bodystart="34" bodyend="73"/>
     <listofallmembers>
       <member refid="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff__impl_1a28dd0dcaaafca2fdf7dbf8e7fbb806a5" prot="public" virt="virtual"><scope>gr::FSO_Comm::Channel_Analyser_ff_impl</scope><name>BandWidth</name></member>
       <member refid="classgr_1_1FSO__Comm_1_1Channel__Analyser__ff__impl_1abcd2ab950fc96d7f68ca779febb5db8b" prot="private" virt="non-virtual"><scope>gr::FSO_Comm::Channel_Analyser_ff_impl</scope><name>bMode</name></member>

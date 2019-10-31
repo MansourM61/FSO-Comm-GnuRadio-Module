@@ -9,14 +9,14 @@
       <node id="102">
         <label>gnuradio/sync_block.h</label>
       </node>
+      <node id="101">
+        <label>gnuradio/attributes.h</label>
+      </node>
       <node id="100">
         <label>FSO_Comm/api.h</label>
         <link refid="api_8h"/>
         <childnode refid="101" relation="include">
         </childnode>
-      </node>
-      <node id="101">
-        <label>gnuradio/attributes.h</label>
       </node>
       <node id="99">
         <label>Turbulence_ff.h</label>
@@ -46,6 +46,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Turbulence_ff.h"/>
+    <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/include/FSO_Comm/Turbulence_ff.h"/>
   </compounddef>
 </doxygen>

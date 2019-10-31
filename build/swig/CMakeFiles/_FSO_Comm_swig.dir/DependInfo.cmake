@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/mojtaba/Documents/gr-FSO_Comm/build/swig/FSO_Comm_swigPYTHON_wrap.cxx" "/home/mojtaba/Documents/gr-FSO_Comm/build/swig/CMakeFiles/_FSO_Comm_swig.dir/FSO_Comm_swigPYTHON_wrap.cxx.o"
+  "/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/swig/FSO_Comm_swigPYTHON_wrap.cxx" "/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/swig/CMakeFiles/_FSO_Comm_swig.dir/FSO_Comm_swigPYTHON_wrap.cxx.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -22,7 +22,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/mojtaba/Documents/gr-FSO_Comm/build/lib/CMakeFiles/gnuradio-FSO_Comm.dir/DependInfo.cmake"
+  "/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/lib/CMakeFiles/gnuradio-FSO_Comm.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

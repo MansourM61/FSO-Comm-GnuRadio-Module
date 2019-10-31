@@ -19,21 +19,25 @@
   <param>
     <name>Responsivity (A/W)</name>
     <key>Resp</key>
+    <value>0.7</value>
     <type>float</type>
   </param>
   <param>
     <name>TIA Gain (Ohm)</name>
     <key>G_TIA</key>
+    <value>1e3</value>
     <type>float</type>
   </param>
   <param>
     <name>Output Impedance (Ohm)</name>
     <key>Imp</key>
+    <value>50</value>
     <type>float</type>
   </param>
   <param>
     <name>Noise Power (W)</name>
     <key>P_n</key>
+    <value>1e-5</value>
     <type>float</type>
   </param>
 

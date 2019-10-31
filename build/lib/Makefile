@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mojtaba/Documents/gr-FSO_Comm
+CMAKE_SOURCE_DIR = /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mojtaba/Documents/gr-FSO_Comm/build
+CMAKE_BINARY_DIR = /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/mojtaba/Documents/gr-FSO_Comm/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/mojtaba/Documents/gr-FSO_Comm/build/CMakeFiles /home/mojtaba/Documents/gr-FSO_Comm/build/lib/CMakeFiles/progress.marks
-	cd /home/mojtaba/Documents/gr-FSO_Comm/build && $(MAKE) -f CMakeFiles/Makefile2 lib/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mojtaba/Documents/gr-FSO_Comm/build/CMakeFiles 0
+	cd /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/CMakeFiles /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/lib/CMakeFiles/progress.marks
+	cd /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build && $(MAKE) -f CMakeFiles/Makefile2 lib/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/mojtaba/Documents/gr-FSO_Comm/build && $(MAKE) -f CMakeFiles/Makefile2 lib/clean
+	cd /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build && $(MAKE) -f CMakeFiles/Makefile2 lib/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/mojtaba/Documents/gr-FSO_Comm/build && $(MAKE) -f CMakeFiles/Makefile2 lib/preinstall
+	cd /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build && $(MAKE) -f CMakeFiles/Makefile2 lib/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/mojtaba/Documents/gr-FSO_Comm/build && $(MAKE) -f CMakeFiles/Makefile2 lib/preinstall
+	cd /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build && $(MAKE) -f CMakeFiles/Makefile2 lib/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/mojtaba/Documents/gr-FSO_Comm/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/CMakeFiles/test-FSO_Comm.dir/rule:
-	cd /home/mojtaba/Documents/gr-FSO_Comm/build && $(MAKE) -f CMakeFiles/Makefile2 lib/CMakeFiles/test-FSO_Comm.dir/rule
+	cd /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build && $(MAKE) -f CMakeFiles/Makefile2 lib/CMakeFiles/test-FSO_Comm.dir/rule
 .PHONY : lib/CMakeFiles/test-FSO_Comm.dir/rule
 
 # Convenience name for target.
@@ -179,12 +179,12 @@ test-FSO_Comm: lib/CMakeFiles/test-FSO_Comm.dir/rule
 
 # fast build rule for target.
 test-FSO_Comm/fast:
-	cd /home/mojtaba/Documents/gr-FSO_Comm/build && $(MAKE) -f lib/CMakeFiles/test-FSO_Comm.dir/build.make lib/CMakeFiles/test-FSO_Comm.dir/build
+	cd /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build && $(MAKE) -f lib/CMakeFiles/test-FSO_Comm.dir/build.make lib/CMakeFiles/test-FSO_Comm.dir/build
 .PHONY : test-FSO_Comm/fast
 
 # Convenience name for target.
 lib/CMakeFiles/gnuradio-FSO_Comm.dir/rule:
-	cd /home/mojtaba/Documents/gr-FSO_Comm/build && $(MAKE) -f CMakeFiles/Makefile2 lib/CMakeFiles/gnuradio-FSO_Comm.dir/rule
+	cd /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build && $(MAKE) -f CMakeFiles/Makefile2 lib/CMakeFiles/gnuradio-FSO_Comm.dir/rule
 .PHONY : lib/CMakeFiles/gnuradio-FSO_Comm.dir/rule
 
 # Convenience name for target.
@@ -194,7 +194,7 @@ gnuradio-FSO_Comm: lib/CMakeFiles/gnuradio-FSO_Comm.dir/rule
 
 # fast build rule for target.
 gnuradio-FSO_Comm/fast:
-	cd /home/mojtaba/Documents/gr-FSO_Comm/build && $(MAKE) -f lib/CMakeFiles/gnuradio-FSO_Comm.dir/build.make lib/CMakeFiles/gnuradio-FSO_Comm.dir/build
+	cd /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build && $(MAKE) -f lib/CMakeFiles/gnuradio-FSO_Comm.dir/build.make lib/CMakeFiles/gnuradio-FSO_Comm.dir/build
 .PHONY : gnuradio-FSO_Comm/fast
 
 Channel_Analyser_ff_impl.o: Channel_Analyser_ff_impl.cc.o
@@ -203,7 +203,7 @@ Channel_Analyser_ff_impl.o: Channel_Analyser_ff_impl.cc.o
 
 # target to build an object file
 Channel_Analyser_ff_impl.cc.o:
-	cd /home/mojtaba/Documents/gr-FSO_Comm/build && $(MAKE) -f lib/CMakeFiles/gnuradio-FSO_Comm.dir/build.make lib/CMakeFiles/gnuradio-FSO_Comm.dir/Channel_Analyser_ff_impl.cc.o
+	cd /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build && $(MAKE) -f lib/CMakeFiles/gnuradio-FSO_Comm.dir/build.make lib/CMakeFiles/gnuradio-FSO_Comm.dir/Channel_Analyser_ff_impl.cc.o
 .PHONY : Channel_Analyser_ff_impl.cc.o
 
 Channel_Analyser_ff_impl.i: Channel_Analyser_ff_impl.cc.i
@@ -212,7 +212,7 @@ Channel_Analyser_ff_impl.i: Channel_Analyser_ff_impl.cc.i
 
 # target to preprocess a source file
 Channel_Analyser_ff_impl.cc.i:
-	cd /home/mojtaba/Documents/gr-FSO_Comm/build && $(MAKE) -f lib/CMakeFiles/gnuradio-FSO_Comm.dir/build.make lib/CMakeFiles/gnuradio-FSO_Comm.dir/Channel_Analyser_ff_impl.cc.i
+	cd /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build && $(MAKE) -f lib/CMakeFiles/gnuradio-FSO_Comm.dir/build.make lib/CMakeFiles/gnuradio-FSO_Comm.dir/Channel_Analyser_ff_impl.cc.i
 .PHONY : Channel_Analyser_ff_impl.cc.i
 
 Channel_Analyser_ff_impl.s: Channel_Analyser_ff_impl.cc.s
@@ -221,7 +221,7 @@ Channel_Analyser_ff_impl.s: Channel_Analyser_ff_impl.cc.s
 
 # target to generate assembly for a file
 Channel_Analyser_ff_impl.cc.s:
-	cd /home/mojtaba/Documents/gr-FSO_Comm/build && $(MAKE) -f lib/CMakeFiles/gnuradio-FSO_Comm.dir/build.make lib/CMakeFiles/gnuradio-FSO_Comm.dir/Channel_Analyser_ff_impl.cc.s
+	cd /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build && $(MAKE) -f lib/CMakeFiles/gnuradio-FSO_Comm.dir/build.make lib/CMakeFiles/gnuradio-FSO_Comm.dir/Channel_Analyser_ff_impl.cc.s
 .PHONY : Channel_Analyser_ff_impl.cc.s
 
 FogSmoke_Loss_ff_impl.o: FogSmoke_Loss_ff_impl.cc.o
@@ -230,7 +230,7 @@ FogSmoke_Loss_ff_impl.o: FogSmoke_Loss_ff_impl.cc.o
 
 # target to build an object file
 FogSmoke_Loss_ff_impl.cc.o:
-	cd /home/mojtaba/Documents/gr-FSO_Comm/build && $(MAKE) -f lib/CMakeFiles/gnuradio-FSO_Comm.dir/build.make lib/CMakeFiles/gnuradio-FSO_Comm.dir/FogSmoke_Loss_ff_impl.cc.o
+	cd /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build && $(MAKE) -f lib/CMakeFiles/gnuradio-FSO_Comm.dir/build.make lib/CMakeFiles/gnuradio-FSO_Comm.dir/FogSmoke_Loss_ff_impl.cc.o
 .PHONY : FogSmoke_Loss_ff_impl.cc.o
 
 FogSmoke_Loss_ff_impl.i: FogSmoke_Loss_ff_impl.cc.i
@@ -239,7 +239,7 @@ FogSmoke_Loss_ff_impl.i: FogSmoke_Loss_ff_impl.cc.i
 
 # target to preprocess a source file
 FogSmoke_Loss_ff_impl.cc.i:
-	cd /home/mojtaba/Documents/gr-FSO_Comm/build && $(MAKE) -f lib/CMakeFiles/gnuradio-FSO_Comm.dir/build.make lib/CMakeFiles/gnuradio-FSO_Comm.dir/FogSmoke_Loss_ff_impl.cc.i
+	cd /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build && $(MAKE) -f lib/CMakeFiles/gnuradio-FSO_Comm.dir/build.make lib/CMakeFiles/gnuradio-FSO_Comm.dir/FogSmoke_Loss_ff_impl.cc.i
 .PHONY : FogSmoke_Loss_ff_impl.cc.i
 
 FogSmoke_Loss_ff_impl.s: FogSmoke_Loss_ff_impl.cc.s
@@ -248,7 +248,7 @@ FogSmoke_Loss_ff_impl.s: FogSmoke_Loss_ff_impl.cc.s
 
 # target to generate assembly for a file
 FogSmoke_Loss_ff_impl.cc.s:
-	cd /home/mojtaba/Documents/gr-FSO_Comm/build && $(MAKE) -f lib/CMakeFiles/gnuradio-FSO_Comm.dir/build.make lib/CMakeFiles/gnuradio-FSO_Comm.dir/FogSmoke_Loss_ff_impl.cc.s
+	cd /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build && $(MAKE) -f lib/CMakeFiles/gnuradio-FSO_Comm.dir/build.make lib/CMakeFiles/gnuradio-FSO_Comm.dir/FogSmoke_Loss_ff_impl.cc.s
 .PHONY : FogSmoke_Loss_ff_impl.cc.s
 
 Geometric_Loss_ff_impl.o: Geometric_Loss_ff_impl.cc.o
@@ -257,7 +257,7 @@ Geometric_Loss_ff_impl.o: Geometric_Loss_ff_impl.cc.o
 
 # target to build an object file
 Geometric_Loss_ff_impl.cc.o:
-	cd /home/mojtaba/Documents/gr-FSO_Comm/build && $(MAKE) -f lib/CMakeFiles/gnuradio-FSO_Comm.dir/build.make lib/CMakeFiles/gnuradio-FSO_Comm.dir/Geometric_Loss_ff_impl.cc.o
+	cd /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build && $(MAKE) -f lib/CMakeFiles/gnuradio-FSO_Comm.dir/build.make lib/CMakeFiles/gnuradio-FSO_Comm.dir/Geometric_Loss_ff_impl.cc.o
 .PHONY : Geometric_Loss_ff_impl.cc.o
 
 Geometric_Loss_ff_impl.i: Geometric_Loss_ff_impl.cc.i
@@ -266,7 +266,7 @@ Geometric_Loss_ff_impl.i: Geometric_Loss_ff_impl.cc.i
 
 # target to preprocess a source file
 Geometric_Loss_ff_impl.cc.i:
-	cd /home/mojtaba/Documents/gr-FSO_Comm/build && $(MAKE) -f lib/CMakeFiles/gnuradio-FSO_Comm.dir/build.make lib/CMakeFiles/gnuradio-FSO_Comm.dir/Geometric_Loss_ff_impl.cc.i
+	cd /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build && $(MAKE) -f lib/CMakeFiles/gnuradio-FSO_Comm.dir/build.make lib/CMakeFiles/gnuradio-FSO_Comm.dir/Geometric_Loss_ff_impl.cc.i
 .PHONY : Geometric_Loss_ff_impl.cc.i
 
 Geometric_Loss_ff_impl.s: Geometric_Loss_ff_impl.cc.s
@@ -275,7 +275,7 @@ Geometric_Loss_ff_impl.s: Geometric_Loss_ff_impl.cc.s
 
 # target to generate assembly for a file
 Geometric_Loss_ff_impl.cc.s:
-	cd /home/mojtaba/Documents/gr-FSO_Comm/build && $(MAKE) -f lib/CMakeFiles/gnuradio-FSO_Comm.dir/build.make lib/CMakeFiles/gnuradio-FSO_Comm.dir/Geometric_Loss_ff_impl.cc.s
+	cd /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build && $(MAKE) -f lib/CMakeFiles/gnuradio-FSO_Comm.dir/build.make lib/CMakeFiles/gnuradio-FSO_Comm.dir/Geometric_Loss_ff_impl.cc.s
 .PHONY : Geometric_Loss_ff_impl.cc.s
 
 Laser_ff_impl.o: Laser_ff_impl.cc.o
@@ -284,7 +284,7 @@ Laser_ff_impl.o: Laser_ff_impl.cc.o
 
 # target to build an object file
 Laser_ff_impl.cc.o:
-	cd /home/mojtaba/Documents/gr-FSO_Comm/build && $(MAKE) -f lib/CMakeFiles/gnuradio-FSO_Comm.dir/build.make lib/CMakeFiles/gnuradio-FSO_Comm.dir/Laser_ff_impl.cc.o
+	cd /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build && $(MAKE) -f lib/CMakeFiles/gnuradio-FSO_Comm.dir/build.make lib/CMakeFiles/gnuradio-FSO_Comm.dir/Laser_ff_impl.cc.o
 .PHONY : Laser_ff_impl.cc.o
 
 Laser_ff_impl.i: Laser_ff_impl.cc.i
@@ -293,7 +293,7 @@ Laser_ff_impl.i: Laser_ff_impl.cc.i
 
 # target to preprocess a source file
 Laser_ff_impl.cc.i:
-	cd /home/mojtaba/Documents/gr-FSO_Comm/build && $(MAKE) -f lib/CMakeFiles/gnuradio-FSO_Comm.dir/build.make lib/CMakeFiles/gnuradio-FSO_Comm.dir/Laser_ff_impl.cc.i
+	cd /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build && $(MAKE) -f lib/CMakeFiles/gnuradio-FSO_Comm.dir/build.make lib/CMakeFiles/gnuradio-FSO_Comm.dir/Laser_ff_impl.cc.i
 .PHONY : Laser_ff_impl.cc.i
 
 Laser_ff_impl.s: Laser_ff_impl.cc.s
@@ -302,7 +302,7 @@ Laser_ff_impl.s: Laser_ff_impl.cc.s
 
 # target to generate assembly for a file
 Laser_ff_impl.cc.s:
-	cd /home/mojtaba/Documents/gr-FSO_Comm/build && $(MAKE) -f lib/CMakeFiles/gnuradio-FSO_Comm.dir/build.make lib/CMakeFiles/gnuradio-FSO_Comm.dir/Laser_ff_impl.cc.s
+	cd /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build && $(MAKE) -f lib/CMakeFiles/gnuradio-FSO_Comm.dir/build.make lib/CMakeFiles/gnuradio-FSO_Comm.dir/Laser_ff_impl.cc.s
 .PHONY : Laser_ff_impl.cc.s
 
 Optical_Receiver_ff_impl.o: Optical_Receiver_ff_impl.cc.o
@@ -311,7 +311,7 @@ Optical_Receiver_ff_impl.o: Optical_Receiver_ff_impl.cc.o
 
 # target to build an object file
 Optical_Receiver_ff_impl.cc.o:
-	cd /home/mojtaba/Documents/gr-FSO_Comm/build && $(MAKE) -f lib/CMakeFiles/gnuradio-FSO_Comm.dir/build.make lib/CMakeFiles/gnuradio-FSO_Comm.dir/Optical_Receiver_ff_impl.cc.o
+	cd /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build && $(MAKE) -f lib/CMakeFiles/gnuradio-FSO_Comm.dir/build.make lib/CMakeFiles/gnuradio-FSO_Comm.dir/Optical_Receiver_ff_impl.cc.o
 .PHONY : Optical_Receiver_ff_impl.cc.o
 
 Optical_Receiver_ff_impl.i: Optical_Receiver_ff_impl.cc.i
@@ -320,7 +320,7 @@ Optical_Receiver_ff_impl.i: Optical_Receiver_ff_impl.cc.i
 
 # target to preprocess a source file
 Optical_Receiver_ff_impl.cc.i:
-	cd /home/mojtaba/Documents/gr-FSO_Comm/build && $(MAKE) -f lib/CMakeFiles/gnuradio-FSO_Comm.dir/build.make lib/CMakeFiles/gnuradio-FSO_Comm.dir/Optical_Receiver_ff_impl.cc.i
+	cd /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build && $(MAKE) -f lib/CMakeFiles/gnuradio-FSO_Comm.dir/build.make lib/CMakeFiles/gnuradio-FSO_Comm.dir/Optical_Receiver_ff_impl.cc.i
 .PHONY : Optical_Receiver_ff_impl.cc.i
 
 Optical_Receiver_ff_impl.s: Optical_Receiver_ff_impl.cc.s
@@ -329,7 +329,7 @@ Optical_Receiver_ff_impl.s: Optical_Receiver_ff_impl.cc.s
 
 # target to generate assembly for a file
 Optical_Receiver_ff_impl.cc.s:
-	cd /home/mojtaba/Documents/gr-FSO_Comm/build && $(MAKE) -f lib/CMakeFiles/gnuradio-FSO_Comm.dir/build.make lib/CMakeFiles/gnuradio-FSO_Comm.dir/Optical_Receiver_ff_impl.cc.s
+	cd /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build && $(MAKE) -f lib/CMakeFiles/gnuradio-FSO_Comm.dir/build.make lib/CMakeFiles/gnuradio-FSO_Comm.dir/Optical_Receiver_ff_impl.cc.s
 .PHONY : Optical_Receiver_ff_impl.cc.s
 
 Pointing_Errors_ff_impl.o: Pointing_Errors_ff_impl.cc.o
@@ -338,7 +338,7 @@ Pointing_Errors_ff_impl.o: Pointing_Errors_ff_impl.cc.o
 
 # target to build an object file
 Pointing_Errors_ff_impl.cc.o:
-	cd /home/mojtaba/Documents/gr-FSO_Comm/build && $(MAKE) -f lib/CMakeFiles/gnuradio-FSO_Comm.dir/build.make lib/CMakeFiles/gnuradio-FSO_Comm.dir/Pointing_Errors_ff_impl.cc.o
+	cd /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build && $(MAKE) -f lib/CMakeFiles/gnuradio-FSO_Comm.dir/build.make lib/CMakeFiles/gnuradio-FSO_Comm.dir/Pointing_Errors_ff_impl.cc.o
 .PHONY : Pointing_Errors_ff_impl.cc.o
 
 Pointing_Errors_ff_impl.i: Pointing_Errors_ff_impl.cc.i
@@ -347,7 +347,7 @@ Pointing_Errors_ff_impl.i: Pointing_Errors_ff_impl.cc.i
 
 # target to preprocess a source file
 Pointing_Errors_ff_impl.cc.i:
-	cd /home/mojtaba/Documents/gr-FSO_Comm/build && $(MAKE) -f lib/CMakeFiles/gnuradio-FSO_Comm.dir/build.make lib/CMakeFiles/gnuradio-FSO_Comm.dir/Pointing_Errors_ff_impl.cc.i
+	cd /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build && $(MAKE) -f lib/CMakeFiles/gnuradio-FSO_Comm.dir/build.make lib/CMakeFiles/gnuradio-FSO_Comm.dir/Pointing_Errors_ff_impl.cc.i
 .PHONY : Pointing_Errors_ff_impl.cc.i
 
 Pointing_Errors_ff_impl.s: Pointing_Errors_ff_impl.cc.s
@@ -356,7 +356,7 @@ Pointing_Errors_ff_impl.s: Pointing_Errors_ff_impl.cc.s
 
 # target to generate assembly for a file
 Pointing_Errors_ff_impl.cc.s:
-	cd /home/mojtaba/Documents/gr-FSO_Comm/build && $(MAKE) -f lib/CMakeFiles/gnuradio-FSO_Comm.dir/build.make lib/CMakeFiles/gnuradio-FSO_Comm.dir/Pointing_Errors_ff_impl.cc.s
+	cd /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build && $(MAKE) -f lib/CMakeFiles/gnuradio-FSO_Comm.dir/build.make lib/CMakeFiles/gnuradio-FSO_Comm.dir/Pointing_Errors_ff_impl.cc.s
 .PHONY : Pointing_Errors_ff_impl.cc.s
 
 Turbulence_ff_impl.o: Turbulence_ff_impl.cc.o
@@ -365,7 +365,7 @@ Turbulence_ff_impl.o: Turbulence_ff_impl.cc.o
 
 # target to build an object file
 Turbulence_ff_impl.cc.o:
-	cd /home/mojtaba/Documents/gr-FSO_Comm/build && $(MAKE) -f lib/CMakeFiles/gnuradio-FSO_Comm.dir/build.make lib/CMakeFiles/gnuradio-FSO_Comm.dir/Turbulence_ff_impl.cc.o
+	cd /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build && $(MAKE) -f lib/CMakeFiles/gnuradio-FSO_Comm.dir/build.make lib/CMakeFiles/gnuradio-FSO_Comm.dir/Turbulence_ff_impl.cc.o
 .PHONY : Turbulence_ff_impl.cc.o
 
 Turbulence_ff_impl.i: Turbulence_ff_impl.cc.i
@@ -374,7 +374,7 @@ Turbulence_ff_impl.i: Turbulence_ff_impl.cc.i
 
 # target to preprocess a source file
 Turbulence_ff_impl.cc.i:
-	cd /home/mojtaba/Documents/gr-FSO_Comm/build && $(MAKE) -f lib/CMakeFiles/gnuradio-FSO_Comm.dir/build.make lib/CMakeFiles/gnuradio-FSO_Comm.dir/Turbulence_ff_impl.cc.i
+	cd /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build && $(MAKE) -f lib/CMakeFiles/gnuradio-FSO_Comm.dir/build.make lib/CMakeFiles/gnuradio-FSO_Comm.dir/Turbulence_ff_impl.cc.i
 .PHONY : Turbulence_ff_impl.cc.i
 
 Turbulence_ff_impl.s: Turbulence_ff_impl.cc.s
@@ -383,7 +383,7 @@ Turbulence_ff_impl.s: Turbulence_ff_impl.cc.s
 
 # target to generate assembly for a file
 Turbulence_ff_impl.cc.s:
-	cd /home/mojtaba/Documents/gr-FSO_Comm/build && $(MAKE) -f lib/CMakeFiles/gnuradio-FSO_Comm.dir/build.make lib/CMakeFiles/gnuradio-FSO_Comm.dir/Turbulence_ff_impl.cc.s
+	cd /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build && $(MAKE) -f lib/CMakeFiles/gnuradio-FSO_Comm.dir/build.make lib/CMakeFiles/gnuradio-FSO_Comm.dir/Turbulence_ff_impl.cc.s
 .PHONY : Turbulence_ff_impl.cc.s
 
 qa_FSO_Comm.o: qa_FSO_Comm.cc.o
@@ -392,7 +392,7 @@ qa_FSO_Comm.o: qa_FSO_Comm.cc.o
 
 # target to build an object file
 qa_FSO_Comm.cc.o:
-	cd /home/mojtaba/Documents/gr-FSO_Comm/build && $(MAKE) -f lib/CMakeFiles/test-FSO_Comm.dir/build.make lib/CMakeFiles/test-FSO_Comm.dir/qa_FSO_Comm.cc.o
+	cd /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build && $(MAKE) -f lib/CMakeFiles/test-FSO_Comm.dir/build.make lib/CMakeFiles/test-FSO_Comm.dir/qa_FSO_Comm.cc.o
 .PHONY : qa_FSO_Comm.cc.o
 
 qa_FSO_Comm.i: qa_FSO_Comm.cc.i
@@ -401,7 +401,7 @@ qa_FSO_Comm.i: qa_FSO_Comm.cc.i
 
 # target to preprocess a source file
 qa_FSO_Comm.cc.i:
-	cd /home/mojtaba/Documents/gr-FSO_Comm/build && $(MAKE) -f lib/CMakeFiles/test-FSO_Comm.dir/build.make lib/CMakeFiles/test-FSO_Comm.dir/qa_FSO_Comm.cc.i
+	cd /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build && $(MAKE) -f lib/CMakeFiles/test-FSO_Comm.dir/build.make lib/CMakeFiles/test-FSO_Comm.dir/qa_FSO_Comm.cc.i
 .PHONY : qa_FSO_Comm.cc.i
 
 qa_FSO_Comm.s: qa_FSO_Comm.cc.s
@@ -410,7 +410,7 @@ qa_FSO_Comm.s: qa_FSO_Comm.cc.s
 
 # target to generate assembly for a file
 qa_FSO_Comm.cc.s:
-	cd /home/mojtaba/Documents/gr-FSO_Comm/build && $(MAKE) -f lib/CMakeFiles/test-FSO_Comm.dir/build.make lib/CMakeFiles/test-FSO_Comm.dir/qa_FSO_Comm.cc.s
+	cd /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build && $(MAKE) -f lib/CMakeFiles/test-FSO_Comm.dir/build.make lib/CMakeFiles/test-FSO_Comm.dir/qa_FSO_Comm.cc.s
 .PHONY : qa_FSO_Comm.cc.s
 
 test_FSO_Comm.o: test_FSO_Comm.cc.o
@@ -419,7 +419,7 @@ test_FSO_Comm.o: test_FSO_Comm.cc.o
 
 # target to build an object file
 test_FSO_Comm.cc.o:
-	cd /home/mojtaba/Documents/gr-FSO_Comm/build && $(MAKE) -f lib/CMakeFiles/test-FSO_Comm.dir/build.make lib/CMakeFiles/test-FSO_Comm.dir/test_FSO_Comm.cc.o
+	cd /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build && $(MAKE) -f lib/CMakeFiles/test-FSO_Comm.dir/build.make lib/CMakeFiles/test-FSO_Comm.dir/test_FSO_Comm.cc.o
 .PHONY : test_FSO_Comm.cc.o
 
 test_FSO_Comm.i: test_FSO_Comm.cc.i
@@ -428,7 +428,7 @@ test_FSO_Comm.i: test_FSO_Comm.cc.i
 
 # target to preprocess a source file
 test_FSO_Comm.cc.i:
-	cd /home/mojtaba/Documents/gr-FSO_Comm/build && $(MAKE) -f lib/CMakeFiles/test-FSO_Comm.dir/build.make lib/CMakeFiles/test-FSO_Comm.dir/test_FSO_Comm.cc.i
+	cd /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build && $(MAKE) -f lib/CMakeFiles/test-FSO_Comm.dir/build.make lib/CMakeFiles/test-FSO_Comm.dir/test_FSO_Comm.cc.i
 .PHONY : test_FSO_Comm.cc.i
 
 test_FSO_Comm.s: test_FSO_Comm.cc.s
@@ -437,7 +437,7 @@ test_FSO_Comm.s: test_FSO_Comm.cc.s
 
 # target to generate assembly for a file
 test_FSO_Comm.cc.s:
-	cd /home/mojtaba/Documents/gr-FSO_Comm/build && $(MAKE) -f lib/CMakeFiles/test-FSO_Comm.dir/build.make lib/CMakeFiles/test-FSO_Comm.dir/test_FSO_Comm.cc.s
+	cd /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build && $(MAKE) -f lib/CMakeFiles/test-FSO_Comm.dir/build.make lib/CMakeFiles/test-FSO_Comm.dir/test_FSO_Comm.cc.s
 .PHONY : test_FSO_Comm.cc.s
 
 # Help Target
@@ -493,6 +493,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/mojtaba/Documents/gr-FSO_Comm/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/mojtaba/Documents/gr-FSO_Comm/apps
+# Install script for directory: /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/apps
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -6,19 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/mojtaba/Documents/gr-FSO_Comm/lib/qa_FSO_Comm.cc
+/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/qa_FSO_Comm.cc
 qa_FSO_Comm.h
-/home/mojtaba/Documents/gr-FSO_Comm/lib/qa_FSO_Comm.h
+/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/qa_FSO_Comm.h
 
-/home/mojtaba/Documents/gr-FSO_Comm/lib/qa_FSO_Comm.h
+/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/qa_FSO_Comm.h
 gnuradio/attributes.h
 -
 cppunit/TestSuite.h
 -
 
-/home/mojtaba/Documents/gr-FSO_Comm/lib/test_FSO_Comm.cc
+/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/test_FSO_Comm.cc
 config.h
-/home/mojtaba/Documents/gr-FSO_Comm/lib/config.h
+/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/config.h
 cppunit/TextTestRunner.h
 -
 cppunit/XmlOutputter.h
@@ -26,7 +26,7 @@ cppunit/XmlOutputter.h
 gnuradio/unittests.h
 -
 qa_FSO_Comm.h
-/home/mojtaba/Documents/gr-FSO_Comm/lib/qa_FSO_Comm.h
+/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/qa_FSO_Comm.h
 iostream
 -
 fstream

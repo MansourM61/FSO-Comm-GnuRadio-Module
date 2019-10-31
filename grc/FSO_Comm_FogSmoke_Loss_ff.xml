@@ -18,16 +18,19 @@
   <param>
     <name>Wavelength (m)</name>
     <key>Wavelen</key>
+    <value>850e-9</value>
     <type>float</type>
   </param>
   <param>
     <name>Link Length (m)</name>
     <key>LinkLen</key>
+    <value>100</value>
     <type>float</type>
   </param>
   <param>
     <name>Visibility (m)</name>
     <key>Vis</key>
+    <value>10e3</value>
     <type>float</type>
   </param>
 

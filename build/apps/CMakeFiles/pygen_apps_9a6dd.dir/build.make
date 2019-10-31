@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mojtaba/Documents/gr-FSO_Comm
+CMAKE_SOURCE_DIR = /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mojtaba/Documents/gr-FSO_Comm/build
+CMAKE_BINARY_DIR = /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build
 
 # Utility rule file for pygen_apps_9a6dd.
 
@@ -63,10 +63,10 @@ apps/CMakeFiles/pygen_apps_9a6dd.dir/build: pygen_apps_9a6dd
 .PHONY : apps/CMakeFiles/pygen_apps_9a6dd.dir/build
 
 apps/CMakeFiles/pygen_apps_9a6dd.dir/clean:
-	cd /home/mojtaba/Documents/gr-FSO_Comm/build/apps && $(CMAKE_COMMAND) -P CMakeFiles/pygen_apps_9a6dd.dir/cmake_clean.cmake
+	cd /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/apps && $(CMAKE_COMMAND) -P CMakeFiles/pygen_apps_9a6dd.dir/cmake_clean.cmake
 .PHONY : apps/CMakeFiles/pygen_apps_9a6dd.dir/clean
 
 apps/CMakeFiles/pygen_apps_9a6dd.dir/depend:
-	cd /home/mojtaba/Documents/gr-FSO_Comm/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mojtaba/Documents/gr-FSO_Comm /home/mojtaba/Documents/gr-FSO_Comm/apps /home/mojtaba/Documents/gr-FSO_Comm/build /home/mojtaba/Documents/gr-FSO_Comm/build/apps /home/mojtaba/Documents/gr-FSO_Comm/build/apps/CMakeFiles/pygen_apps_9a6dd.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/apps /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/apps /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/apps/CMakeFiles/pygen_apps_9a6dd.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : apps/CMakeFiles/pygen_apps_9a6dd.dir/depend
 

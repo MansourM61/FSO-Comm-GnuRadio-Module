@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/FogSmoke_Loss_ff.h" line="39" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/FogSmoke_Loss_ff.h" bodystart="39" bodyend="-1"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/include/FSO_Comm/FogSmoke_Loss_ff.h" line="39" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/include/FSO_Comm/FogSmoke_Loss_ff.h" bodystart="39" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
@@ -65,7 +65,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/FogSmoke_Loss_ff.h" line="48" column="1"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/include/FSO_Comm/FogSmoke_Loss_ff.h" line="48" column="1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -92,7 +92,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/FogSmoke_Loss_ff.h" line="55" column="1"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/include/FSO_Comm/FogSmoke_Loss_ff.h" line="55" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1FogSmoke__Loss__ff_1a2bc125f7dbf83061b83dc4c2be71511d" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>float</type>
@@ -108,7 +108,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/FogSmoke_Loss_ff.h" line="59" column="1"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/include/FSO_Comm/FogSmoke_Loss_ff.h" line="59" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1FogSmoke__Loss__ff_1a2fa81c2c90dadc17d38e9738dd362b45" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>void</type>
@@ -133,7 +133,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/FogSmoke_Loss_ff.h" line="66" column="1"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/include/FSO_Comm/FogSmoke_Loss_ff.h" line="66" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1FogSmoke__Loss__ff_1aff9ca6c4519c340b3c4ef5ab8e483b76" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>float</type>
@@ -149,7 +149,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/FogSmoke_Loss_ff.h" line="70" column="1"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/include/FSO_Comm/FogSmoke_Loss_ff.h" line="70" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1FogSmoke__Loss__ff_1adb5a1f53a5d3a7bdc61eb5fc3694aca4" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>void</type>
@@ -174,7 +174,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/FogSmoke_Loss_ff.h" line="77" column="1"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/include/FSO_Comm/FogSmoke_Loss_ff.h" line="77" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1FogSmoke__Loss__ff_1a920bfb6a261597a5dec15f6575ae6b9c" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>float</type>
@@ -190,7 +190,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/FogSmoke_Loss_ff.h" line="81" column="1"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/include/FSO_Comm/FogSmoke_Loss_ff.h" line="81" column="1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -219,7 +219,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/FogSmoke_Loss_ff.h" line="37" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/FogSmoke_Loss_ff.h" bodystart="36" bodyend="83"/>
+    <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/include/FSO_Comm/FogSmoke_Loss_ff.h" line="37" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/include/FSO_Comm/FogSmoke_Loss_ff.h" bodystart="36" bodyend="83"/>
     <listofallmembers>
       <member refid="classgr_1_1FSO__Comm_1_1FogSmoke__Loss__ff_1aff9ca6c4519c340b3c4ef5ab8e483b76" prot="public" virt="pure-virtual"><scope>gr::FSO_Comm::FogSmoke_Loss_ff</scope><name>LinkLen</name></member>
       <member refid="classgr_1_1FSO__Comm_1_1FogSmoke__Loss__ff_1a3a9e24f8431a3490587c4abf7ea8aba2" prot="public" virt="non-virtual"><scope>gr::FSO_Comm::FogSmoke_Loss_ff</scope><name>make</name></member>

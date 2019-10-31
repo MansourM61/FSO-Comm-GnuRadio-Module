@@ -9,14 +9,14 @@
       <node id="61">
         <label>gnuradio/sync_block.h</label>
       </node>
+      <node id="60">
+        <label>gnuradio/attributes.h</label>
+      </node>
       <node id="59">
         <label>FSO_Comm/api.h</label>
         <link refid="api_8h"/>
         <childnode refid="60" relation="include">
         </childnode>
-      </node>
-      <node id="60">
-        <label>gnuradio/attributes.h</label>
       </node>
       <node id="58">
         <label>Laser_ff.h</label>
@@ -28,15 +28,15 @@
       </node>
     </incdepgraph>
     <invincdepgraph>
+      <node id="63">
+        <label>Laser_ff_impl.h</label>
+        <link refid="Laser__ff__impl_8h"/>
+      </node>
       <node id="62">
         <label>Laser_ff.h</label>
         <link refid="Laser__ff_8h"/>
         <childnode refid="63" relation="include">
         </childnode>
-      </node>
-      <node id="63">
-        <label>Laser_ff_impl.h</label>
-        <link refid="Laser__ff__impl_8h"/>
       </node>
     </invincdepgraph>
     <innerclass refid="classgr_1_1FSO__Comm_1_1Laser__ff" prot="public">gr::FSO_Comm::Laser_ff</innerclass>
@@ -46,6 +46,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Laser_ff.h"/>
+    <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/include/FSO_Comm/Laser_ff.h"/>
   </compounddef>
 </doxygen>

@@ -1,4 +1,4 @@
-# Install script for directory: /home/mojtaba/Documents/gr-FSO_Comm/swig
+# Install script for directory: /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/swig
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,12 +44,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/FSO_Comm/_FSO_Comm_swig.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/FSO_Comm" TYPE MODULE FILES "/home/mojtaba/Documents/gr-FSO_Comm/build/swig/_FSO_Comm_swig.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/FSO_Comm" TYPE MODULE FILES "/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/swig/_FSO_Comm_swig.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/FSO_Comm/_FSO_Comm_swig.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/FSO_Comm/_FSO_Comm_swig.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/FSO_Comm/_FSO_Comm_swig.so"
-         OLD_RPATH "/home/mojtaba/Documents/gr-FSO_Comm/build/lib:"
+         OLD_RPATH "/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/FSO_Comm/_FSO_Comm_swig.so")
@@ -58,20 +58,20 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/FSO_Comm" TYPE FILE FILES "/home/mojtaba/Documents/gr-FSO_Comm/build/swig/FSO_Comm_swig.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/FSO_Comm" TYPE FILE FILES "/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/swig/FSO_Comm_swig.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/FSO_Comm" TYPE FILE FILES
-    "/home/mojtaba/Documents/gr-FSO_Comm/build/swig/FSO_Comm_swig.pyc"
-    "/home/mojtaba/Documents/gr-FSO_Comm/build/swig/FSO_Comm_swig.pyo"
+    "/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/swig/FSO_Comm_swig.pyc"
+    "/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/swig/FSO_Comm_swig.pyo"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/FSO_Comm/FSO_Comm/swig" TYPE FILE FILES
-    "/home/mojtaba/Documents/gr-FSO_Comm/swig/FSO_Comm_swig.i"
-    "/home/mojtaba/Documents/gr-FSO_Comm/build/swig/FSO_Comm_swig_doc.i"
+    "/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/swig/FSO_Comm_swig.i"
+    "/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/swig/FSO_Comm_swig_doc.i"
     )
 endif()
 

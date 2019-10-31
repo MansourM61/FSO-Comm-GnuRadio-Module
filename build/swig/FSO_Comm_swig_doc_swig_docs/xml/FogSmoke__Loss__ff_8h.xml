@@ -8,14 +8,14 @@
       <node id="18">
         <label>gnuradio/sync_block.h</label>
       </node>
+      <node id="17">
+        <label>gnuradio/attributes.h</label>
+      </node>
       <node id="16">
         <label>FSO_Comm/api.h</label>
         <link refid="api_8h"/>
         <childnode refid="17" relation="include">
         </childnode>
-      </node>
-      <node id="17">
-        <label>gnuradio/attributes.h</label>
       </node>
       <node id="15">
         <label>FogSmoke_Loss_ff.h</label>
@@ -88,6 +88,6 @@
 <codeline lineno="88"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>INCLUDED_FSO_COMM_FOGSMOKE_LOSS_FF_H<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="89"><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/FogSmoke_Loss_ff.h"/>
+    <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/include/FSO_Comm/FogSmoke_Loss_ff.h"/>
   </compounddef>
 </doxygen>

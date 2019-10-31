@@ -1,0 +1,6 @@
+<testsuite errors="0" failures="0" name="unittest.suite.TestSuite" tests="2" time="0.057">
+  <testcase classname="__main__.qa_Optical_Receiver_ff" name="test_001_t" time="0.0016"></testcase>
+  <testcase classname="__main__.qa_Optical_Receiver_ff" name="test_002_t" time="0.0550"></testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

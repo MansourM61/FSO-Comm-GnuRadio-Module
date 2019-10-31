@@ -1,4 +1,4 @@
-# Install script for directory: /home/mojtaba/Documents/gr-FSO_Comm/python
+# Install script for directory: /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/python
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,13 +38,13 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/FSO_Comm" TYPE FILE FILES "/home/mojtaba/Documents/gr-FSO_Comm/python/__init__.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/FSO_Comm" TYPE FILE FILES "/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/python/__init__.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/FSO_Comm" TYPE FILE FILES
-    "/home/mojtaba/Documents/gr-FSO_Comm/build/python/__init__.pyc"
-    "/home/mojtaba/Documents/gr-FSO_Comm/build/python/__init__.pyo"
+    "/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/python/__init__.pyc"
+    "/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/python/__init__.pyo"
     )
 endif()
 

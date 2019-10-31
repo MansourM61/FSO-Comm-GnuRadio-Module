@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Optical_Receiver_ff.h" line="39" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Optical_Receiver_ff.h" bodystart="39" bodyend="-1"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/include/FSO_Comm/Optical_Receiver_ff.h" line="39" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/include/FSO_Comm/Optical_Receiver_ff.h" bodystart="39" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
@@ -77,7 +77,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Optical_Receiver_ff.h" line="49" column="1"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/include/FSO_Comm/Optical_Receiver_ff.h" line="49" column="1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -105,7 +105,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Optical_Receiver_ff.h" line="56" column="1"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/include/FSO_Comm/Optical_Receiver_ff.h" line="56" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Optical__Receiver__ff_1ad9962160b80a1f0a360407990daec497" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>float</type>
@@ -122,7 +122,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Optical_Receiver_ff.h" line="60" column="1"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/include/FSO_Comm/Optical_Receiver_ff.h" line="60" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Optical__Receiver__ff_1a086f8d82cea15a85988c972e88dd3628" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>void</type>
@@ -148,7 +148,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Optical_Receiver_ff.h" line="67" column="1"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/include/FSO_Comm/Optical_Receiver_ff.h" line="67" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Optical__Receiver__ff_1a123516092b60de714d8f6bba812baadc" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>float</type>
@@ -165,7 +165,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Optical_Receiver_ff.h" line="71" column="1"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/include/FSO_Comm/Optical_Receiver_ff.h" line="71" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Optical__Receiver__ff_1a9cb1ac07a1bbb0beccd9d63b98691161" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>void</type>
@@ -191,7 +191,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Optical_Receiver_ff.h" line="78" column="1"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/include/FSO_Comm/Optical_Receiver_ff.h" line="78" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Optical__Receiver__ff_1aee5ac57c536fbbf7d823fb651bfbeff0" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>float</type>
@@ -208,7 +208,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Optical_Receiver_ff.h" line="82" column="1"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/include/FSO_Comm/Optical_Receiver_ff.h" line="82" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Optical__Receiver__ff_1aef3a3e64e7bb372cb532e9c36606a44e" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>void</type>
@@ -234,7 +234,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Optical_Receiver_ff.h" line="89" column="1"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/include/FSO_Comm/Optical_Receiver_ff.h" line="89" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Optical__Receiver__ff_1a347c8f9e4c4caaa813bc600b21480495" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>float</type>
@@ -251,7 +251,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Optical_Receiver_ff.h" line="93" column="1"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/include/FSO_Comm/Optical_Receiver_ff.h" line="93" column="1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -286,7 +286,7 @@
         <label>gr::sync_block</label>
       </node>
     </collaborationgraph>
-    <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Optical_Receiver_ff.h" line="37" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Optical_Receiver_ff.h" bodystart="36" bodyend="95"/>
+    <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/include/FSO_Comm/Optical_Receiver_ff.h" line="37" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/include/FSO_Comm/Optical_Receiver_ff.h" bodystart="36" bodyend="95"/>
     <listofallmembers>
       <member refid="classgr_1_1FSO__Comm_1_1Optical__Receiver__ff_1a123516092b60de714d8f6bba812baadc" prot="public" virt="pure-virtual"><scope>gr::FSO_Comm::Optical_Receiver_ff</scope><name>G_TIA</name></member>
       <member refid="classgr_1_1FSO__Comm_1_1Optical__Receiver__ff_1aee5ac57c536fbbf7d823fb651bfbeff0" prot="public" virt="pure-virtual"><scope>gr::FSO_Comm::Optical_Receiver_ff</scope><name>Imp</name></member>

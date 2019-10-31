@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mojtaba/Documents/gr-FSO_Comm
+CMAKE_SOURCE_DIR = /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mojtaba/Documents/gr-FSO_Comm/build
+CMAKE_BINARY_DIR = /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build
 
 # Utility rule file for uninstall.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/mojtaba/Documents/gr-FSO_Comm/build
 include CMakeFiles/uninstall.dir/progress.make
 
 CMakeFiles/uninstall:
-	/usr/bin/cmake -P /home/mojtaba/Documents/gr-FSO_Comm/build/cmake_uninstall.cmake
+	/usr/bin/cmake -P /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/cmake_uninstall.cmake
 
 uninstall: CMakeFiles/uninstall
 uninstall: CMakeFiles/uninstall.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/mojtaba/Documents/gr-FSO_Comm/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mojtaba/Documents/gr-FSO_Comm /home/mojtaba/Documents/gr-FSO_Comm /home/mojtaba/Documents/gr-FSO_Comm/build /home/mojtaba/Documents/gr-FSO_Comm/build /home/mojtaba/Documents/gr-FSO_Comm/build/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

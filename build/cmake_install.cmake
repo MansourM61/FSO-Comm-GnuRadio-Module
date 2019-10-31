@@ -1,4 +1,4 @@
-# Install script for directory: /home/mojtaba/Documents/gr-FSO_Comm
+# Install script for directory: /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,18 +38,18 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/FSO_Comm" TYPE FILE FILES "/home/mojtaba/Documents/gr-FSO_Comm/cmake/Modules/FSO_CommConfig.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/FSO_Comm" TYPE FILE FILES "/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/cmake/Modules/FSO_CommConfig.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/mojtaba/Documents/gr-FSO_Comm/build/include/FSO_Comm/cmake_install.cmake")
-  include("/home/mojtaba/Documents/gr-FSO_Comm/build/lib/cmake_install.cmake")
-  include("/home/mojtaba/Documents/gr-FSO_Comm/build/swig/cmake_install.cmake")
-  include("/home/mojtaba/Documents/gr-FSO_Comm/build/python/cmake_install.cmake")
-  include("/home/mojtaba/Documents/gr-FSO_Comm/build/grc/cmake_install.cmake")
-  include("/home/mojtaba/Documents/gr-FSO_Comm/build/apps/cmake_install.cmake")
-  include("/home/mojtaba/Documents/gr-FSO_Comm/build/docs/cmake_install.cmake")
+  include("/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/include/FSO_Comm/cmake_install.cmake")
+  include("/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/lib/cmake_install.cmake")
+  include("/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/swig/cmake_install.cmake")
+  include("/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/python/cmake_install.cmake")
+  include("/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/grc/cmake_install.cmake")
+  include("/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/apps/cmake_install.cmake")
+  include("/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/docs/cmake_install.cmake")
 
 endif()
 
@@ -61,5 +61,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/mojtaba/Documents/gr-FSO_Comm/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

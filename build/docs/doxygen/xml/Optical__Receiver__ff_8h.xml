@@ -9,14 +9,14 @@
       <node id="76">
         <label>gnuradio/sync_block.h</label>
       </node>
+      <node id="75">
+        <label>gnuradio/attributes.h</label>
+      </node>
       <node id="74">
         <label>FSO_Comm/api.h</label>
         <link refid="api_8h"/>
         <childnode refid="75" relation="include">
         </childnode>
-      </node>
-      <node id="75">
-        <label>gnuradio/attributes.h</label>
       </node>
       <node id="73">
         <label>Optical_Receiver_ff.h</label>
@@ -46,6 +46,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/Optical_Receiver_ff.h"/>
+    <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/include/FSO_Comm/Optical_Receiver_ff.h"/>
   </compounddef>
 </doxygen>

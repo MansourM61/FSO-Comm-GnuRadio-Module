@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Pointing_Errors_ff_impl.h" line="38" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Pointing_Errors_ff_impl.h" bodystart="38" bodyend="-1"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Pointing_Errors_ff_impl.h" line="38" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Pointing_Errors_ff_impl.h" bodystart="38" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff__impl_1a02c9c1bbdcffcf0093af3fbeee531666" prot="private" static="no" mutable="no">
         <type>float</type>
@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Pointing_Errors_ff_impl.h" line="38" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Pointing_Errors_ff_impl.h" bodystart="38" bodyend="-1"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Pointing_Errors_ff_impl.h" line="38" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Pointing_Errors_ff_impl.h" bodystart="38" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff__impl_1ac3486dcd2ce797a29584979a51378690" prot="private" static="no" mutable="no">
         <type>float</type>
@@ -42,7 +42,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Pointing_Errors_ff_impl.h" line="38" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Pointing_Errors_ff_impl.h" bodystart="38" bodyend="-1"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Pointing_Errors_ff_impl.h" line="38" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Pointing_Errors_ff_impl.h" bodystart="38" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff__impl_1a8cbe0a3a55109fc4ba9f411e0cd29fb3" prot="private" static="no" mutable="no">
         <type>float</type>
@@ -55,7 +55,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Pointing_Errors_ff_impl.h" line="38" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Pointing_Errors_ff_impl.h" bodystart="38" bodyend="-1"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Pointing_Errors_ff_impl.h" line="38" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Pointing_Errors_ff_impl.h" bodystart="38" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff__impl_1a4c156978b30f2098ced73746a908d8ec" prot="private" static="no" mutable="no">
         <type>float</type>
@@ -68,7 +68,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Pointing_Errors_ff_impl.h" line="38" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Pointing_Errors_ff_impl.h" bodystart="38" bodyend="-1"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Pointing_Errors_ff_impl.h" line="38" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Pointing_Errors_ff_impl.h" bodystart="38" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff__impl_1aeb66966d4daea157b926d027966bc21c" prot="private" static="no" mutable="no">
         <type>float</type>
@@ -81,7 +81,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Pointing_Errors_ff_impl.h" line="38" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Pointing_Errors_ff_impl.h" bodystart="38" bodyend="-1"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Pointing_Errors_ff_impl.h" line="38" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Pointing_Errors_ff_impl.h" bodystart="38" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff__impl_1a8c119092547a95edfe861b1833970c35" prot="private" static="no" mutable="no">
         <type>float</type>
@@ -94,7 +94,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Pointing_Errors_ff_impl.h" line="38" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Pointing_Errors_ff_impl.h" bodystart="38" bodyend="-1"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Pointing_Errors_ff_impl.h" line="38" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Pointing_Errors_ff_impl.h" bodystart="38" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff__impl_1afd5a4ae60974d3d0343d2152aea3ccb2" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -107,7 +107,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Pointing_Errors_ff_impl.h" line="39" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Pointing_Errors_ff_impl.h" bodystart="39" bodyend="-1"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Pointing_Errors_ff_impl.h" line="39" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Pointing_Errors_ff_impl.h" bodystart="39" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff__impl_1aa24d52c459cbc74bb36fc9c3cd9af61c" prot="private" static="no" mutable="no">
         <type>float</type>
@@ -120,7 +120,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Pointing_Errors_ff_impl.h" line="40" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Pointing_Errors_ff_impl.h" bodystart="40" bodyend="-1"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Pointing_Errors_ff_impl.h" line="40" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Pointing_Errors_ff_impl.h" bodystart="40" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff__impl_1a9a6b85733d9b71c752363df9e7f959d4" prot="private" static="no" mutable="no">
         <type>unsigned long</type>
@@ -133,7 +133,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Pointing_Errors_ff_impl.h" line="41" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Pointing_Errors_ff_impl.h" bodystart="41" bodyend="-1"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Pointing_Errors_ff_impl.h" line="41" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Pointing_Errors_ff_impl.h" bodystart="41" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -151,7 +151,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Pointing_Errors_ff_impl.h" line="42" column="1"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Pointing_Errors_ff_impl.h" line="42" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff__impl_1a0e675ab938532ea6422e3811c498a833" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -167,7 +167,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Pointing_Errors_ff_impl.h" line="43" column="1"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Pointing_Errors_ff_impl.h" line="43" column="1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -217,7 +217,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Pointing_Errors_ff_impl.h" line="46" column="1"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Pointing_Errors_ff_impl.h" line="46" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff__impl_1a7f3519c87ef596c0f7a9a284bd6a255e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -230,7 +230,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Pointing_Errors_ff_impl.h" line="47" column="1"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Pointing_Errors_ff_impl.h" line="47" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff__impl_1a4d97702b87aad865bc35d972301a265d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -255,7 +255,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Pointing_Errors_ff_impl.h" line="50" column="1"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Pointing_Errors_ff_impl.h" line="50" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff__impl_1aea890659112595658cce9e097c434882" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -281,7 +281,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Pointing_Errors_ff_impl.h" line="54" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Pointing_Errors_ff_impl.h" bodystart="54" bodyend="54"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Pointing_Errors_ff_impl.h" line="54" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Pointing_Errors_ff_impl.h" bodystart="54" bodyend="54"/>
         <references refid="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff__impl_1ab58618969b81b5e88b63be2beb1e2024" compoundref="Pointing__Errors__ff__impl_8h" startline="55" endline="55">Jitter</references>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff__impl_1ab58618969b81b5e88b63be2beb1e2024" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
@@ -299,7 +299,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Pointing_Errors_ff_impl.h" line="55" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Pointing_Errors_ff_impl.h" bodystart="55" bodyend="55"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Pointing_Errors_ff_impl.h" line="55" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Pointing_Errors_ff_impl.h" bodystart="55" bodyend="55"/>
         <referencedby refid="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff__impl_1aea890659112595658cce9e097c434882" compoundref="Pointing__Errors__ff__impl_8h" startline="54" endline="54">set_Jitter</referencedby>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff__impl_1a0f0ec6d40f4cef580c6c0eb5c6720bf3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
@@ -326,7 +326,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Pointing_Errors_ff_impl.h" line="57" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Pointing_Errors_ff_impl.h" bodystart="57" bodyend="57"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Pointing_Errors_ff_impl.h" line="57" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Pointing_Errors_ff_impl.h" bodystart="57" bodyend="57"/>
         <references refid="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff__impl_1a797703d2cce8e13b5d6be50d5ed82af9" compoundref="Pointing__Errors__ff__impl_8h" startline="58" endline="58">LinkLen</references>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff__impl_1a797703d2cce8e13b5d6be50d5ed82af9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
@@ -344,7 +344,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Pointing_Errors_ff_impl.h" line="58" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Pointing_Errors_ff_impl.h" bodystart="58" bodyend="58"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Pointing_Errors_ff_impl.h" line="58" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Pointing_Errors_ff_impl.h" bodystart="58" bodyend="58"/>
         <referencedby refid="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff__impl_1a0f0ec6d40f4cef580c6c0eb5c6720bf3" compoundref="Pointing__Errors__ff__impl_8h" startline="57" endline="57">set_LinkLen</referencedby>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff__impl_1acded04668da63630b28a383423241d91" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
@@ -371,7 +371,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Pointing_Errors_ff_impl.h" line="60" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Pointing_Errors_ff_impl.h" bodystart="60" bodyend="60"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Pointing_Errors_ff_impl.h" line="60" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Pointing_Errors_ff_impl.h" bodystart="60" bodyend="60"/>
         <references refid="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff__impl_1abbc4493e5feaf51e71486fa2dc955b0f" compoundref="Pointing__Errors__ff__impl_8h" startline="61" endline="61">Tx_Dia</references>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff__impl_1abbc4493e5feaf51e71486fa2dc955b0f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
@@ -389,7 +389,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Pointing_Errors_ff_impl.h" line="61" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Pointing_Errors_ff_impl.h" bodystart="61" bodyend="61"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Pointing_Errors_ff_impl.h" line="61" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Pointing_Errors_ff_impl.h" bodystart="61" bodyend="61"/>
         <referencedby refid="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff__impl_1acded04668da63630b28a383423241d91" compoundref="Pointing__Errors__ff__impl_8h" startline="60" endline="60">set_Tx_Dia</referencedby>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff__impl_1a409bbeca4d2b9999f81d9b998bbe3930" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
@@ -416,7 +416,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Pointing_Errors_ff_impl.h" line="63" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Pointing_Errors_ff_impl.h" bodystart="63" bodyend="63"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Pointing_Errors_ff_impl.h" line="63" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Pointing_Errors_ff_impl.h" bodystart="63" bodyend="63"/>
         <references refid="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff__impl_1aa9e9de889840462946fdbcd82a664e47" compoundref="Pointing__Errors__ff__impl_8h" startline="64" endline="64">Tx_Theta</references>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff__impl_1aa9e9de889840462946fdbcd82a664e47" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
@@ -434,7 +434,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Pointing_Errors_ff_impl.h" line="64" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Pointing_Errors_ff_impl.h" bodystart="64" bodyend="64"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Pointing_Errors_ff_impl.h" line="64" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Pointing_Errors_ff_impl.h" bodystart="64" bodyend="64"/>
         <referencedby refid="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff__impl_1a409bbeca4d2b9999f81d9b998bbe3930" compoundref="Pointing__Errors__ff__impl_8h" startline="63" endline="63">set_Tx_Theta</referencedby>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff__impl_1adf807fe480f8e311ad68c43726eb033c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
@@ -461,7 +461,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Pointing_Errors_ff_impl.h" line="66" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Pointing_Errors_ff_impl.h" bodystart="66" bodyend="66"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Pointing_Errors_ff_impl.h" line="66" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Pointing_Errors_ff_impl.h" bodystart="66" bodyend="66"/>
         <references refid="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff__impl_1afc40bc8211ea44eb10029a7b9558e22c" compoundref="Pointing__Errors__ff__impl_8h" startline="67" endline="67">Rx_Dia</references>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff__impl_1afc40bc8211ea44eb10029a7b9558e22c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
@@ -479,7 +479,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Pointing_Errors_ff_impl.h" line="67" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Pointing_Errors_ff_impl.h" bodystart="67" bodyend="67"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Pointing_Errors_ff_impl.h" line="67" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Pointing_Errors_ff_impl.h" bodystart="67" bodyend="67"/>
         <referencedby refid="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff__impl_1adf807fe480f8e311ad68c43726eb033c" compoundref="Pointing__Errors__ff__impl_8h" startline="66" endline="66">set_Rx_Dia</referencedby>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff__impl_1a0463b58497398bd89c1790bab007fdc9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
@@ -506,7 +506,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Pointing_Errors_ff_impl.h" line="69" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Pointing_Errors_ff_impl.h" bodystart="69" bodyend="69"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Pointing_Errors_ff_impl.h" line="69" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Pointing_Errors_ff_impl.h" bodystart="69" bodyend="69"/>
         <references refid="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff__impl_1ab6e27548dc531cbcea8ce78eeb526e60" compoundref="Pointing__Errors__ff__impl_8h" startline="70" endline="70">TempCorr</references>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff__impl_1ab6e27548dc531cbcea8ce78eeb526e60" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
@@ -524,7 +524,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Pointing_Errors_ff_impl.h" line="70" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Pointing_Errors_ff_impl.h" bodystart="70" bodyend="70"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Pointing_Errors_ff_impl.h" line="70" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Pointing_Errors_ff_impl.h" bodystart="70" bodyend="70"/>
         <referencedby refid="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff__impl_1a0463b58497398bd89c1790bab007fdc9" compoundref="Pointing__Errors__ff__impl_8h" startline="69" endline="69">set_TempCorr</referencedby>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff__impl_1ae7d0c0d1a4b18f5dc137439ce0e8c8be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
@@ -551,7 +551,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Pointing_Errors_ff_impl.h" line="72" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Pointing_Errors_ff_impl.h" bodystart="72" bodyend="72"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Pointing_Errors_ff_impl.h" line="72" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Pointing_Errors_ff_impl.h" bodystart="72" bodyend="72"/>
         <references refid="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff__impl_1a26c164fc1734b175891ccf72c9b09ec0" compoundref="Pointing__Errors__ff__impl_8h" startline="73" endline="73">SampRate</references>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff__impl_1a26c164fc1734b175891ccf72c9b09ec0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
@@ -569,7 +569,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Pointing_Errors_ff_impl.h" line="73" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Pointing_Errors_ff_impl.h" bodystart="73" bodyend="73"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Pointing_Errors_ff_impl.h" line="73" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Pointing_Errors_ff_impl.h" bodystart="73" bodyend="73"/>
         <referencedby refid="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff__impl_1ae7d0c0d1a4b18f5dc137439ce0e8c8be" compoundref="Pointing__Errors__ff__impl_8h" startline="72" endline="72">set_SampRate</referencedby>
       </memberdef>
       </sectiondef>
@@ -611,7 +611,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Pointing_Errors_ff_impl.h" line="35" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Pointing_Errors_ff_impl.h" bodystart="34" bodyend="75"/>
+    <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Pointing_Errors_ff_impl.h" line="35" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Pointing_Errors_ff_impl.h" bodystart="34" bodyend="75"/>
     <listofallmembers>
       <member refid="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff__impl_1aa24d52c459cbc74bb36fc9c3cd9af61c" prot="private" virt="non-virtual"><scope>gr::FSO_Comm::Pointing_Errors_ff_impl</scope><name>fGaussGenArray</name></member>
       <member refid="classgr_1_1FSO__Comm_1_1Pointing__Errors__ff__impl_1aa65540f2b1d7826d844da82861d5f5ff" prot="private" virt="non-virtual"><scope>gr::FSO_Comm::Pointing_Errors_ff_impl</scope><name>fJitter</name></member>

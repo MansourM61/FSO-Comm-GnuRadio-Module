@@ -1,4 +1,4 @@
-# Install script for directory: /home/mojtaba/Documents/gr-FSO_Comm/docs/doxygen
+# Install script for directory: /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/docs/doxygen
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,8 +39,8 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doc/gr-FSO_Comm" TYPE DIRECTORY FILES
-    "/home/mojtaba/Documents/gr-FSO_Comm/build/docs/doxygen/xml"
-    "/home/mojtaba/Documents/gr-FSO_Comm/build/docs/doxygen/html"
+    "/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/docs/doxygen/xml"
+    "/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/docs/doxygen/html"
     )
 endif()
 

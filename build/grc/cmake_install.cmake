@@ -1,4 +1,4 @@
-# Install script for directory: /home/mojtaba/Documents/gr-FSO_Comm/grc
+# Install script for directory: /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/grc
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,14 +39,14 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gnuradio/grc/blocks" TYPE FILE FILES
-    "/home/mojtaba/Documents/gr-FSO_Comm/grc/FSO_Comm_Channel_Analyser_ff.xml"
-    "/home/mojtaba/Documents/gr-FSO_Comm/grc/FSO_Comm_Channel_Analyser_ff.xml"
-    "/home/mojtaba/Documents/gr-FSO_Comm/grc/FSO_Comm_Geometric_Loss_ff.xml"
-    "/home/mojtaba/Documents/gr-FSO_Comm/grc/FSO_Comm_Laser_ff.xml"
-    "/home/mojtaba/Documents/gr-FSO_Comm/grc/FSO_Comm_Optical_Receiver_ff.xml"
-    "/home/mojtaba/Documents/gr-FSO_Comm/grc/FSO_Comm_Pointing_Errors_ff.xml"
-    "/home/mojtaba/Documents/gr-FSO_Comm/grc/FSO_Comm_Turbulence_ff.xml"
-    "/home/mojtaba/Documents/gr-FSO_Comm/grc/FSO_Comm_FogSmoke_Loss_ff.xml"
+    "/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/grc/FSO_Comm_Channel_Analyser_ff.xml"
+    "/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/grc/FSO_Comm_Channel_Analyser_ff.xml"
+    "/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/grc/FSO_Comm_Geometric_Loss_ff.xml"
+    "/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/grc/FSO_Comm_Laser_ff.xml"
+    "/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/grc/FSO_Comm_Optical_Receiver_ff.xml"
+    "/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/grc/FSO_Comm_Pointing_Errors_ff.xml"
+    "/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/grc/FSO_Comm_Turbulence_ff.xml"
+    "/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/grc/FSO_Comm_FogSmoke_Loss_ff.xml"
     )
 endif()
 

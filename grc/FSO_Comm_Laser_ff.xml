@@ -18,16 +18,19 @@
   <param>
     <name>Average Power (W)</name>
     <key>P_avg</key>
+    <value>1e-3</value>
     <type>float</type>
   </param>
   <param>
     <name>Wavelength (m)</name>
     <key>Wavelen</key>
+    <value>850e-9</value>
     <type>float</type>
   </param>
   <param>
     <name>Extinction Ratio</name>
     <key>ExtRatio</key>
+    <value>20</value>
     <type>float</type>
   </param>
 

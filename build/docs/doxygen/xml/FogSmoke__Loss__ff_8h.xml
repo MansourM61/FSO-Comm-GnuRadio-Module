@@ -9,14 +9,14 @@
       <node id="33">
         <label>gnuradio/sync_block.h</label>
       </node>
+      <node id="32">
+        <label>gnuradio/attributes.h</label>
+      </node>
       <node id="31">
         <label>FSO_Comm/api.h</label>
         <link refid="api_8h"/>
         <childnode refid="32" relation="include">
         </childnode>
-      </node>
-      <node id="32">
-        <label>gnuradio/attributes.h</label>
       </node>
       <node id="30">
         <label>FogSmoke_Loss_ff.h</label>
@@ -46,6 +46,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/mojtaba/Documents/gr-FSO_Comm/include/FSO_Comm/FogSmoke_Loss_ff.h"/>
+    <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/include/FSO_Comm/FogSmoke_Loss_ff.h"/>
   </compounddef>
 </doxygen>

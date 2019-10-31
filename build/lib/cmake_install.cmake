@@ -1,4 +1,4 @@
-# Install script for directory: /home/mojtaba/Documents/gr-FSO_Comm/lib
+# Install script for directory: /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,8 +50,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xFSO_Comm_runtimex" OR NOT CMAKE_INS
     endif()
   endforeach()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES
-    "/home/mojtaba/Documents/gr-FSO_Comm/build/lib/libgnuradio-FSO_Comm-1.0.0git.so.0.0.0"
-    "/home/mojtaba/Documents/gr-FSO_Comm/build/lib/libgnuradio-FSO_Comm-1.0.0git.so"
+    "/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/lib/libgnuradio-FSO_Comm-1.0.0git.so.0.0.0"
+    "/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/lib/libgnuradio-FSO_Comm-1.0.0git.so"
     )
   foreach(file
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgnuradio-FSO_Comm-1.0.0git.so.0.0.0"
@@ -68,8 +68,8 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xFSO_Comm_runtimex" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE FILE FILES
-    "/home/mojtaba/Documents/gr-FSO_Comm/build/lib/libgnuradio-FSO_Comm.so"
-    "/home/mojtaba/Documents/gr-FSO_Comm/build/lib/libgnuradio-FSO_Comm-1.0.0git.so.0"
+    "/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/lib/libgnuradio-FSO_Comm.so"
+    "/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/lib/libgnuradio-FSO_Comm-1.0.0git.so.0"
     )
 endif()
 

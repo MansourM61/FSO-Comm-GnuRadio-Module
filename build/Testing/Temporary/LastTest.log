@@ -1,0 +1,160 @@
+Start testing: Oct 31 09:57 GMT
+----------------------------------------------------------
+1/8 Testing: test_FSO_Comm
+1/8 Test: test_FSO_Comm
+Command: "/bin/sh" "/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/lib/test_FSO_Comm_test.sh"
+Directory: /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/lib
+"test_FSO_Comm" start time: Oct 31 09:57 GMT
+Output:
+----------------------------------------------------------
+
+
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test_FSO_Comm" end time: Oct 31 09:57 GMT
+"test_FSO_Comm" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/8 Testing: qa_Channel_Analyser_ff
+2/8 Test: qa_Channel_Analyser_ff
+Command: "/bin/sh" "/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/python/qa_Channel_Analyser_ff_test.sh"
+Directory: /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/python
+"qa_Channel_Analyser_ff" start time: Oct 31 09:57 GMT
+Output:
+----------------------------------------------------------
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.029s
+
+OK
+<end of output>
+Test time =   0.33 sec
+----------------------------------------------------------
+Test Passed.
+"qa_Channel_Analyser_ff" end time: Oct 31 09:57 GMT
+"qa_Channel_Analyser_ff" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/8 Testing: qa_Geometric_Loss_ff
+3/8 Test: qa_Geometric_Loss_ff
+Command: "/bin/sh" "/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/python/qa_Geometric_Loss_ff_test.sh"
+Directory: /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/python
+"qa_Geometric_Loss_ff" start time: Oct 31 09:57 GMT
+Output:
+----------------------------------------------------------
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.003s
+
+OK
+<end of output>
+Test time =   0.26 sec
+----------------------------------------------------------
+Test Passed.
+"qa_Geometric_Loss_ff" end time: Oct 31 09:57 GMT
+"qa_Geometric_Loss_ff" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/8 Testing: qa_Laser_ff
+4/8 Test: qa_Laser_ff
+Command: "/bin/sh" "/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/python/qa_Laser_ff_test.sh"
+Directory: /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/python
+"qa_Laser_ff" start time: Oct 31 09:57 GMT
+Output:
+----------------------------------------------------------
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+<end of output>
+Test time =   0.23 sec
+----------------------------------------------------------
+Test Passed.
+"qa_Laser_ff" end time: Oct 31 09:57 GMT
+"qa_Laser_ff" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/8 Testing: qa_Optical_Receiver_ff
+5/8 Test: qa_Optical_Receiver_ff
+Command: "/bin/sh" "/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/python/qa_Optical_Receiver_ff_test.sh"
+Directory: /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/python
+"qa_Optical_Receiver_ff" start time: Oct 31 09:57 GMT
+Output:
+----------------------------------------------------------
+..
+----------------------------------------------------------------------
+Ran 2 tests in 0.055s
+
+OK
+<end of output>
+Test time =   0.34 sec
+----------------------------------------------------------
+Test Passed.
+"qa_Optical_Receiver_ff" end time: Oct 31 09:57 GMT
+"qa_Optical_Receiver_ff" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/8 Testing: qa_Pointing_Errors_ff
+6/8 Test: qa_Pointing_Errors_ff
+Command: "/bin/sh" "/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/python/qa_Pointing_Errors_ff_test.sh"
+Directory: /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/python
+"qa_Pointing_Errors_ff" start time: Oct 31 09:57 GMT
+Output:
+----------------------------------------------------------
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.468s
+
+OK
+<end of output>
+Test time =   1.21 sec
+----------------------------------------------------------
+Test Passed.
+"qa_Pointing_Errors_ff" end time: Oct 31 09:57 GMT
+"qa_Pointing_Errors_ff" time elapsed: 00:00:01
+----------------------------------------------------------
+
+7/8 Testing: qa_Turbulence_ff
+7/8 Test: qa_Turbulence_ff
+Command: "/bin/sh" "/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/python/qa_Turbulence_ff_test.sh"
+Directory: /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/python
+"qa_Turbulence_ff" start time: Oct 31 09:57 GMT
+Output:
+----------------------------------------------------------
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.475s
+
+OK
+<end of output>
+Test time =   1.25 sec
+----------------------------------------------------------
+Test Passed.
+"qa_Turbulence_ff" end time: Oct 31 09:57 GMT
+"qa_Turbulence_ff" time elapsed: 00:00:01
+----------------------------------------------------------
+
+8/8 Testing: qa_FogSmoke_Loss_ff
+8/8 Test: qa_FogSmoke_Loss_ff
+Command: "/bin/sh" "/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/python/qa_FogSmoke_Loss_ff_test.sh"
+Directory: /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/python
+"qa_FogSmoke_Loss_ff" start time: Oct 31 09:57 GMT
+Output:
+----------------------------------------------------------
+....
+----------------------------------------------------------------------
+Ran 4 tests in 0.010s
+
+OK
+<end of output>
+Test time =   0.25 sec
+----------------------------------------------------------
+Test Passed.
+"qa_FogSmoke_Loss_ff" end time: Oct 31 09:57 GMT
+"qa_FogSmoke_Loss_ff" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 31 09:57 GMT

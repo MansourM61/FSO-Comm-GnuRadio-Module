@@ -1,4 +1,4 @@
-# Install script for directory: /home/mojtaba/Documents/gr-FSO_Comm/docs
+# Install script for directory: /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/docs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/mojtaba/Documents/gr-FSO_Comm/build/docs/doxygen/cmake_install.cmake")
+  include("/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/docs/doxygen/cmake_install.cmake")
 
 endif()
 

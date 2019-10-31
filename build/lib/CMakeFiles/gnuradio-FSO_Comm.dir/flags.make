@@ -6,5 +6,5 @@ CXX_FLAGS = -O3 -DNDEBUG -fPIC   -fvisibility=hidden
 
 CXX_DEFINES = -Dgnuradio_FSO_Comm_EXPORTS
 
-CXX_INCLUDES = -I/home/mojtaba/Documents/gr-FSO_Comm/lib -I/home/mojtaba/Documents/gr-FSO_Comm/include -I/home/mojtaba/Documents/gr-FSO_Comm/build/lib -I/home/mojtaba/Documents/gr-FSO_Comm/build/include 
+CXX_INCLUDES = -I/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib -I/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/include -I/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/lib -I/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/include 
 

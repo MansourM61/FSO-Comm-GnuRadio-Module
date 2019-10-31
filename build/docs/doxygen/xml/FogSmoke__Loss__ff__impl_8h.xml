@@ -19,14 +19,14 @@
       <node id="40">
         <label>gnuradio/sync_block.h</label>
       </node>
+      <node id="39">
+        <label>gnuradio/attributes.h</label>
+      </node>
       <node id="38">
         <label>FSO_Comm/api.h</label>
         <link refid="api_8h"/>
         <childnode refid="39" relation="include">
         </childnode>
-      </node>
-      <node id="39">
-        <label>gnuradio/attributes.h</label>
       </node>
       <node id="37">
         <label>FSO_Comm/FogSmoke_Loss_ff.h</label>
@@ -49,7 +49,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/FogSmoke_Loss_ff_impl.h" line="27" column="10" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/FogSmoke_Loss_ff_impl.h" bodystart="27" bodyend="-1"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/FogSmoke_Loss_ff_impl.h" line="27" column="10" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/FogSmoke_Loss_ff_impl.h" bodystart="27" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="FogSmoke__Loss__ff__impl_8h_1a1ac0abc7c913167ecaf81778d57e7a17" prot="public" static="no">
         <name>POW2</name>
@@ -61,7 +61,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/FogSmoke_Loss_ff_impl.h" line="29" column="9" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/FogSmoke_Loss_ff_impl.h" bodystart="29" bodyend="-1"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/FogSmoke_Loss_ff_impl.h" line="29" column="9" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/FogSmoke_Loss_ff_impl.h" bodystart="29" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="FogSmoke__Loss__ff__impl_8h_1aef65f087f5f78f5fec04832bd4ff33b4" prot="public" static="no">
         <name>T_TH_FS</name>
@@ -72,7 +72,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/FogSmoke_Loss_ff_impl.h" line="31" column="9" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/FogSmoke_Loss_ff_impl.h" bodystart="31" bodyend="-1"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/FogSmoke_Loss_ff_impl.h" line="31" column="9" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/FogSmoke_Loss_ff_impl.h" bodystart="31" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="FogSmoke__Loss__ff__impl_8h_1affa732cd354350c2ad2d36289a2bb6f0" prot="public" static="no">
         <name>LAMBDA_0</name>
@@ -83,13 +83,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/FogSmoke_Loss_ff_impl.h" line="32" column="9" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/FogSmoke_Loss_ff_impl.h" bodystart="32" bodyend="-1"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/FogSmoke_Loss_ff_impl.h" line="32" column="9" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/FogSmoke_Loss_ff_impl.h" bodystart="32" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/FogSmoke_Loss_ff_impl.h"/>
+    <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/FogSmoke_Loss_ff_impl.h"/>
   </compounddef>
 </doxygen>

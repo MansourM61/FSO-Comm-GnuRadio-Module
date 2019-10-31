@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mojtaba/Documents/gr-FSO_Comm
+CMAKE_SOURCE_DIR = /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mojtaba/Documents/gr-FSO_Comm/build
+CMAKE_BINARY_DIR = /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build
 
 # Include any dependencies generated for this target.
 include lib/CMakeFiles/gnuradio-FSO_Comm.dir/depend.make
@@ -59,16 +59,16 @@ include lib/CMakeFiles/gnuradio-FSO_Comm.dir/flags.make
 
 lib/CMakeFiles/gnuradio-FSO_Comm.dir/Channel_Analyser_ff_impl.cc.o: lib/CMakeFiles/gnuradio-FSO_Comm.dir/flags.make
 lib/CMakeFiles/gnuradio-FSO_Comm.dir/Channel_Analyser_ff_impl.cc.o: ../lib/Channel_Analyser_ff_impl.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mojtaba/Documents/gr-FSO_Comm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/CMakeFiles/gnuradio-FSO_Comm.dir/Channel_Analyser_ff_impl.cc.o"
-	cd /home/mojtaba/Documents/gr-FSO_Comm/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-FSO_Comm.dir/Channel_Analyser_ff_impl.cc.o -c /home/mojtaba/Documents/gr-FSO_Comm/lib/Channel_Analyser_ff_impl.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/CMakeFiles/gnuradio-FSO_Comm.dir/Channel_Analyser_ff_impl.cc.o"
+	cd /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-FSO_Comm.dir/Channel_Analyser_ff_impl.cc.o -c /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Channel_Analyser_ff_impl.cc
 
 lib/CMakeFiles/gnuradio-FSO_Comm.dir/Channel_Analyser_ff_impl.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gnuradio-FSO_Comm.dir/Channel_Analyser_ff_impl.cc.i"
-	cd /home/mojtaba/Documents/gr-FSO_Comm/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mojtaba/Documents/gr-FSO_Comm/lib/Channel_Analyser_ff_impl.cc > CMakeFiles/gnuradio-FSO_Comm.dir/Channel_Analyser_ff_impl.cc.i
+	cd /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Channel_Analyser_ff_impl.cc > CMakeFiles/gnuradio-FSO_Comm.dir/Channel_Analyser_ff_impl.cc.i
 
 lib/CMakeFiles/gnuradio-FSO_Comm.dir/Channel_Analyser_ff_impl.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gnuradio-FSO_Comm.dir/Channel_Analyser_ff_impl.cc.s"
-	cd /home/mojtaba/Documents/gr-FSO_Comm/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mojtaba/Documents/gr-FSO_Comm/lib/Channel_Analyser_ff_impl.cc -o CMakeFiles/gnuradio-FSO_Comm.dir/Channel_Analyser_ff_impl.cc.s
+	cd /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Channel_Analyser_ff_impl.cc -o CMakeFiles/gnuradio-FSO_Comm.dir/Channel_Analyser_ff_impl.cc.s
 
 lib/CMakeFiles/gnuradio-FSO_Comm.dir/Channel_Analyser_ff_impl.cc.o.requires:
 
@@ -83,16 +83,16 @@ lib/CMakeFiles/gnuradio-FSO_Comm.dir/Channel_Analyser_ff_impl.cc.o.provides.buil
 
 lib/CMakeFiles/gnuradio-FSO_Comm.dir/Geometric_Loss_ff_impl.cc.o: lib/CMakeFiles/gnuradio-FSO_Comm.dir/flags.make
 lib/CMakeFiles/gnuradio-FSO_Comm.dir/Geometric_Loss_ff_impl.cc.o: ../lib/Geometric_Loss_ff_impl.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mojtaba/Documents/gr-FSO_Comm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lib/CMakeFiles/gnuradio-FSO_Comm.dir/Geometric_Loss_ff_impl.cc.o"
-	cd /home/mojtaba/Documents/gr-FSO_Comm/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-FSO_Comm.dir/Geometric_Loss_ff_impl.cc.o -c /home/mojtaba/Documents/gr-FSO_Comm/lib/Geometric_Loss_ff_impl.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lib/CMakeFiles/gnuradio-FSO_Comm.dir/Geometric_Loss_ff_impl.cc.o"
+	cd /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-FSO_Comm.dir/Geometric_Loss_ff_impl.cc.o -c /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Geometric_Loss_ff_impl.cc
 
 lib/CMakeFiles/gnuradio-FSO_Comm.dir/Geometric_Loss_ff_impl.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gnuradio-FSO_Comm.dir/Geometric_Loss_ff_impl.cc.i"
-	cd /home/mojtaba/Documents/gr-FSO_Comm/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mojtaba/Documents/gr-FSO_Comm/lib/Geometric_Loss_ff_impl.cc > CMakeFiles/gnuradio-FSO_Comm.dir/Geometric_Loss_ff_impl.cc.i
+	cd /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Geometric_Loss_ff_impl.cc > CMakeFiles/gnuradio-FSO_Comm.dir/Geometric_Loss_ff_impl.cc.i
 
 lib/CMakeFiles/gnuradio-FSO_Comm.dir/Geometric_Loss_ff_impl.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gnuradio-FSO_Comm.dir/Geometric_Loss_ff_impl.cc.s"
-	cd /home/mojtaba/Documents/gr-FSO_Comm/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mojtaba/Documents/gr-FSO_Comm/lib/Geometric_Loss_ff_impl.cc -o CMakeFiles/gnuradio-FSO_Comm.dir/Geometric_Loss_ff_impl.cc.s
+	cd /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Geometric_Loss_ff_impl.cc -o CMakeFiles/gnuradio-FSO_Comm.dir/Geometric_Loss_ff_impl.cc.s
 
 lib/CMakeFiles/gnuradio-FSO_Comm.dir/Geometric_Loss_ff_impl.cc.o.requires:
 
@@ -107,16 +107,16 @@ lib/CMakeFiles/gnuradio-FSO_Comm.dir/Geometric_Loss_ff_impl.cc.o.provides.build:
 
 lib/CMakeFiles/gnuradio-FSO_Comm.dir/Laser_ff_impl.cc.o: lib/CMakeFiles/gnuradio-FSO_Comm.dir/flags.make
 lib/CMakeFiles/gnuradio-FSO_Comm.dir/Laser_ff_impl.cc.o: ../lib/Laser_ff_impl.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mojtaba/Documents/gr-FSO_Comm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object lib/CMakeFiles/gnuradio-FSO_Comm.dir/Laser_ff_impl.cc.o"
-	cd /home/mojtaba/Documents/gr-FSO_Comm/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-FSO_Comm.dir/Laser_ff_impl.cc.o -c /home/mojtaba/Documents/gr-FSO_Comm/lib/Laser_ff_impl.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object lib/CMakeFiles/gnuradio-FSO_Comm.dir/Laser_ff_impl.cc.o"
+	cd /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-FSO_Comm.dir/Laser_ff_impl.cc.o -c /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Laser_ff_impl.cc
 
 lib/CMakeFiles/gnuradio-FSO_Comm.dir/Laser_ff_impl.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gnuradio-FSO_Comm.dir/Laser_ff_impl.cc.i"
-	cd /home/mojtaba/Documents/gr-FSO_Comm/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mojtaba/Documents/gr-FSO_Comm/lib/Laser_ff_impl.cc > CMakeFiles/gnuradio-FSO_Comm.dir/Laser_ff_impl.cc.i
+	cd /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Laser_ff_impl.cc > CMakeFiles/gnuradio-FSO_Comm.dir/Laser_ff_impl.cc.i
 
 lib/CMakeFiles/gnuradio-FSO_Comm.dir/Laser_ff_impl.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gnuradio-FSO_Comm.dir/Laser_ff_impl.cc.s"
-	cd /home/mojtaba/Documents/gr-FSO_Comm/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mojtaba/Documents/gr-FSO_Comm/lib/Laser_ff_impl.cc -o CMakeFiles/gnuradio-FSO_Comm.dir/Laser_ff_impl.cc.s
+	cd /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Laser_ff_impl.cc -o CMakeFiles/gnuradio-FSO_Comm.dir/Laser_ff_impl.cc.s
 
 lib/CMakeFiles/gnuradio-FSO_Comm.dir/Laser_ff_impl.cc.o.requires:
 
@@ -131,16 +131,16 @@ lib/CMakeFiles/gnuradio-FSO_Comm.dir/Laser_ff_impl.cc.o.provides.build: lib/CMak
 
 lib/CMakeFiles/gnuradio-FSO_Comm.dir/Optical_Receiver_ff_impl.cc.o: lib/CMakeFiles/gnuradio-FSO_Comm.dir/flags.make
 lib/CMakeFiles/gnuradio-FSO_Comm.dir/Optical_Receiver_ff_impl.cc.o: ../lib/Optical_Receiver_ff_impl.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mojtaba/Documents/gr-FSO_Comm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object lib/CMakeFiles/gnuradio-FSO_Comm.dir/Optical_Receiver_ff_impl.cc.o"
-	cd /home/mojtaba/Documents/gr-FSO_Comm/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-FSO_Comm.dir/Optical_Receiver_ff_impl.cc.o -c /home/mojtaba/Documents/gr-FSO_Comm/lib/Optical_Receiver_ff_impl.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object lib/CMakeFiles/gnuradio-FSO_Comm.dir/Optical_Receiver_ff_impl.cc.o"
+	cd /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-FSO_Comm.dir/Optical_Receiver_ff_impl.cc.o -c /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Optical_Receiver_ff_impl.cc
 
 lib/CMakeFiles/gnuradio-FSO_Comm.dir/Optical_Receiver_ff_impl.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gnuradio-FSO_Comm.dir/Optical_Receiver_ff_impl.cc.i"
-	cd /home/mojtaba/Documents/gr-FSO_Comm/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mojtaba/Documents/gr-FSO_Comm/lib/Optical_Receiver_ff_impl.cc > CMakeFiles/gnuradio-FSO_Comm.dir/Optical_Receiver_ff_impl.cc.i
+	cd /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Optical_Receiver_ff_impl.cc > CMakeFiles/gnuradio-FSO_Comm.dir/Optical_Receiver_ff_impl.cc.i
 
 lib/CMakeFiles/gnuradio-FSO_Comm.dir/Optical_Receiver_ff_impl.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gnuradio-FSO_Comm.dir/Optical_Receiver_ff_impl.cc.s"
-	cd /home/mojtaba/Documents/gr-FSO_Comm/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mojtaba/Documents/gr-FSO_Comm/lib/Optical_Receiver_ff_impl.cc -o CMakeFiles/gnuradio-FSO_Comm.dir/Optical_Receiver_ff_impl.cc.s
+	cd /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Optical_Receiver_ff_impl.cc -o CMakeFiles/gnuradio-FSO_Comm.dir/Optical_Receiver_ff_impl.cc.s
 
 lib/CMakeFiles/gnuradio-FSO_Comm.dir/Optical_Receiver_ff_impl.cc.o.requires:
 
@@ -155,16 +155,16 @@ lib/CMakeFiles/gnuradio-FSO_Comm.dir/Optical_Receiver_ff_impl.cc.o.provides.buil
 
 lib/CMakeFiles/gnuradio-FSO_Comm.dir/Pointing_Errors_ff_impl.cc.o: lib/CMakeFiles/gnuradio-FSO_Comm.dir/flags.make
 lib/CMakeFiles/gnuradio-FSO_Comm.dir/Pointing_Errors_ff_impl.cc.o: ../lib/Pointing_Errors_ff_impl.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mojtaba/Documents/gr-FSO_Comm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object lib/CMakeFiles/gnuradio-FSO_Comm.dir/Pointing_Errors_ff_impl.cc.o"
-	cd /home/mojtaba/Documents/gr-FSO_Comm/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-FSO_Comm.dir/Pointing_Errors_ff_impl.cc.o -c /home/mojtaba/Documents/gr-FSO_Comm/lib/Pointing_Errors_ff_impl.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object lib/CMakeFiles/gnuradio-FSO_Comm.dir/Pointing_Errors_ff_impl.cc.o"
+	cd /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-FSO_Comm.dir/Pointing_Errors_ff_impl.cc.o -c /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Pointing_Errors_ff_impl.cc
 
 lib/CMakeFiles/gnuradio-FSO_Comm.dir/Pointing_Errors_ff_impl.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gnuradio-FSO_Comm.dir/Pointing_Errors_ff_impl.cc.i"
-	cd /home/mojtaba/Documents/gr-FSO_Comm/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mojtaba/Documents/gr-FSO_Comm/lib/Pointing_Errors_ff_impl.cc > CMakeFiles/gnuradio-FSO_Comm.dir/Pointing_Errors_ff_impl.cc.i
+	cd /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Pointing_Errors_ff_impl.cc > CMakeFiles/gnuradio-FSO_Comm.dir/Pointing_Errors_ff_impl.cc.i
 
 lib/CMakeFiles/gnuradio-FSO_Comm.dir/Pointing_Errors_ff_impl.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gnuradio-FSO_Comm.dir/Pointing_Errors_ff_impl.cc.s"
-	cd /home/mojtaba/Documents/gr-FSO_Comm/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mojtaba/Documents/gr-FSO_Comm/lib/Pointing_Errors_ff_impl.cc -o CMakeFiles/gnuradio-FSO_Comm.dir/Pointing_Errors_ff_impl.cc.s
+	cd /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Pointing_Errors_ff_impl.cc -o CMakeFiles/gnuradio-FSO_Comm.dir/Pointing_Errors_ff_impl.cc.s
 
 lib/CMakeFiles/gnuradio-FSO_Comm.dir/Pointing_Errors_ff_impl.cc.o.requires:
 
@@ -179,16 +179,16 @@ lib/CMakeFiles/gnuradio-FSO_Comm.dir/Pointing_Errors_ff_impl.cc.o.provides.build
 
 lib/CMakeFiles/gnuradio-FSO_Comm.dir/Turbulence_ff_impl.cc.o: lib/CMakeFiles/gnuradio-FSO_Comm.dir/flags.make
 lib/CMakeFiles/gnuradio-FSO_Comm.dir/Turbulence_ff_impl.cc.o: ../lib/Turbulence_ff_impl.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mojtaba/Documents/gr-FSO_Comm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object lib/CMakeFiles/gnuradio-FSO_Comm.dir/Turbulence_ff_impl.cc.o"
-	cd /home/mojtaba/Documents/gr-FSO_Comm/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-FSO_Comm.dir/Turbulence_ff_impl.cc.o -c /home/mojtaba/Documents/gr-FSO_Comm/lib/Turbulence_ff_impl.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object lib/CMakeFiles/gnuradio-FSO_Comm.dir/Turbulence_ff_impl.cc.o"
+	cd /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-FSO_Comm.dir/Turbulence_ff_impl.cc.o -c /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Turbulence_ff_impl.cc
 
 lib/CMakeFiles/gnuradio-FSO_Comm.dir/Turbulence_ff_impl.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gnuradio-FSO_Comm.dir/Turbulence_ff_impl.cc.i"
-	cd /home/mojtaba/Documents/gr-FSO_Comm/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mojtaba/Documents/gr-FSO_Comm/lib/Turbulence_ff_impl.cc > CMakeFiles/gnuradio-FSO_Comm.dir/Turbulence_ff_impl.cc.i
+	cd /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Turbulence_ff_impl.cc > CMakeFiles/gnuradio-FSO_Comm.dir/Turbulence_ff_impl.cc.i
 
 lib/CMakeFiles/gnuradio-FSO_Comm.dir/Turbulence_ff_impl.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gnuradio-FSO_Comm.dir/Turbulence_ff_impl.cc.s"
-	cd /home/mojtaba/Documents/gr-FSO_Comm/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mojtaba/Documents/gr-FSO_Comm/lib/Turbulence_ff_impl.cc -o CMakeFiles/gnuradio-FSO_Comm.dir/Turbulence_ff_impl.cc.s
+	cd /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Turbulence_ff_impl.cc -o CMakeFiles/gnuradio-FSO_Comm.dir/Turbulence_ff_impl.cc.s
 
 lib/CMakeFiles/gnuradio-FSO_Comm.dir/Turbulence_ff_impl.cc.o.requires:
 
@@ -203,16 +203,16 @@ lib/CMakeFiles/gnuradio-FSO_Comm.dir/Turbulence_ff_impl.cc.o.provides.build: lib
 
 lib/CMakeFiles/gnuradio-FSO_Comm.dir/FogSmoke_Loss_ff_impl.cc.o: lib/CMakeFiles/gnuradio-FSO_Comm.dir/flags.make
 lib/CMakeFiles/gnuradio-FSO_Comm.dir/FogSmoke_Loss_ff_impl.cc.o: ../lib/FogSmoke_Loss_ff_impl.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mojtaba/Documents/gr-FSO_Comm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object lib/CMakeFiles/gnuradio-FSO_Comm.dir/FogSmoke_Loss_ff_impl.cc.o"
-	cd /home/mojtaba/Documents/gr-FSO_Comm/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-FSO_Comm.dir/FogSmoke_Loss_ff_impl.cc.o -c /home/mojtaba/Documents/gr-FSO_Comm/lib/FogSmoke_Loss_ff_impl.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object lib/CMakeFiles/gnuradio-FSO_Comm.dir/FogSmoke_Loss_ff_impl.cc.o"
+	cd /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-FSO_Comm.dir/FogSmoke_Loss_ff_impl.cc.o -c /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/FogSmoke_Loss_ff_impl.cc
 
 lib/CMakeFiles/gnuradio-FSO_Comm.dir/FogSmoke_Loss_ff_impl.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gnuradio-FSO_Comm.dir/FogSmoke_Loss_ff_impl.cc.i"
-	cd /home/mojtaba/Documents/gr-FSO_Comm/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mojtaba/Documents/gr-FSO_Comm/lib/FogSmoke_Loss_ff_impl.cc > CMakeFiles/gnuradio-FSO_Comm.dir/FogSmoke_Loss_ff_impl.cc.i
+	cd /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/FogSmoke_Loss_ff_impl.cc > CMakeFiles/gnuradio-FSO_Comm.dir/FogSmoke_Loss_ff_impl.cc.i
 
 lib/CMakeFiles/gnuradio-FSO_Comm.dir/FogSmoke_Loss_ff_impl.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gnuradio-FSO_Comm.dir/FogSmoke_Loss_ff_impl.cc.s"
-	cd /home/mojtaba/Documents/gr-FSO_Comm/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mojtaba/Documents/gr-FSO_Comm/lib/FogSmoke_Loss_ff_impl.cc -o CMakeFiles/gnuradio-FSO_Comm.dir/FogSmoke_Loss_ff_impl.cc.s
+	cd /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/FogSmoke_Loss_ff_impl.cc -o CMakeFiles/gnuradio-FSO_Comm.dir/FogSmoke_Loss_ff_impl.cc.s
 
 lib/CMakeFiles/gnuradio-FSO_Comm.dir/FogSmoke_Loss_ff_impl.cc.o.requires:
 
@@ -252,12 +252,12 @@ lib/libgnuradio-FSO_Comm-1.0.0git.so.0.0.0: /usr/lib/x86_64-linux-gnu/libgnuradi
 lib/libgnuradio-FSO_Comm-1.0.0git.so.0.0.0: /usr/lib/x86_64-linux-gnu/libgnuradio-pmt.so
 lib/libgnuradio-FSO_Comm-1.0.0git.so.0.0.0: /usr/lib/x86_64-linux-gnu/liblog4cpp.so
 lib/libgnuradio-FSO_Comm-1.0.0git.so.0.0.0: lib/CMakeFiles/gnuradio-FSO_Comm.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mojtaba/Documents/gr-FSO_Comm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX shared library libgnuradio-FSO_Comm-1.0.0git.so"
-	cd /home/mojtaba/Documents/gr-FSO_Comm/build/lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gnuradio-FSO_Comm.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/mojtaba/Documents/gr-FSO_Comm/build/lib && $(CMAKE_COMMAND) -E cmake_symlink_library libgnuradio-FSO_Comm-1.0.0git.so.0.0.0 libgnuradio-FSO_Comm-1.0.0git.so.0.0.0 libgnuradio-FSO_Comm-1.0.0git.so
-	cd /home/mojtaba/Documents/gr-FSO_Comm/build/lib && /usr/bin/cmake -E create_symlink libgnuradio-FSO_Comm-1.0.0git.so.0.0.0 /home/mojtaba/Documents/gr-FSO_Comm/build/lib/libgnuradio-FSO_Comm.so
-	cd /home/mojtaba/Documents/gr-FSO_Comm/build/lib && /usr/bin/cmake -E create_symlink libgnuradio-FSO_Comm-1.0.0git.so.0.0.0 /home/mojtaba/Documents/gr-FSO_Comm/build/lib/libgnuradio-FSO_Comm-1.0.0git.so.0
-	cd /home/mojtaba/Documents/gr-FSO_Comm/build/lib && /usr/bin/cmake -E touch libgnuradio-FSO_Comm-1.0.0git.so.0.0.0
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX shared library libgnuradio-FSO_Comm-1.0.0git.so"
+	cd /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gnuradio-FSO_Comm.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/lib && $(CMAKE_COMMAND) -E cmake_symlink_library libgnuradio-FSO_Comm-1.0.0git.so.0.0.0 libgnuradio-FSO_Comm-1.0.0git.so.0.0.0 libgnuradio-FSO_Comm-1.0.0git.so
+	cd /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/lib && /usr/bin/cmake -E create_symlink libgnuradio-FSO_Comm-1.0.0git.so.0.0.0 /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/lib/libgnuradio-FSO_Comm.so
+	cd /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/lib && /usr/bin/cmake -E create_symlink libgnuradio-FSO_Comm-1.0.0git.so.0.0.0 /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/lib/libgnuradio-FSO_Comm-1.0.0git.so.0
+	cd /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/lib && /usr/bin/cmake -E touch libgnuradio-FSO_Comm-1.0.0git.so.0.0.0
 
 lib/libgnuradio-FSO_Comm-1.0.0git.so: lib/libgnuradio-FSO_Comm-1.0.0git.so.0.0.0
 	@$(CMAKE_COMMAND) -E touch_nocreate lib/libgnuradio-FSO_Comm-1.0.0git.so
@@ -278,10 +278,10 @@ lib/CMakeFiles/gnuradio-FSO_Comm.dir/requires: lib/CMakeFiles/gnuradio-FSO_Comm.
 .PHONY : lib/CMakeFiles/gnuradio-FSO_Comm.dir/requires
 
 lib/CMakeFiles/gnuradio-FSO_Comm.dir/clean:
-	cd /home/mojtaba/Documents/gr-FSO_Comm/build/lib && $(CMAKE_COMMAND) -P CMakeFiles/gnuradio-FSO_Comm.dir/cmake_clean.cmake
+	cd /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/lib && $(CMAKE_COMMAND) -P CMakeFiles/gnuradio-FSO_Comm.dir/cmake_clean.cmake
 .PHONY : lib/CMakeFiles/gnuradio-FSO_Comm.dir/clean
 
 lib/CMakeFiles/gnuradio-FSO_Comm.dir/depend:
-	cd /home/mojtaba/Documents/gr-FSO_Comm/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mojtaba/Documents/gr-FSO_Comm /home/mojtaba/Documents/gr-FSO_Comm/lib /home/mojtaba/Documents/gr-FSO_Comm/build /home/mojtaba/Documents/gr-FSO_Comm/build/lib /home/mojtaba/Documents/gr-FSO_Comm/build/lib/CMakeFiles/gnuradio-FSO_Comm.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/lib /home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/build/lib/CMakeFiles/gnuradio-FSO_Comm.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/CMakeFiles/gnuradio-FSO_Comm.dir/depend
 

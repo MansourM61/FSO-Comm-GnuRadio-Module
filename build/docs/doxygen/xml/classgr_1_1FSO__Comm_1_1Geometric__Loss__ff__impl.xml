@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Geometric_Loss_ff_impl.h" line="36" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Geometric_Loss_ff_impl.h" bodystart="36" bodyend="-1"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Geometric_Loss_ff_impl.h" line="36" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Geometric_Loss_ff_impl.h" bodystart="36" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1FSO__Comm_1_1Geometric__Loss__ff__impl_1abd9148110272952a510960d25408263c" prot="private" static="no" mutable="no">
         <type>float</type>
@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Geometric_Loss_ff_impl.h" line="36" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Geometric_Loss_ff_impl.h" bodystart="36" bodyend="-1"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Geometric_Loss_ff_impl.h" line="36" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Geometric_Loss_ff_impl.h" bodystart="36" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1FSO__Comm_1_1Geometric__Loss__ff__impl_1ad9753b1dcf7294a764dc0f61b047bf68" prot="private" static="no" mutable="no">
         <type>float</type>
@@ -42,7 +42,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Geometric_Loss_ff_impl.h" line="36" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Geometric_Loss_ff_impl.h" bodystart="36" bodyend="-1"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Geometric_Loss_ff_impl.h" line="36" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Geometric_Loss_ff_impl.h" bodystart="36" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1FSO__Comm_1_1Geometric__Loss__ff__impl_1a69ce5af85dc49fef233d751df6030bab" prot="private" static="no" mutable="no">
         <type>float</type>
@@ -55,7 +55,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Geometric_Loss_ff_impl.h" line="36" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Geometric_Loss_ff_impl.h" bodystart="36" bodyend="-1"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Geometric_Loss_ff_impl.h" line="36" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Geometric_Loss_ff_impl.h" bodystart="36" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -90,7 +90,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Geometric_Loss_ff_impl.h" line="39" column="1"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Geometric_Loss_ff_impl.h" line="39" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Geometric__Loss__ff__impl_1a1a9bd1e76211c40a0379b50e349f02e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -103,7 +103,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Geometric_Loss_ff_impl.h" line="40" column="1"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Geometric_Loss_ff_impl.h" line="40" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Geometric__Loss__ff__impl_1a7b627df4fbb257db56d65cc14e8c223f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -128,7 +128,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Geometric_Loss_ff_impl.h" line="43" column="1"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Geometric_Loss_ff_impl.h" line="43" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Geometric__Loss__ff__impl_1ad0e7ec5349644d4193fb2d8174d6735f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -154,7 +154,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Geometric_Loss_ff_impl.h" line="47" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Geometric_Loss_ff_impl.h" bodystart="47" bodyend="47"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Geometric_Loss_ff_impl.h" line="47" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Geometric_Loss_ff_impl.h" bodystart="47" bodyend="47"/>
         <references refid="classgr_1_1FSO__Comm_1_1Geometric__Loss__ff__impl_1a2b89be3f399bedcbaa15993e00224374" compoundref="Geometric__Loss__ff__impl_8h" startline="48" endline="48">Tx_Dia</references>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Geometric__Loss__ff__impl_1a2b89be3f399bedcbaa15993e00224374" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
@@ -172,7 +172,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Geometric_Loss_ff_impl.h" line="48" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Geometric_Loss_ff_impl.h" bodystart="48" bodyend="48"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Geometric_Loss_ff_impl.h" line="48" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Geometric_Loss_ff_impl.h" bodystart="48" bodyend="48"/>
         <referencedby refid="classgr_1_1FSO__Comm_1_1Geometric__Loss__ff__impl_1ad0e7ec5349644d4193fb2d8174d6735f" compoundref="Geometric__Loss__ff__impl_8h" startline="47" endline="47">set_Tx_Dia</referencedby>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Geometric__Loss__ff__impl_1a0e79c85b4f7bfa8efb40cc8410371dab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
@@ -199,7 +199,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Geometric_Loss_ff_impl.h" line="50" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Geometric_Loss_ff_impl.h" bodystart="50" bodyend="50"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Geometric_Loss_ff_impl.h" line="50" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Geometric_Loss_ff_impl.h" bodystart="50" bodyend="50"/>
         <references refid="classgr_1_1FSO__Comm_1_1Geometric__Loss__ff__impl_1a98433bfd0ebf4026d057545cf3b2a541" compoundref="Geometric__Loss__ff__impl_8h" startline="51" endline="51">Tx_DivAng</references>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Geometric__Loss__ff__impl_1a98433bfd0ebf4026d057545cf3b2a541" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
@@ -217,7 +217,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Geometric_Loss_ff_impl.h" line="51" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Geometric_Loss_ff_impl.h" bodystart="51" bodyend="51"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Geometric_Loss_ff_impl.h" line="51" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Geometric_Loss_ff_impl.h" bodystart="51" bodyend="51"/>
         <referencedby refid="classgr_1_1FSO__Comm_1_1Geometric__Loss__ff__impl_1a0e79c85b4f7bfa8efb40cc8410371dab" compoundref="Geometric__Loss__ff__impl_8h" startline="50" endline="50">set_Tx_DivAng</referencedby>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Geometric__Loss__ff__impl_1a8381e6a5be6afda02cd7b57a6c99d738" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
@@ -244,7 +244,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Geometric_Loss_ff_impl.h" line="53" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Geometric_Loss_ff_impl.h" bodystart="53" bodyend="53"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Geometric_Loss_ff_impl.h" line="53" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Geometric_Loss_ff_impl.h" bodystart="53" bodyend="53"/>
         <references refid="classgr_1_1FSO__Comm_1_1Geometric__Loss__ff__impl_1ad5d4daf2043e01cd0fb4a04acfe343b5" compoundref="Geometric__Loss__ff__impl_8h" startline="54" endline="54">LinkLen</references>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Geometric__Loss__ff__impl_1ad5d4daf2043e01cd0fb4a04acfe343b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
@@ -262,7 +262,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Geometric_Loss_ff_impl.h" line="54" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Geometric_Loss_ff_impl.h" bodystart="54" bodyend="54"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Geometric_Loss_ff_impl.h" line="54" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Geometric_Loss_ff_impl.h" bodystart="54" bodyend="54"/>
         <referencedby refid="classgr_1_1FSO__Comm_1_1Geometric__Loss__ff__impl_1a8381e6a5be6afda02cd7b57a6c99d738" compoundref="Geometric__Loss__ff__impl_8h" startline="53" endline="53">set_LinkLen</referencedby>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Geometric__Loss__ff__impl_1ae798350e319c2d4e88cb4502d3ef6519" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
@@ -289,7 +289,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Geometric_Loss_ff_impl.h" line="56" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Geometric_Loss_ff_impl.h" bodystart="56" bodyend="56"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Geometric_Loss_ff_impl.h" line="56" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Geometric_Loss_ff_impl.h" bodystart="56" bodyend="56"/>
         <references refid="classgr_1_1FSO__Comm_1_1Geometric__Loss__ff__impl_1ae9752c574476eb44b1c25b2dbfa9abce" compoundref="Geometric__Loss__ff__impl_8h" startline="57" endline="57">Rx_Dia</references>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1FSO__Comm_1_1Geometric__Loss__ff__impl_1ae9752c574476eb44b1c25b2dbfa9abce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
@@ -307,7 +307,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Geometric_Loss_ff_impl.h" line="57" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Geometric_Loss_ff_impl.h" bodystart="57" bodyend="57"/>
+        <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Geometric_Loss_ff_impl.h" line="57" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Geometric_Loss_ff_impl.h" bodystart="57" bodyend="57"/>
         <referencedby refid="classgr_1_1FSO__Comm_1_1Geometric__Loss__ff__impl_1ae798350e319c2d4e88cb4502d3ef6519" compoundref="Geometric__Loss__ff__impl_8h" startline="56" endline="56">set_Rx_Dia</referencedby>
       </memberdef>
       </sectiondef>
@@ -349,7 +349,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/mojtaba/Documents/gr-FSO_Comm/lib/Geometric_Loss_ff_impl.h" line="33" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/lib/Geometric_Loss_ff_impl.h" bodystart="32" bodyend="59"/>
+    <location file="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Geometric_Loss_ff_impl.h" line="33" column="1" bodyfile="/home/mojtaba/Documents/gr-FSO_Comm/FSO-Comm-GnuRadio-Module/lib/Geometric_Loss_ff_impl.h" bodystart="32" bodyend="59"/>
     <listofallmembers>
       <member refid="classgr_1_1FSO__Comm_1_1Geometric__Loss__ff__impl_1ad9753b1dcf7294a764dc0f61b047bf68" prot="private" virt="non-virtual"><scope>gr::FSO_Comm::Geometric_Loss_ff_impl</scope><name>fLinkLen</name></member>
       <member refid="classgr_1_1FSO__Comm_1_1Geometric__Loss__ff__impl_1a69ce5af85dc49fef233d751df6030bab" prot="private" virt="non-virtual"><scope>gr::FSO_Comm::Geometric_Loss_ff_impl</scope><name>fRx_Dia</name></member>
